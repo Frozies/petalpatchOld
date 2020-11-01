@@ -1,11 +1,10 @@
 import React from "react";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
     <div>
-        <header className={"border-b font-bold"}>
-            Hello World
-        </header>
+        <Navbar/>
     </div>
   );
 }
