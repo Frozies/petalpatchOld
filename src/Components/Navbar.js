@@ -12,19 +12,19 @@ function Navbar(){
                     <button type={"button"} className={"focus:outline-none"}>
                         <Menu className={"pr-1"}/>
                     </button>
-                    <h1>
+                    <h1 className={"font-sans text-xl"}>
                         Petal Patch
                     </h1>
                 </div>
-                <div className={"flex flex-center object-fill"}>
-                    <button type={"button"} className={"focus:outline-none "}>
-                        <MagnifyIcon className={""}/>
-                    </button>
-                    <input className={"focus:outline-none rounded h-7"}/>
+                <div className={"flex flex-auto items-center object-fill "}>
+                    <MagnifyIcon className={"focus:outline-none"}/>
+                    <div className={"px-1"}/>
+                    <input className={"focus:outline-none object-fill w-full rounded h-6 px-20 shadow"}/>
                 </div>
                 <div className={"flex-1 text-right"}>
                     <button type={"button"} className={"focus:outline-none px-10"}>
-                        {/* Below is the basis of a number of items that are currently in the shopping cart
+                        {/* TODO: Cart Count
+                        Below is the basis of a number of items that are currently in the shopping cart
                         I cant get the z-index to work properly to overlay the number in the top right corner of the cart
                         */}
                         <div className={"z-20 rounded-full bg-indigo-500 uppercase font-bold" +

@@ -3,8 +3,8 @@ import React from "react";
 
 function Footer(){
     return (
-        <div>
-
+        <div className={"text-center"}>
+            <p>Copyright &copy; {(new Date().getFullYear())}</p>
         </div>
     )
 }
