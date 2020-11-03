@@ -9,9 +9,9 @@ function HomeHeader(){
             backgroundPosition: 'center',
             backgroundSize: 'auto',
             backgroundRepeat: 'no-repeat',
-            height: 'screen'
+            height: '100vh'
         }}>
-            <h1 className={'text-6xl text-white'}>
+            <h1>
                 Petal Patch
             </h1>
         </div>
