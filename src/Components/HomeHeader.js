@@ -11,9 +11,6 @@ function HomeHeader(){
             backgroundRepeat: 'no-repeat',
             height: '100vh'
         }}>
-            <h1>
-                Petal Patch
-            </h1>
         </div>
     )
 }

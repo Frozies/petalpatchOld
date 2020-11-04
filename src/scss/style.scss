@@ -1,0 +1,28 @@
+@import "config";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  height: 50px;
+  display: flex;
+  flex-basis: 100%;
+
+  &-menu {
+    flex: 2;
+    order: 1;
+  }
+
+  &-search {
+    flex: 3;
+    order: 2;
+  }
+
+  &-cart {
+    flex: 2;
+    order: 3;
+  }
+}
