@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-menu {
+  flex: 2;
+  order: 1;
+}
+.nav-search {
+  flex: 3;
+  order: 2;
+}
+.nav-cart {
+  flex: 2;
+  order: 3;
+}
+
+/*# sourceMappingURL=style.css.map */
