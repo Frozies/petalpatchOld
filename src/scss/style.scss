@@ -11,6 +11,7 @@
   height: 50px;
   display: flex;
   border: none;
+  background-color: $navbar-color;
 
   &-menu {
     @extend .nav;
@@ -21,13 +22,16 @@
   &-button {
     border:none;
     outline-style: none;
+    background-color: $navbar-color;
   }
 
   &-button:hover {
+    @extend .nav-button;
     transform: scale(0.95);
   }
 
   &-button:active {
+    @extend .nav-button;
     transform: scale(0.90);
   }
 
