@@ -9,7 +9,7 @@ function Navbar(){
        <header className={"nav"}>
 
            <div className={"nav-menu"}>
-               <button type={"button"}>
+               <button className={"nav-button"} type={"button"}>
                    <Menu/>
                </button>
                <h1>
@@ -20,15 +20,15 @@ function Navbar(){
            <div className={"nav-search"}>
                <MagnifyIcon/>
                <div className={"nav-search-bar"}>
-                   <input type="text"/>
+                   <input className={"nav-search-bar"} type="text"/>
                </div>
            </div>
 
            <div className={"nav-cart"}>
-               <button type={"button"}>
+               <button className={"nav-button"} type={"button"}>
                    <ShoppingCart/>
                    <div className={"nav-cart-amount"}>
-                       3
+                       10
                    </div>
                </button>
            </div>

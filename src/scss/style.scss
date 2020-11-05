@@ -10,11 +10,25 @@
 .nav {
   height: 50px;
   display: flex;
+  border: none;
 
   &-menu {
     @extend .nav;
     flex: 2;
     order: 1;
+  }
+
+  &-button {
+    border:none;
+    outline-style: none;
+  }
+
+  &-button:hover {
+    transform: scale(0.95);
+  }
+
+  &-button:active {
+    transform: scale(0.90);
   }
 
   &-search {
@@ -28,8 +42,7 @@
     &-bar {
       display: flex;
       flex: 1;
-
-      //TODO: fill space properly
+      width: 100%;
     }
   }
 
@@ -39,7 +52,6 @@
     order: 3;
     justify-content: flex-end;
     align-content: flex-end;
-
 
     &-amount {
       height: 25px;
