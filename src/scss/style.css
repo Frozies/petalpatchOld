@@ -2,57 +2,24 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav, .nav-cart, .nav-search, .nav-menu {
+.nav {
   height: 50px;
   display: flex;
-  border: none;
-  background-color: white;
+  flex-basis: 100%;
 }
 .nav-menu {
   flex: 2;
   order: 1;
 }
-.nav-button, .nav-button:active, .nav-button:hover {
-  border: none;
-  outline-style: none;
-  background-color: white;
-}
-.nav-button:hover {
-  transform: scale(0.95);
-}
-.nav-button:active {
-  transform: scale(0.9);
-}
 .nav-search {
-  order: 2;
-  width: 100%;
-  margin-left: 30px;
-  margin-right: 30px;
   flex: 3;
-}
-.nav-search-bar {
-  display: flex;
-  flex: 1;
-  width: 100%;
+  order: 2;
 }
 .nav-cart {
   flex: 2;
   order: 3;
-  justify-content: flex-end;
-  align-content: flex-end;
-}
-.nav-cart-amount {
-  height: 25px;
-  width: 25px;
-  background-color: rgba(108, 194, 189, 0.75);
-  border-radius: 50%;
-  padding: 5px;
-  position: absolute;
-  right: 0;
-  top: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
