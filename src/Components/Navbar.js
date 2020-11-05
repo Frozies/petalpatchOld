@@ -19,19 +19,19 @@ function Navbar(){
 
            <div className={"nav-search"}>
                <MagnifyIcon/>
-               <div/>
-               <input/>
+               <div className={"nav-search-bar"}>
+                   <input type="text"/>
+               </div>
            </div>
 
            <div className={"nav-cart"}>
                <button type={"button"}>
-                   <div>
+                   <ShoppingCart/>
+                   <div className={"nav-cart-amount"}>
                        3
                    </div>
-                   <ShoppingCart/>
                </button>
            </div>
-
        </header>
     )
 }
