@@ -1,10 +1,14 @@
-$font-stack: Arial, Helvetica, sans-serif;
-$navbar-color: white;
-
 // Sunset Colors
 $sunset-teal: #6CC2BD;
 $sunset-blue: #5A809E;
 $sunset-purple: #7C79A2;
 $sunset-red: #f57d7c;
 $sunset-orange: #FFC1A6;
-$sunset-tan: #FEE4C4;
+$sunset-tan: #efb975;
+
+$font-stack: Arial, Helvetica, sans-serif;
+$navbar-color: lighten($sunset-purple,15);
+$input-box-color: lighten($sunset-teal,30);
+
+
+
