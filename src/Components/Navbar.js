@@ -12,16 +12,16 @@ function Navbar(){
                <button className={"nav-button"} type={"button"}>
                    <Menu/>
                </button>
-               <h1>
+               <h1 className={"nav-text"}>
                    Petal Patch
                </h1>
            </div>
 
            <div className={"nav-search"}>
-               <MagnifyIcon/>
-               <div className={"nav-search-bar"}>
-                   <input className={"nav-search-bar"} type="text"/>
-               </div>
+               <input className={"nav-search-bar"} placeholder="What are you looking for?" type="text"/>
+               <button className={"nav-button"} type={"button"}>
+                   <MagnifyIcon/>
+               </button>
            </div>
 
            <div className={"nav-cart"}>

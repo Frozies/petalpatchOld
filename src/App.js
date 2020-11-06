@@ -1,13 +1,13 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
-import HomeHeader from "./Components/HomeHeader";
+import LandingPage from "./Components/LandingPage";
 
 function App() {
   return (
     <div>
         <Navbar/>
-        <HomeHeader/>
+        <LandingPage/>
         <Footer/>
     </div>
   );

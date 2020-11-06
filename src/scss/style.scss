@@ -1,71 +1,9 @@
 @import "config";
+@import "navbar";
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: $font-stack;
-}
-
-.nav {
-  height: 50px;
-  display: flex;
-  border: none;
-  background-color: $navbar-color;
-
-  &-menu {
-    @extend .nav;
-    flex: 2;
-    order: 1;
-  }
-
-  &-button {
-    border:none;
-    outline-style: none;
-    background-color: $navbar-color;
-  }
-
-  &-button:hover {
-    @extend .nav-button;
-    transform: scale(0.95);
-  }
-
-  &-button:active {
-    @extend .nav-button;
-    transform: scale(0.90);
-  }
-
-  &-search {
-    @extend .nav;
-    order: 2;
-    width: 100%;
-    margin-left: 30px;
-    margin-right: 30px;
-    flex: 3;
-
-    &-bar {
-      display: flex;
-      flex: 1;
-      width: 100%;
-    }
-  }
-
-  &-cart {
-    @extend .nav;
-    flex: 2;
-    order: 3;
-    justify-content: flex-end;
-    align-content: flex-end;
-
-    &-amount {
-      height: 25px;
-      width: 25px;
-      background-color: transparentize($sunset-teal, 0.25);
-      border-radius: 50%;
-      padding: 5px;
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-  }
 }

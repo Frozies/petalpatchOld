@@ -2,7 +2,7 @@ import React from "react";
 import Banner from "../images/FlowerBanner.jpg";
 
 
-function HomeHeader(){
+function LandingPage(){
     return (
         <div style={{
             backgroundImage: `url(${Banner})`,
@@ -14,4 +14,4 @@ function HomeHeader(){
         </div>
     )
 }
-export default HomeHeader
+export default LandingPage
