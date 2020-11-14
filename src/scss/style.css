@@ -2,7 +2,7 @@
   height: 50px;
   display: flex;
   border: none;
-  background: #a8a6c1;
+  background: #e3e2eb;
   box-shadow: 0 2px 2px -2px black;
 }
 .nav-text {
@@ -16,7 +16,7 @@
 .nav-button, .nav-button:active, .nav-button:hover {
   border: none;
   outline-style: none;
-  background-color: #a8a6c1;
+  background-color: #e3e2eb;
   box-shadow: none;
   transform: scale(0.9);
   margin: 0 5px 0 5px;

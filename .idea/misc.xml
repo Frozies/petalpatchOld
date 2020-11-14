@@ -3,7 +3,4 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="JSX" />
   </component>
-  <component name="TaskProjectConfiguration">
-    <server type="YouTrack" url="https://chaoticdev.myjetbrains.com/youtrack" />
-  </component>
 </project>
