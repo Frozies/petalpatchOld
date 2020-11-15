@@ -6,8 +6,6 @@
   border: none;
   background: $navbar-color;
   box-shadow: 0 2px 2px -2px rgba(0,0,0,1);
-  position: relative;
-  z-index: 1;
 ;
 
   &-text {
@@ -23,24 +21,21 @@
   }
 
   &-button {
-    @extend .nav;
     border: none;
     outline-style: none;
     background-color: $navbar-color;
     box-shadow: none;
-    transform: scale(0.90);
     margin: 0 5px 0 5px;
-    z-index: 0;
   }
 
   &-button:hover {
     @extend .nav-button;
-    transform: scale(0.85);
+
   }
 
   &-button:active {
     @extend .nav-button;
-    transform: scale(0.80);
+
   }
 
   &-search {
@@ -93,8 +88,9 @@
 }
 
 .navMenu {
-  background-color: black;
+  background-color:  white;
   width: 100px;
   height: 100px;
   position: absolute;
+
 }

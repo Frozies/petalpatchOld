@@ -1,11 +1,9 @@
-.nav, .nav-cart, .nav-search, .nav-button, .nav-button:active, .nav-button:hover, .nav-menu, .nav-text {
+.nav, .nav-cart, .nav-search, .nav-menu, .nav-text {
   height: 50px;
   display: flex;
   border: none;
   background: #e3e2eb;
   box-shadow: 0 2px 2px -2px black;
-  position: relative;
-  z-index: 1;
 }
 .nav-text {
   align-items: center;
@@ -20,15 +18,7 @@
   outline-style: none;
   background-color: #e3e2eb;
   box-shadow: none;
-  transform: scale(0.9);
   margin: 0 5px 0 5px;
-  z-index: 0;
-}
-.nav-button:hover {
-  transform: scale(0.85);
-}
-.nav-button:active {
-  transform: scale(0.8);
 }
 .nav-search {
   order: 2;
@@ -70,7 +60,7 @@
 }
 
 .navMenu {
-  background-color: black;
+  background-color: white;
   width: 100px;
   height: 100px;
   position: absolute;

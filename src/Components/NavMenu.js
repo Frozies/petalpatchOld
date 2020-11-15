@@ -27,9 +27,14 @@ function NavMenu() {
                         <div className={"navMenu"}>
                             World
                         </div>
+
                     </animated.div>
                 )
             }
+
+
+
+
 
             <button className={"nav-button"} type={"button"} onClick={()=>setMenuOpen(!isMenuOpen)}>
                 <Menu/>
