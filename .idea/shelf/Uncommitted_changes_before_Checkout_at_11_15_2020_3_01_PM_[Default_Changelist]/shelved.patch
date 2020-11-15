@@ -1,0 +1,261 @@
+Index: src/scss/_navbar.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>@import \"config\";\r\n\r\n.nav {\r\n  height: 50px;\r\n  display: flex;\r\n  border: none;\r\n  background: $navbar-color;\r\n  box-shadow: 0 2px 2px -2px rgba(0,0,0,1);\r\n;\r\n\r\n  &-text {\r\n    @extend .nav;\r\n    align-items: center;\r\n    font-family: 'Gamja Flower', cursive; //TODO: Change this damn font\r\n  }\r\n\r\n  &-menu {\r\n    @extend .nav;\r\n    flex: 2;\r\n    order: 1;\r\n  }\r\n\r\n  &-button {\r\n    border: none;\r\n    outline-style: none;\r\n    background-color: $navbar-color;\r\n    box-shadow: none;\r\n    margin: 0 5px 0 5px;\r\n  }\r\n\r\n  &-button:hover {\r\n    @extend .nav-button;\r\n\r\n  }\r\n\r\n  &-button:active {\r\n    @extend .nav-button;\r\n\r\n  }\r\n\r\n  &-search {\r\n    @extend .nav;\r\n    order: 2;\r\n    width: 100%;\r\n    margin-left: 30px;\r\n    margin-right: 30px;\r\n    flex: 3;\r\n\r\n    &-bar {\r\n      display: flex;\r\n      flex: 1;\r\n      width: 100%;\r\n      margin: 7px;\r\n      padding: 10px;\r\n      background-color: $input-box-color;\r\n      border: 2px solid lighten($sunset-teal, 20);\r\n      border-radius: 15px 0 0 15px;\r\n      box-shadow: 0 2px 2px -2px rgba(0,0,0,0.2);\r\n\r\n    }\r\n\r\n    &-bar:focus {\r\n      @extend .nav-search-bar;\r\n      outline: 0;\r\n      border: 2px solid $sunset-teal;\r\n    }\r\n\r\n  }\r\n\r\n  &-cart {\r\n    @extend .nav;\r\n    flex: 2;\r\n    order: 3;\r\n    justify-content: flex-end;\r\n    align-content: flex-end;\r\n\r\n    &-amount {\r\n      height: 25px;\r\n      width: 25px;\r\n      background-color: transparentize($sunset-teal, 0.25);\r\n      border-radius: 50%;\r\n      padding: 5px;\r\n      position: absolute;\r\n      right: 0;\r\n      top: 0;\r\n    }\r\n  }\r\n}\r\n\r\n.navMenu {\r\n  background-color:  white;\r\n  width: 100px;\r\n  height: 100px;\r\n  position: absolute;\r\n\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/scss/_navbar.scss	(revision 44b1597ad51890911c0a6762eb275f6532a5f20c)
++++ src/scss/_navbar.scss	(date 1605458780453)
+@@ -6,6 +6,8 @@
+   border: none;
+   background: $navbar-color;
+   box-shadow: 0 2px 2px -2px rgba(0,0,0,1);
++  overflow: visible;
++  z-index: 10;
+ ;
+ 
+   &-text {
+Index: src/App.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import React from \"react\";\r\nimport Navbar from \"./Components/Navbar\";\r\nimport Footer from \"./Components/Footer\";\r\nimport LandingPage from \"./Components/LandingPage\";\r\n\r\nfunction App() {\r\n  return (\r\n    <div>\r\n        <Navbar/>\r\n        <LandingPage/>\r\n        <Footer/>\r\n    </div>\r\n  );\r\n}\r\n\r\nexport default App;\r\n 
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/App.js	(revision 44b1597ad51890911c0a6762eb275f6532a5f20c)
++++ src/App.js	(date 1605470332949)
+@@ -1,14 +1,19 @@
+ import React from "react";
+ import Navbar from "./Components/Navbar";
+-import Footer from "./Components/Footer";
+ import LandingPage from "./Components/LandingPage";
++import Footer from "./Components/Footer";
++import {ParallaxLayer} from "react-spring/renderprops-addons";
+ 
+ function App() {
+   return (
+     <div>
+         <Navbar/>
+         <LandingPage/>
+-        <Footer/>
++        <div>
++            <h1>Hello</h1>
++            <h1>Hello</h1>
++        </div>
++        <Footer className={"footer"}/>
+     </div>
+   );
+ }
+Index: src/scss/style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.nav, .nav-cart, .nav-search, .nav-menu, .nav-text {\r\n  height: 50px;\r\n  display: flex;\r\n  border: none;\r\n  background: #e3e2eb;\r\n  box-shadow: 0 2px 2px -2px black;\r\n}\r\n.nav-text {\r\n  align-items: center;\r\n  font-family: \"Gamja Flower\", cursive;\r\n}\r\n.nav-menu {\r\n  flex: 2;\r\n  order: 1;\r\n}\r\n.nav-button, .nav-button:active, .nav-button:hover {\r\n  border: none;\r\n  outline-style: none;\r\n  background-color: #e3e2eb;\r\n  box-shadow: none;\r\n  margin: 0 5px 0 5px;\r\n}\r\n.nav-search {\r\n  order: 2;\r\n  width: 100%;\r\n  margin-left: 30px;\r\n  margin-right: 30px;\r\n  flex: 3;\r\n}\r\n.nav-search-bar, .nav-search-bar:focus {\r\n  display: flex;\r\n  flex: 1;\r\n  width: 100%;\r\n  margin: 7px;\r\n  padding: 10px;\r\n  background-color: #d8efee;\r\n  border: 2px solid #b4e0dd;\r\n  border-radius: 15px 0 0 15px;\r\n  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);\r\n}\r\n.nav-search-bar:focus {\r\n  outline: 0;\r\n  border: 2px solid #6CC2BD;\r\n}\r\n.nav-cart {\r\n  flex: 2;\r\n  order: 3;\r\n  justify-content: flex-end;\r\n  align-content: flex-end;\r\n}\r\n.nav-cart-amount {\r\n  height: 25px;\r\n  width: 25px;\r\n  background-color: rgba(108, 194, 189, 0.75);\r\n  border-radius: 50%;\r\n  padding: 5px;\r\n  position: absolute;\r\n  right: 0;\r\n  top: 0;\r\n}\r\n\r\n.navMenu {\r\n  background-color: white;\r\n  width: 20vw;\r\n  height: 100vh;\r\n  position: absolute;\r\n}\r\n\r\n* {\r\n  box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 0;\r\n  font-family: Arial, Helvetica, sans-serif;\r\n}\r\n\r\n/*# sourceMappingURL=style.css.map */\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/scss/style.css	(revision 44b1597ad51890911c0a6762eb275f6532a5f20c)
++++ src/scss/style.css	(date 1605470283102)
+@@ -1,9 +1,14 @@
++@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap");
++@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap");
++@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap");
+ .nav, .nav-cart, .nav-search, .nav-menu, .nav-text {
+   height: 50px;
+   display: flex;
+   border: none;
+   background: #e3e2eb;
+   box-shadow: 0 2px 2px -2px black;
++  overflow: visible;
++  z-index: 10;
+ }
+ .nav-text {
+   align-items: center;
+@@ -64,6 +69,19 @@
+   width: 20vw;
+   height: 100vh;
+   position: absolute;
++  z-index: 15;
++}
++
++.home, .home-background {
++  display: flex;
++  flex: auto;
++}
++.home-background {
++  background-image: url("../images/FlowerBanner.jpg");
++  background-position: top;
++  background-size: auto;
++  background-repeat: no-repeat;
++  height: 100vh;
+ }
+ 
+ * {
+@@ -71,6 +89,20 @@
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
++  overflow: hidden;
++}
++
++.footer {
++  background-color: #F8F8F8;
++  border-top: 1px solid #E7E7E7;
++  padding: 20px;
++  position: relative;
++  left: 0;
++  bottom: 0;
++  height: 60px;
++  width: 100vw;
++  display: flex;
++  flex: 1;
+ }
+ 
+ /*# sourceMappingURL=style.css.map */
+Index: src/scss/style.css.map
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\"version\":3,\"sourceRoot\":\"\",\"sources\":[\"_navbar.scss\",\"_config.scss\",\"style.scss\"],\"names\":[],\"mappings\":\"AAEA;EACE;EACA;EACA;EACA,YCGa;EDFb;;AAGA;EAEE;EACA;;AAGF;EAEE;EACA;;AAGF;EACE;EACA;EACA,kBChBW;EDiBX;EACA;;AAaF;EAEE;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA,kBC5CY;ED6CZ;EACA;EACA;;AAIF;EAEE;EACA;;AAKJ;EAEE;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;AAKN;EACE;EACA;EACA;EACA;;;AE1FF;EACE;EACA;EACA;EACA,aDCW\",\"file\":\"style.css\"}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/scss/style.css.map	(revision 44b1597ad51890911c0a6762eb275f6532a5f20c)
++++ src/scss/style.css.map	(date 1605470283102)
+@@ -1,1 +1,1 @@
+-{"version":3,"sourceRoot":"","sources":["_navbar.scss","_config.scss","style.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA;EACA,YCGa;EDFb;;AAGA;EAEE;EACA;;AAGF;EAEE;EACA;;AAGF;EACE;EACA;EACA,kBChBW;EDiBX;EACA;;AAaF;EAEE;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA,kBC5CY;ED6CZ;EACA;EACA;;AAIF;EAEE;EACA;;AAKJ;EAEE;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;AAKN;EACE;EACA;EACA;EACA;;;AE1FF;EACE;EACA;EACA;EACA,aDCW","file":"style.css"}
+\ No newline at end of file
++{"version":3,"sourceRoot":"","sources":["_config.scss","_navbar.scss","_home.scss","style.scss"],"names":[],"mappings":"AAYQ;AAAA;AAAA;ACVR;EACE;EACA;EACA;EACA,YDGa;ECFb;EACA;EACA;;AAGA;EAEE;EACA;;AAGF;EAEE;EACA;;AAGF;EACE;EACA;EACA,kBDlBW;ECmBX;EACA;;AAaF;EAEE;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA,kBD9CY;EC+CZ;EACA;EACA;;AAIF;EAEE;EACA;;AAKJ;EAEE;EACA;EACA;EACA;;AAEA;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;;AAKN;EACE;EACA;EACA;EACA;EACA;;;AC9FF;EACE;EACA;;AACA;EAEE;EACA;EACA;EACA;EACA;;;ACPJ;EACE;EACA;EACA;EACA;EACA;;;AAGF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA;EACA","file":"style.css"}
+\ No newline at end of file
+Index: src/scss/style.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>@import \"config\";\r\n@import \"navbar\";\r\n\r\n* {\r\n  box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 0;\r\n  font-family: $font-stack;\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/scss/style.scss	(revision 44b1597ad51890911c0a6762eb275f6532a5f20c)
++++ src/scss/style.scss	(date 1605470247532)
+@@ -1,9 +1,24 @@
+ @import "config";
+ @import "navbar";
++@import "home";
+ 
+ * {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: $font-stack;
++  overflow: hidden;
++}
++
++.footer {
++  background-color: #F8F8F8;
++  border-top: 1px solid #E7E7E7;
++  padding: 20px;
++  position: relative;
++  left: 0;
++  bottom: 0;
++  height: 60px;
++  width: 100vw;
++  display: flex;
++  flex: 1;
+ }
+\ No newline at end of file
+Index: src/Components/LandingPage.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import React from \"react\";\r\nimport Banner from \"../images/FlowerBanner.jpg\";\r\n\r\n\r\nfunction LandingPage(){\r\n    return (\r\n        <div style={{\r\n            backgroundImage: `url(${Banner})`,\r\n            backgroundPosition: 'center',\r\n            backgroundSize: 'auto',\r\n            backgroundRepeat: 'no-repeat',\r\n            height: '100vh'\r\n        }}>\r\n        </div>\r\n    )\r\n}\r\nexport default LandingPage
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/Components/LandingPage.js	(revision 44b1597ad51890911c0a6762eb275f6532a5f20c)
++++ src/Components/LandingPage.js	(date 1605470320548)
+@@ -1,17 +1,20 @@
+ import React from "react";
+ import Banner from "../images/FlowerBanner.jpg";
+-
++import {Parallax, ParallaxLayer} from 'react-spring/renderprops-addons'
++import Footer from "./Footer";
+ 
+ function LandingPage(){
+     return (
+-        <div style={{
+-            backgroundImage: `url(${Banner})`,
+-            backgroundPosition: 'center',
+-            backgroundSize: 'auto',
+-            backgroundRepeat: 'no-repeat',
+-            height: '100vh'
+-        }}>
++        <div>
++            <Parallax pages={2} scrolling={true} vertical ref={ref => (React.useRef.parallax = ref)}>
++
++                <ParallaxLayer offset={0} speed={0.5} className={"home-background"}>
++                    <h1>Hello</h1>
++                </ParallaxLayer>
++            </Parallax>
+         </div>
+     )
+ }
+-export default LandingPage
+\ No newline at end of file
++export default LandingPage
++
++
+Index: src/scss/_config.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>// Sunset Colors\r\n$sunset-teal: #6CC2BD;\r\n$sunset-blue: #5A809E;\r\n$sunset-purple: #7C79A2;\r\n$sunset-red: #f57d7c;\r\n$sunset-orange: #FFC1A6;\r\n$sunset-tan: #efb975;\r\n\r\n$font-stack: Arial, Helvetica, sans-serif;\r\n$navbar-color: lighten($sunset-purple,35);\r\n$input-box-color: lighten($sunset-teal,30);\r\n\r\n\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/scss/_config.scss	(revision 44b1597ad51890911c0a6762eb275f6532a5f20c)
++++ src/scss/_config.scss	(date 1605468827291)
+@@ -10,5 +10,7 @@
+ $navbar-color: lighten($sunset-purple,35);
+ $input-box-color: lighten($sunset-teal,30);
+ 
++@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
++
+ 
+ 
+Index: src/scss/_home.scss
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/scss/_home.scss	(date 1605470282802)
++++ src/scss/_home.scss	(date 1605470282802)
+@@ -0,0 +1,14 @@
++@import "config";
++
++.home {
++  display: flex;
++  flex: auto;
++  &-background {
++    @extend .home;
++    background-image: url('../images/FlowerBanner.jpg');
++    background-position: top;
++    background-size: auto;
++    background-repeat: no-repeat;
++    height: 100vh;
++  }
++}
+\ No newline at end of file
+Index: src/Components/Footer.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import React from \"react\";\r\n\r\n\r\nfunction Footer(){\r\n    return (\r\n        <div>\r\n            <p>Copyright &copy; {(new Date().getFullYear())}</p>\r\n        </div>\r\n    )\r\n}\r\nexport default Footer
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/Components/Footer.js	(revision 44b1597ad51890911c0a6762eb275f6532a5f20c)
++++ src/Components/Footer.js	(date 1605459296910)
+@@ -3,7 +3,7 @@
+ 
+ function Footer(){
+     return (
+-        <div>
++        <div className={"footer"}>
+             <p>Copyright &copy; {(new Date().getFullYear())}</p>
+         </div>
+     )

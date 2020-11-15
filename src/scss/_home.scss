@@ -1,0 +1,14 @@
+@import "config";
+
+.home {
+  display: flex;
+  flex: auto;
+  &-background {
+    @extend .home;
+    background-image: url('../images/FlowerBanner.jpg');
+    background-position: top;
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+}
