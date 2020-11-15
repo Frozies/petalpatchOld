@@ -1,11 +1,14 @@
 import React from "react";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
+import LandingPage from "./Components/LandingPage";
 
 function App() {
   return (
     <div>
-        <header className={"border-b font-bold"}>
-            Hello World
-        </header>
+        <Navbar/>
+        <LandingPage/>
+        <Footer/>
     </div>
   );
 }
