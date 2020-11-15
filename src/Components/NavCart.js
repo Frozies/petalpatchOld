@@ -2,8 +2,10 @@ import React from 'react';
 import {ReactComponent as ShoppingCart} from "../images/icons8-food-cart.svg";
 
 function NavCart () {
+
     return (
         <div className={"nav-cart"}>
+
             <button className={"nav-button"} type={"button"}>
                 <ShoppingCart/>
                 <div className={"nav-cart-amount"}>
