@@ -4,6 +4,8 @@
   border: none;
   background: #e3e2eb;
   box-shadow: 0 2px 2px -2px black;
+  position: relative;
+  z-index: 1;
 }
 .nav-text {
   align-items: center;
@@ -20,6 +22,7 @@
   box-shadow: none;
   transform: scale(0.9);
   margin: 0 5px 0 5px;
+  z-index: 0;
 }
 .nav-button:hover {
   transform: scale(0.85);
@@ -64,6 +67,13 @@
   position: absolute;
   right: 0;
   top: 0;
+}
+
+.navMenu {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  position: absolute;
 }
 
 * {
