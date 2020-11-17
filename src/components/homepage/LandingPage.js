@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../images/FlowerBanner.jpg";
+import Banner from "../../images/FlowerBanner.jpg";
 
 
 function LandingPage(){

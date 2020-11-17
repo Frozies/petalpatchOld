@@ -26,8 +26,22 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Menu done for now." />
-    <list id="cbb96fe6-836e-4f29-833f-d61e648ced6c" name="Got the menu working, but buttons dont work. I want to check to see if H1 is broken in the pushed build." comment="" />
+    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Menu done for now.">
+      <change afterPath="$PROJECT_DIR$/src/views/About.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Checkout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Homepage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ProductGallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/ProductPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/LandingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/NavCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/NavCart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/NavMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/NavMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Recommended.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/Recommended.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +55,10 @@
     </option>
   </component>
   <component name="Git.Pull.Settings">
-    <option name="BRANCH" value="Navbar" />
+    <option name="BRANCH" value="master" />
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="master" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -63,7 +80,6 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.7" />
@@ -71,6 +87,12 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="start.from.branch" value="master" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\homepage" />
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\navigation" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
@@ -104,8 +126,7 @@
     <task active="true" id="5faf3c5af89c0562b0817518" summary="Navigation Bar">
       <branch name="Navbar" repository="C:\Users\xshre\WebstormProjects\petal-patch" />
       <changelist id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="" />
-      <changelist id="cbb96fe6-836e-4f29-833f-d61e648ced6c" name="Got the menu working, but buttons dont work. I want to check to see if H1 is broken in the pushed build." comment="" />
-      <created>1605470704188</created>
+      <created>1605576655476</created>
       <option name="issue" value="true" />
       <url>https://trello.com/c/Hufc8TQv/9-navigation-bar</url>
       <option name="number" value="9" />
@@ -121,7 +142,8 @@
       <workItem from="1605450148833" duration="2283000" />
       <workItem from="1605453128925" duration="135000" />
       <workItem from="1605457390319" duration="5519000" />
-      <workItem from="1605470635964" duration="302000" />
+      <workItem from="1605470635964" duration="1612000" />
+      <workItem from="1605575315021" duration="1149000" />
     </task>
     <task id="LOCAL-00001" summary="Updated some styles">
       <created>1605320307508</created>
@@ -158,7 +180,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605470790196</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Menu done for now.">
+      <created>1605470980148</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605470980148</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Menu done for now.">
+      <created>1605470984324</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605470984324</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers>
       <Trello>
         <option name="currentBoard">
@@ -212,7 +248,19 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/Navbar" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -232,9 +280,9 @@
     <MESSAGE value="Css stuff with navbar" />
     <MESSAGE value="Removed button responsivness in order to create the menu overlap. Setup a react spring shrinking animation later for the buttons." />
     <MESSAGE value="Got the menu working, but buttons dont work. I want to check to see if H1 is broken in the pushed build." />
-    <MESSAGE value="Menu done for now." />
     <MESSAGE value="Revert &quot;Menu done for now.&quot;&#10;&#10;This reverts commit 44b1597a" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Menu done for now.&quot;&#10;&#10;This reverts commit 44b1597a" />
+    <MESSAGE value="Menu done for now." />
+    <option name="LAST_COMMIT_MESSAGE" value="Menu done for now." />
   </component>
   <component name="WindowStateProjectService">
     <state x="364" y="356" width="1025" height="334" key="#File_Watchers" timestamp="1605244531545">
@@ -277,30 +325,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="544" y="296" key="EditFileWatcherDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605244590557" />
-    <state width="1345" height="283" key="GridCell.Tab.0.bottom" timestamp="1605470613718">
+    <state width="1344" height="283" key="GridCell.Tab.0.bottom" timestamp="1605473054015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1345" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470613718" />
-    <state width="1345" height="283" key="GridCell.Tab.0.center" timestamp="1605470613717">
+    <state width="1344" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605473054015" />
+    <state width="1344" height="283" key="GridCell.Tab.0.center" timestamp="1605473054015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1345" height="283" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470613717" />
-    <state width="1345" height="283" key="GridCell.Tab.0.left" timestamp="1605470613717">
+    <state width="1344" height="283" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605473054015" />
+    <state width="1344" height="283" key="GridCell.Tab.0.left" timestamp="1605473054015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1345" height="283" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470613717" />
-    <state width="1345" height="283" key="GridCell.Tab.0.right" timestamp="1605470613718">
+    <state width="1344" height="283" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605473054015" />
+    <state width="1344" height="283" key="GridCell.Tab.0.right" timestamp="1605473054015">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1345" height="283" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470613718" />
+    <state width="1344" height="283" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605473054015" />
     <state x="183" y="85" key="MergeDialog" timestamp="1605470491071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="183" y="85" key="MergeDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470491071" />
-    <state x="597" y="280" key="MultipleFileMergeDialog" timestamp="1605470774268">
+    <state x="597" y="280" key="MultipleFileMergeDialog" timestamp="1605471001906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="597" y="280" key="MultipleFileMergeDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470774268" />
+    <state x="597" y="280" key="MultipleFileMergeDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605471001906" />
     <state x="740" y="139" key="RollbackChangesDialog" timestamp="1605470719939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
