@@ -67,100 +67,80 @@
 }
 
 .footer {
-  overflow: hidden;
   margin-bottom: -5rem;
+  width: 100vw;
 }
 .footer-sky {
   background-color: #7efcd2;
   height: 15rem;
 }
 .footer-ground {
-  background-color: #66CDAA;
   height: 70px;
-  clip: rect(-100px, -100px, auto, -100px);
-  overflow: fragments;
-  margin-bottom: -5rem;
+  overflow-wrap: initial;
 }
-
-.grass {
+.footer-grass {
   position: absolute;
-  display: inline-block;
-  width: 100%;
-  height: 8rem;
-  overflow: hidden;
-  opacity: 0;
+  width: 100vw;
+  margin-top: -4rem;
 }
-
-.blade {
+.footer-blade {
   height: 6rem;
   width: 1rem;
-  background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
   background-size: 300px 300px;
   background-color: #00e676;
   border-radius: 100% 0 50% 0;
   float: left;
   transform-origin: 50% 100%;
-  margin-top: -2rem;
+  margin-top: 0.5rem;
   margin-left: -0.5rem;
   /*   box-shadow: rgba(0,0,0, 0.25) 0.25rem 1rem 0.25rem; */
 }
-
-.blade:nth-of-type(2n) {
-  width: 0.75rem;
+.footer-blade:nth-of-type(2n) {
+  width: 1rem;
   transform: rotate(10deg);
   height: 5rem;
-  margin-top: -1rem;
 }
-
-.blade:nth-of-type(3n) {
+.footer-blade:nth-of-type(3n) {
   background-color: #00c853;
   border-radius: 0 100% 0 50%;
   height: 7rem;
-  margin-top: -3rem;
+  margin-top: -1rem;
   /*   transform: rotate(-10deg); */
 }
-
-.blade:nth-of-type(4n) {
+.footer-blade:nth-of-type(4n) {
   border-radius: 0 100% 0 50%;
   transform: rotate(-8deg);
 }
-
-.blade:nth-of-type(5n) {
+.footer-blade:nth-of-type(5n) {
   transform: rotate(4deg);
   border-radius: 0 100% 0 50%;
 }
-
-.blade:nth-of-type(7n) {
+.footer-blade:nth-of-type(7n) {
   background-color: #81c784;
   border-radius: 100% 0 50% 0;
   animation: wind-seven 7s ease alternate infinite;
 }
-
-.blade:nth-of-type(9n) {
+.footer-blade:nth-of-type(9n) {
   background-color: #4caf50;
   animation: wind-three 7s ease alternate infinite;
 }
-
-.blade:nth-of-type(13n) {
+.footer-blade:nth-of-type(13n) {
   background-color: #66bb6a;
   height: 7.5rem;
-  margin-top: -3.5rem;
+  margin-top: -1rem;
 }
-
-.blade:nth-of-type(16n) {
-  width: 0.5rem;
+.footer-blade:nth-of-type(16n) {
+  width: 1rem;
   transform: rotate(-5deg);
   height: 8rem;
-  margin-top: -4rem;
+  margin-top: -1.5rem;
   animation: wind-five 7s ease alternate infinite;
 }
-
-.blade:nth-of-type(24n) {
+.footer-blade:nth-of-type(24n) {
   transform: rotate(12deg);
   height: 7.5rem;
-  margin-top: -3.5rem;
+  margin-top: -1rem;
 }
-
 @keyframes wind-three {
   100% {
     transform: rotate(5deg);
@@ -229,7 +209,7 @@
     transform: rotate(-30deg);
   }
 }
-.sunflower {
+.footer-sunflower {
   height: 8rem;
   width: 8rem;
   background-size: 8rem;
@@ -242,14 +222,12 @@
   transform-origin: 50% 100%;
   animation: wind-three 7s ease alternate infinite;
 }
-
-.sunflower:nth-of-type(2n) {
+.footer-sunflower:nth-of-type(2n) {
   margin-top: -7.25rem;
   margin-right: -8rem;
   animation: wind-seven 7s ease alternate infinite;
 }
-
-.sunflower:nth-of-type(3n) {
+.footer-sunflower:nth-of-type(3n) {
   margin-top: -7.5rem;
   margin-right: -8rem;
   animation: wind-five 7s ease alternate infinite;
