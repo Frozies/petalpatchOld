@@ -26,21 +26,23 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Menu done for now.">
-      <change afterPath="$PROJECT_DIR$/src/views/About.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Checkout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Homepage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/ProductGallery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/ProductPage.js" afterDir="false" />
+    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Created website template.">
+      <change afterPath="$PROJECT_DIR$/src/components/footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/Grass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/LandingPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NavCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/NavCart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NavMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/NavMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Recommended.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/Recommended.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_config.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_config.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Homepage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,13 +85,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.7" />
-    <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/scss" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="C:\Users\xshre\WebstormProjects\petal-patch\node_modules\yarn" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="start.from.branch" value="master" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\scss" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\footer" />
       <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\homepage" />
       <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\navigation" />
     </key>
@@ -109,41 +118,24 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task id="Default" summary="Default task">
+    <task active="true" id="Default" summary="Default task">
       <branch name="Navbar" repository="C:\Users\xshre\WebstormProjects\petal-patch" original="true" />
       <changelist id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="" />
       <created>1605242850728</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605470635630</updated>
+      <updated>1605576879754</updated>
       <workItem from="1605242852553" duration="148000" />
       <workItem from="1605243285696" duration="1213000" />
       <workItem from="1605244543558" duration="836000" />
       <workItem from="1605319424549" duration="812000" />
       <workItem from="1605470609527" duration="5000" />
       <workItem from="1605470620739" duration="15000" />
-    </task>
-    <task active="true" id="5faf3c5af89c0562b0817518" summary="Navigation Bar">
-      <branch name="Navbar" repository="C:\Users\xshre\WebstormProjects\petal-patch" />
-      <changelist id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="" />
-      <created>1605576655476</created>
-      <option name="issue" value="true" />
-      <url>https://trello.com/c/Hufc8TQv/9-navigation-bar</url>
-      <option name="number" value="9" />
-      <option name="presentableId" value="5faf3c5af89c0562b0817518" />
-      <updated>1605470635630</updated>
-      <workItem from="1605320243600" duration="1749000" />
-      <workItem from="1605322835496" duration="1030000" />
-      <workItem from="1605323883125" duration="299000" />
-      <workItem from="1605380515130" duration="1605000" />
-      <workItem from="1605411999398" duration="3589000" />
-      <workItem from="1605415888875" duration="13000" />
-      <workItem from="1605415930505" duration="2014000" />
-      <workItem from="1605450148833" duration="2283000" />
-      <workItem from="1605453128925" duration="135000" />
-      <workItem from="1605457390319" duration="5519000" />
-      <workItem from="1605470635964" duration="1612000" />
-      <workItem from="1605575315021" duration="1149000" />
+      <workItem from="1605576879843" duration="858000" />
+      <workItem from="1605577759827" duration="319000" />
+      <workItem from="1605578090042" duration="841000" />
+      <workItem from="1605656014339" duration="998000" />
+      <workItem from="1605659519074" duration="5177000" />
     </task>
     <task id="LOCAL-00001" summary="Updated some styles">
       <created>1605320307508</created>
@@ -194,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605470984324</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Created website template.">
+      <created>1605576848000</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605576848000</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers>
       <Trello>
         <option name="currentBoard">
@@ -282,7 +281,8 @@
     <MESSAGE value="Got the menu working, but buttons dont work. I want to check to see if H1 is broken in the pushed build." />
     <MESSAGE value="Revert &quot;Menu done for now.&quot;&#10;&#10;This reverts commit 44b1597a" />
     <MESSAGE value="Menu done for now." />
-    <option name="LAST_COMMIT_MESSAGE" value="Menu done for now." />
+    <MESSAGE value="Created website template." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created website template." />
   </component>
   <component name="WindowStateProjectService">
     <state x="364" y="356" width="1025" height="334" key="#File_Watchers" timestamp="1605244531545">
@@ -325,22 +325,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="544" y="296" key="EditFileWatcherDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605244590557" />
-    <state width="1344" height="283" key="GridCell.Tab.0.bottom" timestamp="1605473054015">
+    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1605661168748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1344" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605473054015" />
-    <state width="1344" height="283" key="GridCell.Tab.0.center" timestamp="1605473054015">
+    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605661168748" />
+    <state width="1337" height="283" key="GridCell.Tab.0.bottom" timestamp="1605664138784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1344" height="283" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605473054015" />
-    <state width="1344" height="283" key="GridCell.Tab.0.left" timestamp="1605473054015">
+    <state width="1337" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605664138784" />
+    <state width="1337" height="283" key="GridCell.Tab.0.center" timestamp="1605664138784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1344" height="283" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605473054015" />
-    <state width="1344" height="283" key="GridCell.Tab.0.right" timestamp="1605473054015">
+    <state width="1337" height="283" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605664138784" />
+    <state width="1337" height="283" key="GridCell.Tab.0.left" timestamp="1605664138784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1344" height="283" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605473054015" />
+    <state width="1337" height="283" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605664138784" />
+    <state width="1337" height="283" key="GridCell.Tab.0.right" timestamp="1605664138784">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1337" height="283" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605664138784" />
     <state x="183" y="85" key="MergeDialog" timestamp="1605470491071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -353,18 +357,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="139" key="RollbackChangesDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470719939" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1605416728299">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1605659498973">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605416728299" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605659498973" />
     <state x="701" y="327" key="SimpleOpenTaskDialog" timestamp="1605470481023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="701" y="327" key="SimpleOpenTaskDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470481023" />
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2" timestamp="1605457500983">
+    <state x="551" y="250" key="Vcs.Push.Dialog.v2" timestamp="1605576877417">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605457500983" />
+    <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605576877417" />
     <state x="746" y="171" key="VcsDiffUtil.ChangesDialog" timestamp="1605470936890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

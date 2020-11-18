@@ -1,14 +1,12 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import LandingPage from "./components/LandingPage";
+import Navbar from "../components/navigation/NavMenu";
+import Footer from "../components/footer/Footer";
+import LandingPage from "../components/homepage/LandingPage";
 
 function Homepage() {
     return (
         <div>
-            <Navbar/>
             <LandingPage/>
-            <Footer/>
         </div>
     );
 }
