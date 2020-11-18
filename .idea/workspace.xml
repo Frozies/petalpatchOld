@@ -26,9 +26,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Added grass to footer.">
+    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Sunflowers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/footer/Grass.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Grass.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css" afterDir="false" />
@@ -126,7 +125,7 @@
       <workItem from="1605578090042" duration="841000" />
       <workItem from="1605656014339" duration="998000" />
       <workItem from="1605659519074" duration="6139000" />
-      <workItem from="1605666663130" duration="5688000" />
+      <workItem from="1605666663130" duration="6510000" />
     </task>
     <task id="LOCAL-00001" summary="Updated some styles">
       <created>1605320307508</created>
@@ -198,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605665033573</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Sunflowers">
+      <created>1605672566532</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605672566532</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers>
       <Trello>
         <option name="currentBoard">
@@ -288,7 +294,8 @@
     <MESSAGE value="Menu done for now." />
     <MESSAGE value="Created website template." />
     <MESSAGE value="Added grass to footer." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added grass to footer." />
+    <MESSAGE value="Sunflowers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sunflowers" />
   </component>
   <component name="WindowStateProjectService">
     <state x="364" y="356" width="1025" height="334" key="#File_Watchers" timestamp="1605244531545">

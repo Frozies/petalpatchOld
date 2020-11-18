@@ -8,7 +8,7 @@ function Grass() {
         let grassArray = [];
         let f = 0;
 
-        for (let i = 0 ; i < size.width/8; i++) {
+        for (let i = 0 ; i < size.width/7; i++) {
                 grassArray.push(<div className={"footer-blade"} key={i}/>);
 
 

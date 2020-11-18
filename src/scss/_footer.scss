@@ -9,8 +9,11 @@
  }
   &-ground {
     height: 70px;
-    overflow-wrap: initial;
+
     //background-color: $grass-green;
+    display: inline-block;
+    white-space: nowrap;
+
   }
 
   &-grass {

@@ -76,7 +76,8 @@
 }
 .footer-ground {
   height: 70px;
-  overflow-wrap: initial;
+  display: inline-block;
+  white-space: nowrap;
 }
 .footer-grass {
   position: absolute;
