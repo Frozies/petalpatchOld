@@ -16,11 +16,15 @@
 
   }
 
+  /* Wavy Windy Grass */
+
   &-grass {
     position: absolute;
     width: 100vw;
     margin-top: -4rem;
   }
+
+  /* I find it cool that the blade nth-of-type function can be used for lots of different divs. */
 
   &-blade {
     height: 6rem;
@@ -119,7 +123,7 @@
     }
   }
 
-  @keyframes wave {
+  @keyframes wave { /* Windy wave! I can probably make this more "modular" using the config. */
     0% {
       transform: rotate(-30deg);
     }
@@ -172,6 +176,9 @@
       transform: rotate(-30deg);
     }
   }
+
+  /* Sun flowers and its wind movement */
+
   &-sunflower {
     height: 8rem;
     width: 8rem;

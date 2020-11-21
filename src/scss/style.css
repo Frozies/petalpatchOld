@@ -69,6 +69,9 @@
 .footer {
   margin-bottom: -5rem;
   width: 100vw;
+  /* Wavy Windy Grass */
+  /* I find it cool that the blade nth-of-type function can be used for lots of different divs. */
+  /* Sun flowers and its wind movement */
 }
 .footer-sky {
   background-color: #7efcd2;
@@ -158,6 +161,7 @@
   }
 }
 @keyframes wave {
+  /* Windy wave! I can probably make this more "modular" using the config. */
   0% {
     transform: rotate(-30deg);
   }

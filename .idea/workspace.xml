@@ -28,6 +28,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Sunflowers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/footer/Grass.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Grass.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css" afterDir="false" />
@@ -125,7 +127,9 @@
       <workItem from="1605578090042" duration="841000" />
       <workItem from="1605656014339" duration="998000" />
       <workItem from="1605659519074" duration="6139000" />
-      <workItem from="1605666663130" duration="6510000" />
+      <workItem from="1605666663130" duration="9249000" />
+      <workItem from="1605837484468" duration="1914000" />
+      <workItem from="1605917116438" duration="352000" />
     </task>
     <task id="LOCAL-00001" summary="Updated some styles">
       <created>1605320307508</created>
@@ -204,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605672566532</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Sunflowers">
+      <created>1605739111765</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605739111765</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers>
       <Trello>
         <option name="currentBoard">
@@ -342,22 +353,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605661168748" />
-    <state width="1334" height="283" key="GridCell.Tab.0.bottom" timestamp="1605671768032">
+    <state width="1332" height="283" key="GridCell.Tab.0.bottom" timestamp="1605839414838">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1334" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605671768032" />
-    <state width="1334" height="283" key="GridCell.Tab.0.center" timestamp="1605671768032">
+    <state width="1332" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605839414838" />
+    <state width="1332" height="283" key="GridCell.Tab.0.center" timestamp="1605839414838">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1334" height="283" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605671768032" />
-    <state width="1334" height="283" key="GridCell.Tab.0.left" timestamp="1605671768032">
+    <state width="1332" height="283" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605839414838" />
+    <state width="1332" height="283" key="GridCell.Tab.0.left" timestamp="1605839414838">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1334" height="283" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605671768032" />
-    <state width="1334" height="283" key="GridCell.Tab.0.right" timestamp="1605671768032">
+    <state width="1332" height="283" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605839414838" />
+    <state width="1332" height="283" key="GridCell.Tab.0.right" timestamp="1605839414838">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1334" height="283" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605671768032" />
+    <state width="1332" height="283" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605839414838" />
     <state x="183" y="85" key="MergeDialog" timestamp="1605470491071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -378,10 +389,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="701" y="327" key="SimpleOpenTaskDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470481023" />
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2" timestamp="1605665037271">
+    <state x="551" y="250" key="Vcs.Push.Dialog.v2" timestamp="1605739119273">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605665037271" />
+    <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605739119273" />
     <state x="746" y="171" key="VcsDiffUtil.ChangesDialog" timestamp="1605470936890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -390,6 +401,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470613772" />
+    <state x="739" y="198" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605838448539">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="198" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605838448539" />
     <state x="776" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605470893911">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

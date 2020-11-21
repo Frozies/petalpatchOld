@@ -11,7 +11,10 @@ import Footer from "./components/footer/Footer";
 function App() {
   return (
   <Router>
+      {/*Import the navbar and the footer so it stays on every page. If I understand react properly, only the switch
+       div gets updated.*/}
       <Navbar/>
+
       <Switch>
           <Route exact path='/' component={Homepage}/>
           <Route path='/checkout' component={Checkout}/>
