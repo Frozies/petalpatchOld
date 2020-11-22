@@ -69,173 +69,22 @@
 .footer {
   margin-bottom: -5rem;
   width: 100vw;
-  /* Wavy Windy Grass */
-  /* I find it cool that the blade nth-of-type function can be used for lots of different divs. */
-  /* Sun flowers and its wind movement */
 }
-.footer-sky {
-  background-color: #7efcd2;
-  height: 15rem;
+
+.home-background {
+  height: 100vh;
 }
-.footer-ground {
-  height: 70px;
-  display: inline-block;
-  white-space: nowrap;
-}
-.footer-grass {
+.home-text {
+  height: 200px;
+  background: white;
+  padding: 20px;
   position: absolute;
-  width: 100vw;
-  margin-top: -4rem;
-}
-.footer-blade {
-  height: 6rem;
-  width: 1rem;
-  background-size: 300px 300px;
-  background-color: #00e676;
-  border-radius: 100% 0 50% 0;
-  float: left;
-  transform-origin: 50% 100%;
-  margin-top: 0.5rem;
-  margin-left: -0.5rem;
-  /*   box-shadow: rgba(0,0,0, 0.25) 0.25rem 1rem 0.25rem; */
-}
-.footer-blade:nth-of-type(2n) {
-  width: 1rem;
-  transform: rotate(10deg);
-  height: 5rem;
-}
-.footer-blade:nth-of-type(3n) {
-  background-color: #00c853;
-  border-radius: 0 100% 0 50%;
-  height: 7rem;
-  margin-top: -1rem;
-  /*   transform: rotate(-10deg); */
-}
-.footer-blade:nth-of-type(4n) {
-  border-radius: 0 100% 0 50%;
-  transform: rotate(-8deg);
-}
-.footer-blade:nth-of-type(5n) {
-  transform: rotate(4deg);
-  border-radius: 0 100% 0 50%;
-}
-.footer-blade:nth-of-type(7n) {
-  background-color: #81c784;
-  border-radius: 100% 0 50% 0;
-  animation: wind-seven 7s ease alternate infinite;
-}
-.footer-blade:nth-of-type(9n) {
-  background-color: #4caf50;
-  animation: wind-three 7s ease alternate infinite;
-}
-.footer-blade:nth-of-type(13n) {
-  background-color: #66bb6a;
-  height: 7.5rem;
-  margin-top: -1rem;
-}
-.footer-blade:nth-of-type(16n) {
-  width: 1rem;
-  transform: rotate(-5deg);
-  height: 8rem;
-  margin-top: -1.5rem;
-  animation: wind-five 7s ease alternate infinite;
-}
-.footer-blade:nth-of-type(24n) {
-  transform: rotate(12deg);
-  height: 7.5rem;
-  margin-top: -1rem;
-}
-@keyframes wind-three {
-  100% {
-    transform: rotate(5deg);
-  }
-}
-@keyframes wind-five {
-  100% {
-    transform: rotate(5deg);
-  }
-}
-@keyframes wind-seven {
-  100% {
-    transform: rotate(7deg);
-  }
-}
-@keyframes wave {
-  /* Windy wave! I can probably make this more "modular" using the config. */
-  0% {
-    transform: rotate(-30deg);
-  }
-  10% {
-    transform: rotate(55deg);
-  }
-  15% {
-    transform: rotate(35deg);
-  }
-  20% {
-    transform: rotate(55deg);
-  }
-  25% {
-    transform: rotate(45deg);
-  }
-  30% {
-    transform: rotate(60deg);
-  }
-  35% {
-    transform: rotate(45deg);
-  }
-  40% {
-    transform: rotate(55deg);
-  }
-  46% {
-    transform: rotate(40deg);
-  }
-  50% {
-    transform: rotate(55deg);
-  }
-  55% {
-    transform: rotate(45deg);
-  }
-  60% {
-    transform: rotate(58deg);
-  }
-  65% {
-    transform: rotate(42deg);
-  }
-  70% {
-    transform: rotate(55deg);
-  }
-  75% {
-    transform: rotate(40deg);
-  }
-  80% {
-    transform: rotate(-30deg);
-  }
-  100% {
-    transform: rotate(-30deg);
-  }
-}
-.footer-sunflower {
-  height: 8rem;
-  width: 8rem;
-  background-size: 8rem;
-  margin-top: -8rem;
-  margin-right: -8rem;
-  background-image: url("../images/icons8-sunflower.svg");
-  background-repeat: no-repeat;
-  float: left;
-  overflow: hidden;
-  transform-origin: 50% 100%;
-  animation: wind-three 7s ease alternate infinite;
-}
-.footer-sunflower:nth-of-type(2n) {
-  margin-top: -7.25rem;
-  margin-right: -8rem;
-  animation: wind-seven 7s ease alternate infinite;
-}
-.footer-sunflower:nth-of-type(3n) {
-  margin-top: -7.5rem;
-  margin-right: -8rem;
-  animation: wind-five 7s ease alternate infinite;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.47);
 }
 
 * {
