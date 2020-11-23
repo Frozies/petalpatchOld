@@ -4,21 +4,34 @@
   border: none;
   background: #e3e2eb;
   box-shadow: 0 2px 2px -2px black;
+  z-index: 25;
+  /*  &-button:hover {
+      @extend .nav-button;
+
+    }
+
+    &-button:active {
+      @extend .nav-button;
+
+    }*/
 }
 .nav-text {
+  position: relative;
   align-items: center;
   font-family: "Gamja Flower", cursive;
+  z-index: 25;
 }
 .nav-menu {
   flex: 2;
   order: 1;
 }
-.nav-button, .nav-button:active, .nav-button:hover {
+.nav-button {
   border: none;
   outline-style: none;
   background-color: #e3e2eb;
   box-shadow: none;
   margin: 0 5px 0 5px;
+  z-index: 26;
 }
 .nav-search {
   order: 2;
@@ -64,15 +77,40 @@
   width: 100px;
   height: 100px;
   position: absolute;
+  z-index: 26;
 }
 
 .footer {
-  margin-bottom: -5rem;
+  position: absolute;
+  bottom: 0;
   width: 100vw;
+  height: 20px;
+  margin: 0 auto;
+  background-color: #e3e2eb;
+}
+.footer-text {
+  text-align: center;
 }
 
 .home-background {
-  height: 100vh;
+  height: 80vh;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.home-background-img {
+  height: auto;
+  width: 100%;
+  transform: translate(0%, -40%);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.home-background-button {
+  width: 10px;
+  height: 10px;
+  z-index: 30;
+  position: relative;
 }
 .home-text {
   height: 200px;
@@ -92,6 +130,7 @@
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */

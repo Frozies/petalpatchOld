@@ -20,17 +20,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Currently the grass still doest fill the screen properly. I attempted to implement a hook which checks when the divs start going off the screen, but now im thinking if I set an initial height I can keep checking for that and then just stop after it changes.">
-      <change afterPath="$PROJECT_DIR$/src/components/homepage/ParallaxContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/FlowerBanner_New.jpg" afterDir="false" />
+    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Working on parallax">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/Grass.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/homepage/LandingPage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homepage/ParallaxContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/ParallaxContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_navbar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
@@ -87,14 +85,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images" />
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\scss" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\footer" />
       <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\homepage" />
       <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\navigation" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images" />
-      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\scss" />
     </key>
   </component>
   <component name="RunManager">
@@ -137,7 +135,8 @@
       <workItem from="1606000716295" duration="591000" />
       <workItem from="1606005099113" duration="605000" />
       <workItem from="1606007264548" duration="1037000" />
-      <workItem from="1606053151583" duration="2748000" />
+      <workItem from="1606053151583" duration="4079000" />
+      <workItem from="1606094618647" duration="2390000" />
     </task>
     <task id="LOCAL-00001" summary="Updated some styles">
       <created>1605320307508</created>
@@ -230,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605917564810</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Working on parallax">
+      <created>1606056058493</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1606056058493</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers>
       <Trello>
         <option name="currentBoard">
@@ -322,7 +328,8 @@
     <MESSAGE value="Added grass to footer." />
     <MESSAGE value="Sunflowers" />
     <MESSAGE value="Currently the grass still doest fill the screen properly. I attempted to implement a hook which checks when the divs start going off the screen, but now im thinking if I set an initial height I can keep checking for that and then just stop after it changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Currently the grass still doest fill the screen properly. I attempted to implement a hook which checks when the divs start going off the screen, but now im thinking if I set an initial height I can keep checking for that and then just stop after it changes." />
+    <MESSAGE value="Working on parallax" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on parallax" />
   </component>
   <component name="WindowStateProjectService">
     <state x="364" y="356" width="1025" height="334" key="#File_Watchers" timestamp="1605244531545">
@@ -369,22 +376,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605661168748" />
-    <state width="1325" height="291" key="GridCell.Tab.0.bottom" timestamp="1606053226928">
+    <state width="1323" height="291" key="GridCell.Tab.0.bottom" timestamp="1606096499011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1325" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606053226928" />
-    <state width="1325" height="291" key="GridCell.Tab.0.center" timestamp="1606053226928">
+    <state width="1323" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606096499011" />
+    <state width="1323" height="291" key="GridCell.Tab.0.center" timestamp="1606096499011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1325" height="291" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606053226928" />
-    <state width="1325" height="291" key="GridCell.Tab.0.left" timestamp="1606053226927">
+    <state width="1323" height="291" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606096499011" />
+    <state width="1323" height="291" key="GridCell.Tab.0.left" timestamp="1606096499011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1325" height="291" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606053226927" />
-    <state width="1325" height="291" key="GridCell.Tab.0.right" timestamp="1606053226928">
+    <state width="1323" height="291" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606096499011" />
+    <state width="1323" height="291" key="GridCell.Tab.0.right" timestamp="1606096499011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1325" height="291" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606053226928" />
+    <state width="1323" height="291" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606096499011" />
     <state x="183" y="85" key="MergeDialog" timestamp="1605470491071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -6,12 +6,15 @@
   border: none;
   background: $navbar-color;
   box-shadow: 0 2px 2px -2px rgba(0,0,0,1);
+  z-index: 25;
 ;
 
   &-text {
     @extend .nav;
+    position: relative;
     align-items: center;
     font-family: 'Gamja Flower', cursive; //TODO: Change this damn font
+    z-index: 25;
   }
 
   &-menu {
@@ -26,9 +29,10 @@
     background-color: $navbar-color;
     box-shadow: none;
     margin: 0 5px 0 5px;
+    z-index: 26;
   }
 
-  &-button:hover {
+/*  &-button:hover {
     @extend .nav-button;
 
   }
@@ -36,7 +40,7 @@
   &-button:active {
     @extend .nav-button;
 
-  }
+  }*/
 
   &-search {
     @extend .nav;
@@ -56,7 +60,6 @@
       border: 2px solid lighten($sunset-teal, 20);
       border-radius: 15px 0 0 15px;
       box-shadow: 0 2px 2px -2px rgba(0,0,0,0.2);
-
     }
 
     &-bar:focus {
@@ -73,6 +76,7 @@
     order: 3;
     justify-content: flex-end;
     align-content: flex-end;
+
 
     &-amount {
       height: 25px;
@@ -92,5 +96,6 @@
   width: 100px;
   height: 100px;
   position: absolute;
+  z-index: 26;
 
 }

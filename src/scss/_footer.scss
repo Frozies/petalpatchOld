@@ -1,6 +1,14 @@
 @import "config";
 
 .footer {
-  margin-bottom: -5rem;
+  position: absolute;
+  bottom: 0;
   width: 100vw;
+  height: 20px;
+  margin: 0 auto;
+  background-color: $navbar-color;
+
+  &-text {
+    text-align: center;
+  }
 }

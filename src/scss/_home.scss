@@ -3,8 +3,29 @@
 .home {
 
   &-background {
-    height: 100vh;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+
+    &-img {
+      height: auto;
+      width: 100%;
+      transform: translate(0%,-40%);
+      position: relative;
+      z-index: 1;
+      overflow: hidden;
+    }
+
+  &-button {
+    width: 10px;
+    height: 10px;
+    z-index: 30;
+    position: relative;
   }
+  }
+
+
 
   &-text {
     height: 200px;

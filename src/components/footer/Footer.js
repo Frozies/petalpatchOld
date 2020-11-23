@@ -5,7 +5,7 @@ function Footer(){
     return (
         <div  className={"footer"}>
             <div className={"footer"}>
-                <p>Copyright &copy; {(new Date().getFullYear())}</p>
+                <p className={"footer-text"}>Copyright &copy; {(new Date().getFullYear())}</p>
             </div>
         </div>
     )
