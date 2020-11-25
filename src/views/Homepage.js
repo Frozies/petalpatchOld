@@ -5,6 +5,10 @@ function Homepage() {
     return (
         <div>
             <Parallax/>
+            {/*Recommended */}
+            {/*About us*/}
+            {/*Awards and bandit*/}
+            {/*Location*/}
         </div>
     );
 }

@@ -6,11 +6,10 @@ import ProductGallery from "./views/ProductGallery";
 import { BrowserRouter as Router, Switch , Route } from 'react-router-dom'
 import Navbar from "./components/navigation/Navbar";
 import Footer from "./components/footer/Footer";
-import {ParallaxProvider} from "react-scroll-parallax";
+
 
 function App() {
   return (
-  <ParallaxProvider>
       <Router>
           {/*Import the navbar and the footer so it stays on every page. If I understand react properly, only the switch
        div gets updated.*/}
@@ -25,7 +24,6 @@ function App() {
           </Switch>
           <Footer/>
       </Router>
-  </ParallaxProvider>
   );
 }
 
