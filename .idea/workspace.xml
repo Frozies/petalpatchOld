@@ -20,20 +20,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Working on parallax and fixed footer">
-      <change afterPath="$PROJECT_DIR$/src/components/Container.js" afterDir="false" />
+    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Hero Photo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/homepage/ParallaxContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/ParallaxContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_config.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_config.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Homepage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +132,10 @@
       <workItem from="1606164264185" duration="3579000" />
       <workItem from="1606172096090" duration="1778000" />
       <workItem from="1606174731119" duration="142000" />
-      <workItem from="1606250506959" duration="5162000" />
+      <workItem from="1606250506959" duration="5186000" />
+      <workItem from="1606347078304" duration="608000" />
+      <workItem from="1606700043444" duration="543000" />
+      <workItem from="1606760350272" duration="476000" />
     </task>
     <task id="LOCAL-00001" summary="Updated some styles">
       <created>1605320307508</created>
@@ -251,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606097041834</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Hero Photo">
+      <created>1606273209490</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1606273209490</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers>
       <Trello>
         <option name="currentBoard">
@@ -345,7 +343,8 @@
     <MESSAGE value="Currently the grass still doest fill the screen properly. I attempted to implement a hook which checks when the divs start going off the screen, but now im thinking if I set an initial height I can keep checking for that and then just stop after it changes." />
     <MESSAGE value="Working on parallax" />
     <MESSAGE value="Working on parallax and fixed footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on parallax and fixed footer" />
+    <MESSAGE value="Hero Photo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hero Photo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="364" y="356" width="1025" height="334" key="#File_Watchers" timestamp="1605244531545">
@@ -392,22 +391,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605661168748" />
-    <state width="1317" height="263" key="GridCell.Tab.0.bottom" timestamp="1606269798342">
+    <state width="1317" height="263" key="GridCell.Tab.0.bottom" timestamp="1606273224211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1317" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606269798342" />
-    <state width="1317" height="263" key="GridCell.Tab.0.center" timestamp="1606269798342">
+    <state width="1317" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606273224211" />
+    <state width="1317" height="263" key="GridCell.Tab.0.center" timestamp="1606273224211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1317" height="263" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606269798342" />
-    <state width="1317" height="263" key="GridCell.Tab.0.left" timestamp="1606269798342">
+    <state width="1317" height="263" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606273224211" />
+    <state width="1317" height="263" key="GridCell.Tab.0.left" timestamp="1606273224211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1317" height="263" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606269798342" />
-    <state width="1317" height="263" key="GridCell.Tab.0.right" timestamp="1606269798342">
+    <state width="1317" height="263" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606273224211" />
+    <state width="1317" height="263" key="GridCell.Tab.0.right" timestamp="1606273224211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1317" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606269798342" />
+    <state width="1317" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606273224211" />
     <state x="183" y="85" key="MergeDialog" timestamp="1605470491071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -428,10 +427,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="701" y="327" key="SimpleOpenTaskDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470481023" />
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2" timestamp="1605917580273">
+    <state x="551" y="250" key="Vcs.Push.Dialog.v2" timestamp="1606273222216">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605917580273" />
+    <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606273222216" />
     <state x="746" y="171" key="VcsDiffUtil.ChangesDialog" timestamp="1605470936890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
