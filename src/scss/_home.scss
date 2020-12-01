@@ -1,4 +1,7 @@
 @import "config";
+*{
+  //overflow: hidden;
+}
 
 .home {
 
@@ -77,10 +80,10 @@
 }
 
 .parallaxImage {
-  height: 100vh;
+  height: 65vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: bottom;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -124,4 +127,34 @@
   }
   &:focus {}
   border: none;
+}
+
+.productPreview {
+  width: 250px;
+  height: 250px;
+  border: 2px solid #1C6EA4;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+  &-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.recommended {
+  &-text {
+    width: 100%;
+  }
+  &-products {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+
+.contact {
+
 }
