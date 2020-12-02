@@ -20,17 +20,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Hero Photo">
-      <change afterPath="$PROJECT_DIR$/src/components/product-page/ProductPreview.js" afterDir="false" />
+    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Added Recommended section. learned some flexbox.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/homepage/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/homepage/Recommended.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/Recommended.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Homepage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +142,10 @@
       <workItem from="1606700043444" duration="543000" />
       <workItem from="1606760350272" duration="1241000" />
       <workItem from="1606778093038" duration="2426000" />
-      <workItem from="1606784836692" duration="2428000" />
+      <workItem from="1606784836692" duration="2457000" />
+      <workItem from="1606791432034" duration="1660000" />
+      <workItem from="1606858023861" duration="11000" />
+      <workItem from="1606863278640" duration="1486000" />
     </task>
     <task id="LOCAL-00001" summary="Updated some styles">
       <created>1605320307508</created>
@@ -268,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606760840339</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Added Recommended section. learned some flexbox.">
+      <created>1606788205527</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1606788205527</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers>
       <Trello>
         <option name="currentBoard">
@@ -363,7 +368,8 @@
     <MESSAGE value="Working on parallax" />
     <MESSAGE value="Working on parallax and fixed footer" />
     <MESSAGE value="Hero Photo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hero Photo" />
+    <MESSAGE value="Added Recommended section. learned some flexbox." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Recommended section. learned some flexbox." />
   </component>
   <component name="WindowStateProjectService">
     <state x="364" y="356" width="1025" height="334" key="#File_Watchers" timestamp="1605244531545">
@@ -410,22 +416,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606787756584" />
-    <state width="1313" height="263" key="GridCell.Tab.0.bottom" timestamp="1606785699431">
+    <state width="1312" height="263" key="GridCell.Tab.0.bottom" timestamp="1606853179049">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1313" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606785699431" />
-    <state width="1313" height="263" key="GridCell.Tab.0.center" timestamp="1606785699431">
+    <state width="1312" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606853179049" />
+    <state width="1312" height="263" key="GridCell.Tab.0.center" timestamp="1606853179049">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1313" height="263" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606785699431" />
-    <state width="1313" height="263" key="GridCell.Tab.0.left" timestamp="1606785699431">
+    <state width="1312" height="263" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606853179049" />
+    <state width="1312" height="263" key="GridCell.Tab.0.left" timestamp="1606853179049">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1313" height="263" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606785699431" />
-    <state width="1313" height="263" key="GridCell.Tab.0.right" timestamp="1606785699431">
+    <state width="1312" height="263" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606853179049" />
+    <state width="1312" height="263" key="GridCell.Tab.0.right" timestamp="1606853179049">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1313" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606785699431" />
+    <state width="1312" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606853179049" />
     <state x="183" y="85" key="MergeDialog" timestamp="1605470491071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

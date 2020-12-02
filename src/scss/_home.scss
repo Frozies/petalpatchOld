@@ -108,13 +108,16 @@
 
 .heroButton {
   background-color: lighten($navbar-color,0.9);
-  padding: 10px;
-  margin: 120px;
   border-radius: 2px;
   -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
   transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
   transform: scale(1);
   border: none;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 25px;
+  margin: 100px;
 
   &:active {
     background-color: $navbar-color;
@@ -142,6 +145,8 @@
     width: 100%;
     height: auto;
   }
+
+  /*TODO: on hover/click enlarge current, and shrink adjacent*/
 }
 
 .recommended {
