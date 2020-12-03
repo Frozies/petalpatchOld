@@ -22,7 +22,13 @@
   <component name="ChangeListManager">
     <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Added Recommended section. learned some flexbox.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/homepage/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/unused/icons8-facebook-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons8-facebook-64.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/unused/icons8-google-maps-old-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons8-google-maps-old-64.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/unused/icons8-instagram-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons8-instagram-64.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/unused/icons8-phone-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons8-phone-64.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/unused/icons8-yelp-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons8-yelp-64.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css.map" afterDir="false" />
@@ -78,16 +84,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\product-page" />
-      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images" />
-      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\scss" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images" />
       <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src" />
       <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\homepage" />
       <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\footer" />
       <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\navigation" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\product-page" />
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images" />
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\scss" />
     </key>
   </component>
   <component name="RunManager">
@@ -145,7 +152,9 @@
       <workItem from="1606784836692" duration="2457000" />
       <workItem from="1606791432034" duration="1660000" />
       <workItem from="1606858023861" duration="11000" />
-      <workItem from="1606863278640" duration="1486000" />
+      <workItem from="1606863278640" duration="2890000" />
+      <workItem from="1606880570073" duration="596000" />
+      <workItem from="1606958212677" duration="987000" />
     </task>
     <task id="LOCAL-00001" summary="Updated some styles">
       <created>1605320307508</created>
@@ -273,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606788205527</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Added flex to the hero buttons">
+      <created>1606871107281</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1606871107281</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers>
       <Trello>
         <option name="currentBoard">
@@ -369,7 +385,8 @@
     <MESSAGE value="Working on parallax and fixed footer" />
     <MESSAGE value="Hero Photo" />
     <MESSAGE value="Added Recommended section. learned some flexbox." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Recommended section. learned some flexbox." />
+    <MESSAGE value="Added flex to the hero buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added flex to the hero buttons" />
   </component>
   <component name="WindowStateProjectService">
     <state x="364" y="356" width="1025" height="334" key="#File_Watchers" timestamp="1605244531545">
@@ -416,22 +433,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606787756584" />
-    <state width="1312" height="263" key="GridCell.Tab.0.bottom" timestamp="1606853179049">
+    <state width="1309" height="263" key="GridCell.Tab.0.bottom" timestamp="1606959080413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1312" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606853179049" />
-    <state width="1312" height="263" key="GridCell.Tab.0.center" timestamp="1606853179049">
+    <state width="1309" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606959080413" />
+    <state width="1309" height="263" key="GridCell.Tab.0.center" timestamp="1606959080413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1312" height="263" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606853179049" />
-    <state width="1312" height="263" key="GridCell.Tab.0.left" timestamp="1606853179049">
+    <state width="1309" height="263" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606959080413" />
+    <state width="1309" height="263" key="GridCell.Tab.0.left" timestamp="1606959080413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1312" height="263" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606853179049" />
-    <state width="1312" height="263" key="GridCell.Tab.0.right" timestamp="1606853179049">
+    <state width="1309" height="263" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606959080413" />
+    <state width="1309" height="263" key="GridCell.Tab.0.right" timestamp="1606959080413">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1312" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606853179049" />
+    <state width="1309" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606959080413" />
     <state x="183" y="85" key="MergeDialog" timestamp="1605470491071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

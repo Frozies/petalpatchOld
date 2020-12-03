@@ -161,5 +161,9 @@
 
 
 .contact {
+  display: flex;
+  justify-content: space-between;
+  &-map {
+  }
 
 }
