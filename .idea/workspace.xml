@@ -20,31 +20,19 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Contact Info stuff and a temporary map">
-      <change afterPath="$PROJECT_DIR$/src/components/homepage/About.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Awards/2018Award.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Awards/2019Award.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Awards/2020Award.jpg" afterDir="false" />
+    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Homepage about information">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/homepage/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/homepage/ParallaxContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/ParallaxContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/homepage/Recommended.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/Recommended.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigation/NavCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/NavCart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigation/NavMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/NavMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigation/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/product-page/ProductPreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/product-page/ProductPreview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons8-facebook-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-facebook-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons8-food-cart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-food-cart.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons8-google-maps-old-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-google-maps-old-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons8-instagram-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-instagram-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons8-phone-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-phone-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons8-search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-search.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons8-sunflower.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-sunflower.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons8-xbox-menu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-xbox-menu.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons8-yelp-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-yelp-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/About.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Homepage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/unused/icons8-address-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-address-64.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/unused/icons8-best-seller-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-best-seller-64.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/unused/icons8-discount-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-discount-64.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/unused/icons8-home-address-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-home-address-64.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/unused/icons8-in-transit-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-in-transit-64.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/unused/icons8-mage-staff-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-mage-staff-64.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/unused/icons8-mana-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-mana-64.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/unused/icons8-new-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-new-64.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/unused/icons8-packaging-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-packaging-64.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/unused/icons8-stripe-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-stripe-64.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +156,7 @@
       <workItem from="1606858023861" duration="11000" />
       <workItem from="1606863278640" duration="2890000" />
       <workItem from="1606880570073" duration="596000" />
-      <workItem from="1606958212677" duration="1868000" />
+      <workItem from="1606958212677" duration="2693000" />
     </task>
     <task id="LOCAL-00001" summary="Updated some styles">
       <created>1605320307508</created>
@@ -317,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606959228371</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Homepage about information">
+      <created>1606960177251</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1606960177251</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers>
       <Trello>
         <option name="currentBoard">
@@ -415,7 +410,8 @@
     <MESSAGE value="Added Recommended section. learned some flexbox." />
     <MESSAGE value="Added flex to the hero buttons" />
     <MESSAGE value="Contact Info stuff and a temporary map" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contact Info stuff and a temporary map" />
+    <MESSAGE value="Homepage about information" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homepage about information" />
   </component>
   <component name="WindowStateProjectService">
     <state x="364" y="356" width="1025" height="334" key="#File_Watchers" timestamp="1605244531545">
@@ -498,10 +494,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="701" y="327" key="SimpleOpenTaskDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470481023" />
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2" timestamp="1606959234257">
+    <state x="551" y="250" key="Vcs.Push.Dialog.v2" timestamp="1606960308580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606959234257" />
+    <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606960308580" />
     <state x="746" y="171" key="VcsDiffUtil.ChangesDialog" timestamp="1605470936890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
