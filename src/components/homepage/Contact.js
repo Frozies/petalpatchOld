@@ -1,9 +1,9 @@
 import React from "react";
-import {ReactComponent as Facebook} from "../../images/icons8-facebook-64.svg";
-import {ReactComponent as Phone} from "../../images/icons8-phone-64.svg";
-import {ReactComponent as Instagram} from "../../images/icons8-instagram-64.svg";
-import {ReactComponent as Yelp} from "../../images/icons8-yelp-64.svg";
-import {ReactComponent as Maps} from "../../images/icons8-google-maps-old-64.svg";
+import {ReactComponent as Facebook} from "../../images/Icons/icons8-facebook-64.svg";
+import {ReactComponent as Phone} from "../../images/Icons/icons8-phone-64.svg";
+import {ReactComponent as Instagram} from "../../images/Icons/icons8-instagram-64.svg";
+import {ReactComponent as Yelp} from "../../images/Icons/icons8-yelp-64.svg";
+import {ReactComponent as Maps} from "../../images/Icons/icons8-google-maps-old-64.svg";
 import TempMap from "../../images/TempMap.png";
 
 function Contact(){

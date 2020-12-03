@@ -20,6 +20,9 @@ const ParallaxImage = () => {
                     Holidays
                 </button>
                <button className={"heroButton"}>
+                    Weddings
+                </button>
+               <button className={"heroButton"}>
                    Special Occasions
                </button>
                <button className={"heroButton"}>

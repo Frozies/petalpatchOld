@@ -1,5 +1,5 @@
 import React from "react";
-import {ReactComponent as MagnifyIcon} from '../../images/icons8-search.svg';
+import {ReactComponent as MagnifyIcon} from '../../images/Icons/icons8-search.svg';
 import NavMenu from "./NavMenu";
 import NavCart from "./NavCart";
 

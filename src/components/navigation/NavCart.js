@@ -1,5 +1,5 @@
 import React from 'react';
-import {ReactComponent as ShoppingCart} from "../../images/icons8-food-cart.svg";
+import {ReactComponent as ShoppingCart} from "../../images/Icons/icons8-food-cart.svg";
 
 function NavCart () {
 

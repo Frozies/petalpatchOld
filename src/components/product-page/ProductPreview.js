@@ -1,5 +1,5 @@
 import React from "react";
-import {ReactComponent as ProductImg} from "../../images/icons8-sunflower.svg";
+import {ReactComponent as ProductImg} from "../../images/Icons/icons8-sunflower.svg";
 
 
 function ProductPreview(){

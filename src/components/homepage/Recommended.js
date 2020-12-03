@@ -13,8 +13,6 @@ function Recommended(){
                 <ProductPreview/>
                 <ProductPreview/>
                 <ProductPreview/>
-                <ProductPreview/>
-                <ProductPreview/>
             </div>
         </div>
     )

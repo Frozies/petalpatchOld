@@ -20,18 +20,31 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Added Recommended section. learned some flexbox.">
+    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Contact Info stuff and a temporary map">
+      <change afterPath="$PROJECT_DIR$/src/components/homepage/About.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Awards/2018Award.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Awards/2019Award.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/Awards/2020Award.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/homepage/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/unused/icons8-facebook-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons8-facebook-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/unused/icons8-google-maps-old-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons8-google-maps-old-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/unused/icons8-instagram-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons8-instagram-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/unused/icons8-phone-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons8-phone-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/unused/icons8-yelp-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/icons8-yelp-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homepage/ParallaxContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/ParallaxContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homepage/Recommended.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/Recommended.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation/NavCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/NavCart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation/NavMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/NavMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/product-page/ProductPreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/product-page/ProductPreview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons8-facebook-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-facebook-64.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons8-food-cart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-food-cart.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons8-google-maps-old-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-google-maps-old-64.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons8-instagram-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-instagram-64.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons8-phone-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-phone-64.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons8-search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-search.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons8-sunflower.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-sunflower.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons8-xbox-menu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-xbox-menu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/icons8-yelp-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Icons/icons8-yelp-64.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/About.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Homepage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +87,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.7" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/product-page" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/homepage" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="C:\Users\xshre\WebstormProjects\petal-patch\node_modules\yarn" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -85,13 +98,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images\Icons" />
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images\Awards" />
       <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images" />
       <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src" />
       <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\homepage" />
-      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\footer" />
-      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\navigation" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\homepage" />
       <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\product-page" />
       <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images" />
       <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\scss" />
@@ -154,7 +168,7 @@
       <workItem from="1606858023861" duration="11000" />
       <workItem from="1606863278640" duration="2890000" />
       <workItem from="1606880570073" duration="596000" />
-      <workItem from="1606958212677" duration="987000" />
+      <workItem from="1606958212677" duration="1868000" />
     </task>
     <task id="LOCAL-00001" summary="Updated some styles">
       <created>1605320307508</created>
@@ -289,7 +303,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606871107281</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Contact Info stuff and a temporary map">
+      <created>1606959219736</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1606959219736</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Contact Info stuff and a temporary map">
+      <created>1606959228371</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1606959228371</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers>
       <Trello>
         <option name="currentBoard">
@@ -386,7 +414,8 @@
     <MESSAGE value="Hero Photo" />
     <MESSAGE value="Added Recommended section. learned some flexbox." />
     <MESSAGE value="Added flex to the hero buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added flex to the hero buttons" />
+    <MESSAGE value="Contact Info stuff and a temporary map" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contact Info stuff and a temporary map" />
   </component>
   <component name="WindowStateProjectService">
     <state x="364" y="356" width="1025" height="334" key="#File_Watchers" timestamp="1605244531545">
@@ -413,10 +442,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="655" y="228" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605244589924" />
-    <state x="216" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605668978963">
+    <state x="216" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606959748507">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="216" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605668978963" />
+    <state x="216" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606959748507" />
     <state x="582" y="0" key="CommitChangelistDialog2" timestamp="1605470789688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -433,22 +462,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606787756584" />
-    <state width="1309" height="263" key="GridCell.Tab.0.bottom" timestamp="1606959080413">
+    <state width="1309" height="263" key="GridCell.Tab.0.bottom" timestamp="1606960077984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1309" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606959080413" />
-    <state width="1309" height="263" key="GridCell.Tab.0.center" timestamp="1606959080413">
+    <state width="1309" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606960077984" />
+    <state width="1309" height="263" key="GridCell.Tab.0.center" timestamp="1606960077984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1309" height="263" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606959080413" />
-    <state width="1309" height="263" key="GridCell.Tab.0.left" timestamp="1606959080413">
+    <state width="1309" height="263" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606960077984" />
+    <state width="1309" height="263" key="GridCell.Tab.0.left" timestamp="1606960077984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1309" height="263" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606959080413" />
-    <state width="1309" height="263" key="GridCell.Tab.0.right" timestamp="1606959080413">
+    <state width="1309" height="263" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606960077984" />
+    <state width="1309" height="263" key="GridCell.Tab.0.right" timestamp="1606960077984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1309" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606959080413" />
+    <state width="1309" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606960077984" />
     <state x="183" y="85" key="MergeDialog" timestamp="1605470491071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -469,10 +498,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="701" y="327" key="SimpleOpenTaskDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470481023" />
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2" timestamp="1606760852726">
+    <state x="551" y="250" key="Vcs.Push.Dialog.v2" timestamp="1606959234257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606760852726" />
+    <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606959234257" />
     <state x="746" y="171" key="VcsDiffUtil.ChangesDialog" timestamp="1605470936890">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

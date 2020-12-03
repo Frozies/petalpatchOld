@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {ReactComponent as Menu} from "../../images/icons8-xbox-menu.svg";
+import {ReactComponent as Menu} from "../../images/Icons/icons8-xbox-menu.svg";
 import {useTransition, animated} from 'react-spring'
 
 function NavMenu() {
