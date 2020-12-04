@@ -7,7 +7,27 @@
   margin: 0 auto;
   background-color: $navbar-color;
 
-  &-text {
-    text-align: center;
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &-address {
+    order: 1;
+  }
+
+  &-copy {
+    flex-direction: column;
+    order: 2;
+    width: fit-content;
+
+    svg {
+      width: 48px;
+      flex-direction: row;
+    }
+  }
+
+  &-social {
+    order: 3
   }
 }

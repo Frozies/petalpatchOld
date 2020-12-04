@@ -165,5 +165,34 @@
   justify-content: space-between;
   &-map {
   }
+}
 
+.about {
+  display: flex;
+
+  span {
+    margin: 50px;
+    font-size: 1.7rem;
+  }
+
+  img {
+    width: 1000px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 50px;
+  }
+
+  &-awards {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 30px;
+
+    img {
+      width: 400px;
+      height: auto;
+    }
+  }
 }

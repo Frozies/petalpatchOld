@@ -88,9 +88,25 @@
   height: 115px;
   margin: 0 auto;
   background-color: #e3e2eb;
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.footer-text {
-  text-align: center;
+.footer-address {
+  order: 1;
+}
+.footer-copy {
+  flex-direction: column;
+  order: 2;
+  width: fit-content;
+}
+.footer-copy svg {
+  width: 48px;
+  flex-direction: row;
+}
+.footer-social {
+  order: 3;
 }
 
 .home-background {
@@ -232,6 +248,32 @@
   display: flex;
   justify-content: space-between;
 }
+.about {
+  display: flex;
+}
+.about span {
+  margin: 50px;
+  font-size: 1.7rem;
+}
+.about img {
+  width: 1000px;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  margin: 50px;
+}
+.about-awards {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 30px;
+}
+.about-awards img {
+  width: 400px;
+  height: auto;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
