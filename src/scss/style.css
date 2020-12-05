@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap");
 .nav, .nav-cart, .nav-search, .nav-menu, .nav-text {
   height: 50px;
   display: flex;
@@ -21,6 +25,7 @@
   position: relative;
   align-items: center;
   font-family: "Gamja Flower", cursive;
+  font-size: 3.5rem;
   z-index: 25;
 }
 .nav-menu {

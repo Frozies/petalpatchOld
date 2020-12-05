@@ -20,13 +20,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Icons and footer">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Did some layout stuff on the homepage. adjusted about layout. Adjusted award layout. adjusted footer layout">
+      <change afterPath="$PROJECT_DIR$/src/fonts/GamjaFlower-Regular.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/homepage/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_config.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_config.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_navbar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css.map" afterDir="false" />
     </list>
@@ -71,29 +69,29 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.7" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.10" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/homepage" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="C:\Users\xshre\WebstormProjects\petal-patch\node_modules\yarn" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="start.from.branch" value="master" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images\Icons" />
-      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images\Awards" />
-      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images" />
-      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src" />
-      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\homepage" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\homepage" />
       <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\product-page" />
       <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images" />
       <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\scss" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\fonts" />
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images\Icons" />
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images\Awards" />
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images" />
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src" />
     </key>
   </component>
   <component name="RunManager">
@@ -155,7 +153,12 @@
       <workItem from="1606880570073" duration="596000" />
       <workItem from="1606958212677" duration="3290000" />
       <workItem from="1607029437622" duration="125000" />
-      <workItem from="1607041081674" duration="2690000" />
+      <workItem from="1607041081674" duration="2753000" />
+      <workItem from="1607120042057" duration="622000" />
+      <workItem from="1607125408193" duration="29000" />
+      <workItem from="1607125546667" duration="121000" />
+      <workItem from="1607125677019" duration="897000" />
+      <workItem from="1607138787873" duration="1422000" />
     </task>
     <task id="LOCAL-00001" summary="Updated some styles">
       <created>1605320307508</created>
@@ -318,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606960934406</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Did some layout stuff on the homepage. adjusted about layout. Adjusted award layout. adjusted footer layout">
+      <created>1607045549920</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1607045549920</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers>
       <Trello>
         <option name="currentBoard">
@@ -418,132 +428,7 @@
     <MESSAGE value="Contact Info stuff and a temporary map" />
     <MESSAGE value="Homepage about information" />
     <MESSAGE value="Icons and footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Icons and footer" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="364" y="356" width="1025" height="334" key="#File_Watchers" timestamp="1605244531545">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="364" y="356" width="1025" height="334" key="#File_Watchers/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605244531545" />
-    <state x="221" y="346" key="#Notifications" timestamp="1605244441881">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="221" y="346" key="#Notifications/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605244441881" />
-    <state x="667" y="260" key="#Servers" timestamp="1605320213244">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="667" y="260" key="#Servers/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605320213244" />
-    <state x="759" y="355" key="#Usage_Scope" timestamp="1605416727199">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="759" y="355" key="#Usage_Scope/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605416727199" />
-    <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605243324005">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605243324005" />
-    <state x="655" y="228" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1605244589924">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="655" y="228" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605244589924" />
-    <state x="216" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606959748507">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="216" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606959748507" />
-    <state x="582" y="0" key="CommitChangelistDialog2" timestamp="1605470789688">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="582" y="0" key="CommitChangelistDialog2/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470789688" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1605470940273">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470940273" />
-    <state x="544" y="296" key="EditFileWatcherDialog" timestamp="1605244590557">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="544" y="296" key="EditFileWatcherDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605244590557" />
-    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1606787756584">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606787756584" />
-    <state width="1308" height="263" key="GridCell.Tab.0.bottom" timestamp="1607045193773">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1308" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1607045193773" />
-    <state width="1308" height="263" key="GridCell.Tab.0.center" timestamp="1607045193772">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1308" height="263" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1607045193772" />
-    <state width="1308" height="263" key="GridCell.Tab.0.left" timestamp="1607045193772">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1308" height="263" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1607045193772" />
-    <state width="1308" height="263" key="GridCell.Tab.0.right" timestamp="1607045193772">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1308" height="263" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1607045193772" />
-    <state x="183" y="85" key="MergeDialog" timestamp="1605470491071">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="183" y="85" key="MergeDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470491071" />
-    <state x="597" y="280" key="MultipleFileMergeDialog" timestamp="1605471001906">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="597" y="280" key="MultipleFileMergeDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605471001906" />
-    <state x="740" y="139" key="RollbackChangesDialog" timestamp="1605470719939">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="139" key="RollbackChangesDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470719939" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1605659498973">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605659498973" />
-    <state x="701" y="327" key="SimpleOpenTaskDialog" timestamp="1605470481023">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="701" y="327" key="SimpleOpenTaskDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470481023" />
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2" timestamp="1606960308580">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606960308580" />
-    <state x="746" y="171" key="VcsDiffUtil.ChangesDialog" timestamp="1605470936890">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="746" y="171" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470936890" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1605470613772">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470613772" />
-    <state x="739" y="198" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606268427472">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="739" y="198" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606268427472" />
-    <state x="776" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605470893911">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="776" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470893911" />
-    <state x="739" y="150" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605470638260">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="739" y="150" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470638260" />
-    <state x="738" y="408" key="git4idea.ui.GitResetDialog" timestamp="1605470920904">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="738" y="408" key="git4idea.ui.GitResetDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470920904" />
-    <state x="719" y="306" key="git4idea.ui.GitUnstashDialog" timestamp="1605450468927">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="719" y="306" key="git4idea.ui.GitUnstashDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605450468927" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1605918074610">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605918074610" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606250579332">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1606250579332" />
-    <state x="380" y="260" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1605450796420">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="380" y="260" key="vcs.ApplyPatchDifferentiatedDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605450796420" />
+    <MESSAGE value="Did some layout stuff on the homepage. adjusted about layout. Adjusted award layout. adjusted footer layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Did some layout stuff on the homepage. adjusted about layout. Adjusted award layout. adjusted footer layout" />
   </component>
 </project>
