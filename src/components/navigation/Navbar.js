@@ -12,7 +12,7 @@ function Navbar(){
 
            <div className={"nav-search"}>
                <input className={"nav-search-bar"} placeholder="What are you looking for?" type="text"/>
-               <button className={"nav-button"} type={"button"}>
+               <button className={"nav-search-button"} type={"button"}>
                    <MagnifyIcon/>
                </button>
            </div>
