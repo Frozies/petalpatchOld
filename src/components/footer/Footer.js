@@ -18,13 +18,12 @@ function Footer(){
             </div>
 
             <div className={"footer-copy"}>
-
-                <h5>Copyright &copy; {(new Date().getFullYear())}</h5>
-                <span>
-                    <Mana/>
-                        <h5>Made with love by Davin</h5>
-                    <Mana/>
-                </span>
+                <Mana/>
+                <div className={"footer-copy-text"}>
+                    <h4>Copyright &copy; {(new Date().getFullYear())}</h4>
+                    <h6>Made with love by Davin</h6>
+                </div>
+                <Mana/>
             </div>
 
             <div className={"footer-social"}>
