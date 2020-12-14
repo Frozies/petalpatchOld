@@ -7,8 +7,8 @@ import {
     Marker
 } from "react-google-maps";
 
-let lat = 26.55775;
-let long = -81.90906;
+let lat = 26.557743543050716;
+let long = -81.90906157831229;
 
 const MyMapComponent = compose(
 

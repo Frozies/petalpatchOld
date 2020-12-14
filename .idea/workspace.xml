@@ -20,8 +20,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Added Google Maps! :D">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Added marker to map">
       <change beforePath="$PROJECT_DIR$/src/components/homepage/GoogleMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/GoogleMap.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +164,7 @@
       <workItem from="1607823511842" duration="2408000" />
       <workItem from="1607875101564" duration="6104000" />
       <workItem from="1607896066529" duration="594000" />
-      <workItem from="1607908189108" duration="667000" />
+      <workItem from="1607908189108" duration="788000" />
     </task>
     <task id="LOCAL-00001" summary="Updated some styles">
       <created>1605320307508</created>
@@ -377,7 +376,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607908210592</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Added marker to map">
+      <created>1607908915211</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1607908915211</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Added marker to map">
+      <created>1607908924097</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1607908924097</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers>
       <Trello>
         <option name="currentBoard">
@@ -459,7 +472,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <confirmRemoveEmptyChangelist value="2" />
-    <MESSAGE value="Updated some styles" />
     <MESSAGE value="Css stuff with navbar" />
     <MESSAGE value="Removed button responsivness in order to create the menu overlap. Setup a react spring shrinking animation later for the buttons." />
     <MESSAGE value="Got the menu working, but buttons dont work. I want to check to see if H1 is broken in the pushed build." />
@@ -484,6 +496,7 @@
     <MESSAGE value="Navbar stuff" />
     <MESSAGE value="Footer flex working" />
     <MESSAGE value="Added Google Maps! :D" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Google Maps! :D" />
+    <MESSAGE value="Added marker to map" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added marker to map" />
   </component>
 </project>
