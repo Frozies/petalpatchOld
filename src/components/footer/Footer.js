@@ -11,10 +11,12 @@ function Footer(){
     return (
         <div  className={"footer"}>
             <div className={"footer-address"}>
-                239-xxx-xxxx
-                {/*Petal Patch*/}
-                {/*Address*/}
-                {/*Phone Number*/}
+                <h1>The Petal Patch</h1>
+
+                <a href={"https://goo.gl/maps/JZmf9mFHg56jrx9N9"} target="_blank" rel="noreferrer">
+                    12715-2 McGregor Boulevard, Fort Myers, FL, 33919, United States</a>
+                <br/>
+                <a href="tel:239-208-3116">239-208-3116</a>
             </div>
 
             <div className={"footer-copy"}>
@@ -33,7 +35,6 @@ function Footer(){
                 <Yelp/>
                 <Maps/>
             </div>
-
         </div>
     )
 }

@@ -4,9 +4,10 @@ import {ReactComponent as Phone} from "../../images/Icons/icons8-phone-64.svg";
 import {ReactComponent as Instagram} from "../../images/Icons/icons8-instagram-64.svg";
 import {ReactComponent as Yelp} from "../../images/Icons/icons8-yelp-64.svg";
 import {ReactComponent as Maps} from "../../images/Icons/icons8-google-maps-old-64.svg";
-import TempMap from "../../images/TempMap.png";
+import MyMapComponent from "./GoogleMap";
 
 function Contact(){
+
     return (
         <div className={"contact"}>
             <div className={"contact-info"}>
@@ -24,7 +25,7 @@ function Contact(){
                 <h2>Saturday: 10:00 AM - 12:00 PM</h2>
             </div>
             <div className={"contact-map"}>
-                <img src={TempMap} className={"contact-map"} alt={"Map"}/>
+                <MyMapComponent/>
             </div>
         </div>
     )
