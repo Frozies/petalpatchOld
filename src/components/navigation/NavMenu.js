@@ -7,14 +7,17 @@ function NavMenu() {
 
     return (
         <div className={"nav-menu"}>
-
-            <div className={"navMenu-anim"}>
-                <Menu isOpen={ isMenuOpen }>
-                    <a id="home" className="menu-item" href="/">Home</a>
-                    <a id="about" className="menu-item" href="/about">About</a>
-                    <a id="contact" className="menu-item" href="/contact">Contact</a>
+            {/*Sidebar Menu*/}
+                <Menu isOpen={ isMenuOpen } className={"navMenu"}>
+                    <div className={"navMenu-content"}>
+                        <h1>Petal Patch</h1>
+                        <a id="home" className="menu-item" href="/">Home</a>
+                        <br/>
+                        <a id="about" className="menu-item" href="/about">About</a>
+                        <br/>
+                        <a id="contact" className="menu-item" href="/contact">Contact</a>
+                    </div>
                 </Menu>
-            </div>
 
 
             {/*Actual button*/}

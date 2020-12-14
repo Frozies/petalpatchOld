@@ -102,15 +102,17 @@
 }
 
 .navMenu {
-  width: 200px;
-  height: 200px;
-  background-color: #ff0000;
-  position: fixed;
+  width: 20vw;
+  background: #e3e2eb;
   z-index: 999;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
-.navMenu-anim {
-  position: fixed;
-  z-index: 999;
+.navMenu-content {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
 }
 
 .footer {

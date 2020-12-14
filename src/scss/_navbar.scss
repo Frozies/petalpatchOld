@@ -114,14 +114,15 @@
 }
 
 .navMenu {
-  width: 200px;
-  height: 200px;
-  background-color: #ff0000;
-  position: fixed;
+  width: 20vw;
+  background: $navbar-color;
   z-index: 999;
-
-  &-anim {  //TODO: I should probably rearrange these.
-    position: fixed;
-    z-index: 999;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  &-content {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
   }
 }
