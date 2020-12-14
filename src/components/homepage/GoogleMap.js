@@ -22,7 +22,7 @@ const MyMapComponent = compose(
     withScriptjs,
     withGoogleMap
 )(props => (
-    <GoogleMap defaultZoom={20} defaultCenter={{ lat: lat, lng: long }}>
+    <GoogleMap defaultZoom={15} defaultCenter={{ lat: lat, lng: long }}>
         <Marker position={{ lat: lat, lng: long }} />
     </GoogleMap>
 ));
