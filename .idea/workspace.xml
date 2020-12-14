@@ -20,17 +20,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Footer flex working">
-      <change afterPath="$PROJECT_DIR$/src/components/homepage/GoogleMap.js" afterDir="false" />
+    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Added Google Maps! :D">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/homepage/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homepage/GoogleMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/GoogleMap.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +165,7 @@
       <workItem from="1607823511842" duration="2408000" />
       <workItem from="1607875101564" duration="6104000" />
       <workItem from="1607896066529" duration="594000" />
+      <workItem from="1607908189108" duration="667000" />
     </task>
     <task id="LOCAL-00001" summary="Updated some styles">
       <created>1605320307508</created>
@@ -377,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607875658454</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Added Google Maps! :D">
+      <created>1607908210592</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1607908210592</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers>
       <Trello>
         <option name="currentBoard">
@@ -483,6 +483,7 @@
     <MESSAGE value="Fixed a bug with the menu overlay staying inside of a parent div and not properly laying on top of the webpage.&#10;&#10;I fixed this by wrapping the animation function inside of a div with fixed position and 999 z-index. super simple fix." />
     <MESSAGE value="Navbar stuff" />
     <MESSAGE value="Footer flex working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Footer flex working" />
+    <MESSAGE value="Added Google Maps! :D" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Google Maps! :D" />
   </component>
 </project>
