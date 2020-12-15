@@ -20,12 +20,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Repositioned the marker">
+    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Added some customization to the menu. I plan to finish this one first then copy the styles over to the cart menu.">
+      <change afterPath="$PROJECT_DIR$/src/scss/_burger_menu.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigation/NavMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/NavMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_navbar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +170,9 @@
       <workItem from="1607823511842" duration="2408000" />
       <workItem from="1607875101564" duration="6104000" />
       <workItem from="1607896066529" duration="594000" />
-      <workItem from="1607908189108" duration="1968000" />
+      <workItem from="1607908189108" duration="2061000" />
+      <workItem from="1607982187358" duration="593000" />
+      <workItem from="1608069269099" duration="1905000" />
     </task>
     <task id="LOCAL-00001" summary="Updated some styles">
       <created>1605320307508</created>
@@ -401,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607909032710</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Added some customization to the menu. I plan to finish this one first then copy the styles over to the cart menu.">
+      <created>1607910205641</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1607910205641</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers>
       <Trello>
         <option name="currentBoard">
@@ -483,7 +494,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <confirmRemoveEmptyChangelist value="2" />
-    <MESSAGE value="Removed button responsivness in order to create the menu overlap. Setup a react spring shrinking animation later for the buttons." />
     <MESSAGE value="Got the menu working, but buttons dont work. I want to check to see if H1 is broken in the pushed build." />
     <MESSAGE value="Revert &quot;Menu done for now.&quot;&#10;&#10;This reverts commit 44b1597a" />
     <MESSAGE value="Menu done for now." />
@@ -508,6 +518,7 @@
     <MESSAGE value="Added Google Maps! :D" />
     <MESSAGE value="Added marker to map" />
     <MESSAGE value="Repositioned the marker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Repositioned the marker" />
+    <MESSAGE value="Added some customization to the menu. I plan to finish this one first then copy the styles over to the cart menu." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some customization to the menu. I plan to finish this one first then copy the styles over to the cart menu." />
   </component>
 </project>
