@@ -8,7 +8,7 @@ function NavMenu() {
     return (
         <div className={"nav-menu"}>
             {/*Sidebar Menu*/}
-                <Menu isOpen={ isMenuOpen } className={"navMenu"}>
+                <Menu isOpen={ isMenuOpen } className={"navMenu"} customBurgerIcon={ false }>
                     <div className={"navMenu-content"}>
                         <h1>Petal Patch</h1>
                         <a id="home" className="menu-item" href="/">Home</a>

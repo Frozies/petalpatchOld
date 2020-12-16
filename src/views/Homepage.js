@@ -3,6 +3,7 @@ import Parallax from "../components/homepage/ParallaxContainer";
 import Recommended from "../components/homepage/Recommended";
 import Contact from "../components/homepage/Contact";
 import About from "../components/homepage/About";
+import Awards from "../components/homepage/Awards";
 
 function Homepage() {
     return (
@@ -10,6 +11,7 @@ function Homepage() {
             <Parallax/>
             <Recommended/>
             <About/>
+            <Awards/>
             <Contact/>
         </div>
     );

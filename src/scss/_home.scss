@@ -97,7 +97,7 @@
     align-items: center;
     align-content: center;
     flex-wrap: nowrap;
-    padding: 10px;
+    width: 100vw;
   }
 
 @media (min-width: 650px ) {
@@ -117,7 +117,7 @@
   justify-content: space-between;
   align-content: space-between;
   padding: 25px;
-  margin: 100px;
+
 
   &:active {
     background-color: $navbar-color;
@@ -170,7 +170,10 @@
 }
 
 .about {
+  width: 100vw;
   display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 
   span {
     margin: 50px;
@@ -178,23 +181,43 @@
   }
 
   img {
-    width: 1000px;
+    width: 100vw;
     height: auto;
-    display: flex;
     justify-content: flex-start;
     align-content: center;
-    margin: 50px;
   }
 
-  &-awards {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    margin: 30px;
+  &-info {
+    width: 100vw;
+  }
+}
 
-    img {
-      width: 400px;
-      height: auto;
-    }
+.awards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 1040px;
+  margin: 0 auto;
+
+  &-box {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc(25% - 10px);
+    margin: 5px;
+
+  }
+
+  &-img-wrapper {
+    overflow: hidden;
+    position: relative;
+  }
+
+  &-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  img {
+    width: 100%;
   }
 }
