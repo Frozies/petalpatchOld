@@ -2,8 +2,8 @@
 
 .footer {
   bottom: 0;
-  width: 100vw;
-  height: 115px;
+  width: 100%;
+  height: auto;
   margin: 0 auto;
   background-color: $navbar-color;
   display: flex;
@@ -12,6 +12,7 @@
   justify-items: center;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 
 
   &-address {
