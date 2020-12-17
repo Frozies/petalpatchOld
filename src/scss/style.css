@@ -39,6 +39,7 @@
   }
 }
 .nav-menu {
+  display: flex;
   flex: 2;
   order: 1;
 }
@@ -53,6 +54,7 @@
   order: 2;
   width: 100%;
   flex: 3;
+  display: flex;
 }
 @media only screen and (max-width: 768px) {
   .nav-search {
@@ -96,6 +98,7 @@
   border: 2px solid #6CC2BD;
 }
 .nav-cart {
+  display: flex;
   flex: 2;
   order: 3;
   justify-content: flex-end;

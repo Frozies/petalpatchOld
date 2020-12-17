@@ -20,10 +20,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Moved awards to its own component. Added proper flex styling as well.">
+    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Oh im starting to break things again. I added proper flex to the navigation bar so it can be &quot;responsive&quot;. I made the navigation bar always stuck to the top because people looking through the catalog should always have a way back to a different part of the website. I think I might make the product catalog scroll infinitely.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_navbar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css.map" afterDir="false" />
@@ -173,7 +172,7 @@
       <workItem from="1607982187358" duration="593000" />
       <workItem from="1608069269099" duration="3880000" />
       <workItem from="1608087458878" duration="149000" />
-      <workItem from="1608155974781" duration="6269000" />
+      <workItem from="1608155974781" duration="6962000" />
     </task>
     <task id="LOCAL-00001" summary="Updated some styles">
       <created>1605320307508</created>
@@ -427,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608162859690</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Oh im starting to break things again. I added proper flex to the navigation bar so it can be &quot;responsive&quot;. I made the navigation bar always stuck to the top because people looking through the catalog should always have a way back to a different part of the website. I think I might make the product catalog scroll infinitely.">
+      <created>1608164010197</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1608164010197</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers>
       <Trello>
         <option name="currentBoard">
@@ -509,7 +515,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <confirmRemoveEmptyChangelist value="2" />
-    <MESSAGE value="Menu done for now." />
     <MESSAGE value="Created website template." />
     <MESSAGE value="Added grass to footer." />
     <MESSAGE value="Sunflowers" />
@@ -534,6 +539,7 @@
     <MESSAGE value="Added some customization to the menu. I plan to finish this one first then copy the styles over to the cart menu." />
     <MESSAGE value="Added CSS styling for the navigation menus." />
     <MESSAGE value="Moved awards to its own component. Added proper flex styling as well." />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved awards to its own component. Added proper flex styling as well." />
+    <MESSAGE value="Oh im starting to break things again. I added proper flex to the navigation bar so it can be &quot;responsive&quot;. I made the navigation bar always stuck to the top because people looking through the catalog should always have a way back to a different part of the website. I think I might make the product catalog scroll infinitely." />
+    <option name="LAST_COMMIT_MESSAGE" value="Oh im starting to break things again. I added proper flex to the navigation bar so it can be &quot;responsive&quot;. I made the navigation bar always stuck to the top because people looking through the catalog should always have a way back to a different part of the website. I think I might make the product catalog scroll infinitely." />
   </component>
 </project>
