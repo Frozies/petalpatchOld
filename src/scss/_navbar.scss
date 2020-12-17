@@ -14,9 +14,8 @@
     position: relative;
     align-items: center;
     font-family: 'Gamja Flower', cursive;
-    width: 100%;
-    height: auto;
-    font-size: 100%;
+
+
 
     @media only screen and (max-width: 768px) {
       font-size: 0;
@@ -27,6 +26,7 @@
     display: flex;
     flex: 2;
     order: 1;
+
   }
 
   &-button {
@@ -52,6 +52,7 @@
     width: 100%;
     flex: 3;
     display: flex;
+    align-content: center;
 
     @media only screen and (max-width: 768px) {
       flex: 9;
@@ -101,12 +102,11 @@
   }
 
   &-cart {
+    align-content: center;
     display: flex;
     flex: 2;
     order: 3;
     justify-content: flex-end;
-    align-content: flex-end;
-
 
     &-amount {
       height: 25px;
@@ -124,14 +124,20 @@
 .navMenu {
   width: 20vw;
   background: $navbar-color;
-  z-index: 999;
   display: flex;
   justify-content: center;
   text-align: center;
+
+  position: relative;
+  z-index: 50000;
+
   &-content {
     display: flex;
     flex-direction: column;
     padding: 50px;
     border: none;
+
+    position: relative;
+    z-index: 50000;
   }
 }

@@ -17,7 +17,6 @@
   &-button {
     width: 10px;
     height: 10px;
-    z-index: 30;
     position: relative;
   }
   }
@@ -71,14 +70,6 @@
   height: 70vh;
 }
 
-.BOX {
-  width: 100%;
-  height: 500px;
-  background-color: RED;
-  z-index: 50;
-  position: relative;
-}
-
 .parallaxImage {
   height: 65vh;
   background-size: cover;
@@ -89,6 +80,8 @@
   align-items: center;
   align-content: center;
   flex-wrap: nowrap;
+  position: relative;
+  z-index: -2;
 }
 
   .parallaxContent {
@@ -98,6 +91,8 @@
     align-content: center;
     flex-wrap: nowrap;
     width: 100vw;
+    position: relative;
+    z-index: -1;
   }
 
 @media (min-width: 650px ) {
@@ -163,6 +158,7 @@
 .contact {
   display: flex;
   justify-content: space-between;
+
   &-map {
     height: 500px;
     width: 500px;
@@ -210,6 +206,7 @@
   &-img-wrapper {
     overflow: hidden;
     position: relative;
+    z-index: -1;
   }
 
   &-row {
@@ -218,6 +215,12 @@
   }
 
   img {
+    position: relative;
     width: 100%;
   }
+}
+
+.mapContainer {
+  height: 400px;
+  position: relative;
 }
