@@ -20,16 +20,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Pretty much fixed the layout issues with the navbar resizing. Today is a glorious day!">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/homepage/GoogleMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/GoogleMap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_burger_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_burger_menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.css~parent of 44b1597 (Menu done for now.)" beforeDir="false" />
-    </list>
+    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Attempted to fix google maps. the zindex is weird." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +169,7 @@
       <workItem from="1608155974781" duration="11398000" />
       <workItem from="1608170470901" duration="1073000" />
       <workItem from="1608173286700" duration="1140000" />
-      <workItem from="1608174590326" duration="627000" />
+      <workItem from="1608174590326" duration="660000" />
     </task>
     <task id="LOCAL-00001" summary="Updated some styles">
       <created>1605320307508</created>
@@ -446,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608164526202</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Attempted to fix google maps. the zindex is weird.">
+      <created>1608175255370</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1608175255370</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers>
       <Trello>
         <option name="currentBoard">
@@ -528,7 +526,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <confirmRemoveEmptyChangelist value="2" />
-    <MESSAGE value="Added grass to footer." />
     <MESSAGE value="Sunflowers" />
     <MESSAGE value="Currently the grass still doest fill the screen properly. I attempted to implement a hook which checks when the divs start going off the screen, but now im thinking if I set an initial height I can keep checking for that and then just stop after it changes." />
     <MESSAGE value="Working on parallax" />
@@ -553,6 +550,7 @@
     <MESSAGE value="Moved awards to its own component. Added proper flex styling as well." />
     <MESSAGE value="Oh im starting to break things again. I added proper flex to the navigation bar so it can be &quot;responsive&quot;. I made the navigation bar always stuck to the top because people looking through the catalog should always have a way back to a different part of the website. I think I might make the product catalog scroll infinitely." />
     <MESSAGE value="Pretty much fixed the layout issues with the navbar resizing. Today is a glorious day!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pretty much fixed the layout issues with the navbar resizing. Today is a glorious day!" />
+    <MESSAGE value="Attempted to fix google maps. the zindex is weird." />
+    <option name="LAST_COMMIT_MESSAGE" value="Attempted to fix google maps. the zindex is weird." />
   </component>
 </project>
