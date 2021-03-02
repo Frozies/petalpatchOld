@@ -7,7 +7,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .nav {
-  position: fixed;
   height: auto;
   width: 100%;
   display: flex;

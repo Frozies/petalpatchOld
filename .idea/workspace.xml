@@ -20,7 +20,22 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Attempted to fix google maps. the zindex is weird." />
+    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Attempted to fix google maps. the zindex is weird.">
+      <change afterPath="$PROJECT_DIR$/ product logs/cottoncandy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ product logs/possiblypink.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/AdminHome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Got_the_menu_working__but_buttons_dont_work__I_want_to_check_to_see_if_H1_is_broken_in_the.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Got_the_menu_working__but_buttons_dont_work__I_want_to_check_to_see_if_H1_is_broken_in_the.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_15_2020_3_01_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_15_2020_3_01_PM__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_15_2020_3_01_PM__Got_the_menu_working__but_butto.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_11_15_2020_3_01_PM__Got_the_menu_working__but_butto.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +63,13 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Frozies/petal-patch" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1kDl4HMBsTQ91yLvMOcuQS3UMgj" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -62,29 +84,29 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.10" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/homepage" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.31" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
-    <property name="nodejs_package_manager_path" value="C:\Users\xshre\WebstormProjects\petal-patch\node_modules\yarn" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="start.from.branch" value="master" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Davin\Documents\GitHub\petal-patch\src\public-site" />
+      <recent name="C:\Users\Davin\Documents\GitHub\petal-patch\public-site" />
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\fonts" />
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images\Icons" />
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images\Awards" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\homepage" />
       <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\product-page" />
       <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images" />
       <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\scss" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\fonts" />
-      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images\Icons" />
-      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images\Awards" />
-      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images" />
-      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src" />
     </key>
   </component>
   <component name="RunManager">
@@ -170,6 +192,12 @@
       <workItem from="1608170470901" duration="1073000" />
       <workItem from="1608173286700" duration="1140000" />
       <workItem from="1608174590326" duration="660000" />
+      <workItem from="1614519588314" duration="393000" />
+      <workItem from="1614520935926" duration="9205000" />
+      <workItem from="1614530545113" duration="151000" />
+      <workItem from="1614532422038" duration="8579000" />
+      <workItem from="1614553010455" duration="3289000" />
+      <workItem from="1614653362841" duration="520000" />
     </task>
     <task id="LOCAL-00001" summary="Updated some styles">
       <created>1605320307508</created>
@@ -552,5 +580,39 @@
     <MESSAGE value="Pretty much fixed the layout issues with the navbar resizing. Today is a glorious day!" />
     <MESSAGE value="Attempted to fix google maps. the zindex is weird." />
     <option name="LAST_COMMIT_MESSAGE" value="Attempted to fix google maps. the zindex is weird." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="845" y="354" key="#File_Watchers" timestamp="1614548187653">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="845" y="354" key="#File_Watchers/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1614548187653" />
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1614653887910">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1614653887910" />
+    <state width="1899" height="281" key="GridCell.Tab.0.center" timestamp="1614653887910">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="281" key="GridCell.Tab.0.center/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1614653887910" />
+    <state width="1899" height="281" key="GridCell.Tab.0.left" timestamp="1614653887910">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="281" key="GridCell.Tab.0.left/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1614653887910" />
+    <state width="1899" height="281" key="GridCell.Tab.0.right" timestamp="1614653887910">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="281" key="GridCell.Tab.0.right/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1614653887910" />
+    <state x="922" y="168" key="SettingsEditor" timestamp="1614548251847">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="922" y="168" key="SettingsEditor/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1614548251847" />
+    <state x="568" y="167" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1614528203168">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="568" y="167" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1614528203168" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614547064220">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1614547064220" />
   </component>
 </project>
