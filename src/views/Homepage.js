@@ -7,6 +7,8 @@ import Awards from "../components/homepage/Awards";
 
 function Homepage() {
     return (
+
+        /*does the website need to be this compressed?*/
         <div>
             <Parallax/>
             <Recommended/>

@@ -16,12 +16,16 @@ app.use(function(req, res, next) {
 
 /*Information delivered to the "/admin" page
 * stats of inventory levels and warning signs
-* products that need to be delivered today
+* Products that need to be delivered today
 * products that dont need to be delivered today
 * Google maps link to show a location of every individual recipient per product
-* recipients phone number & address are the most simple but important details of delivery (aside from a smile)
+* Recipients phone number & address are the most simple but important details of delivery (aside from a smile)
 * Delivery confirmation reports with timestamps. Needs to take a photo for success or give a small description of reason
 * for failure.
+*
+* I am going to start following https://12factor.net/
+*
+* Product data
 *
 *
 * Critical successful florist plan -

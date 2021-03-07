@@ -13,7 +13,7 @@ function About(){
                 <div className={"img-wrapper"}>
                     <img src={Bandit} alt={"Bandit"}/>
                 </div>
-                <span> {/*TODO: Reread this and check for spelling errors*/}
+                <span> {'<script>alert(1)</script>'}
                     We here at The Petal Patch are more than just a florist we are family. We love what we do here
                     everyday and this is our happy place. Our arrangements are made with smiles and love. With more then
                     25 years of floral design let us design the perfect bouquet for you! Whether it be an anniversary,

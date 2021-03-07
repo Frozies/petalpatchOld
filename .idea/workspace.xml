@@ -20,9 +20,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Started adding in semantic ui for backend. started styling in product ripper">
+    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="COMMENTING IS IMPORTANT">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homepage/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Homepage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +194,7 @@
       <workItem from="1614819965633" duration="2010000" />
       <workItem from="1614889194242" duration="1256000" />
       <workItem from="1614896745721" duration="1438000" />
-      <workItem from="1615096977555" duration="7693000" />
+      <workItem from="1615096977555" duration="12046000" />
     </task>
     <task id="LOCAL-00001" summary="Updated some styles">
       <created>1605320307508</created>
@@ -474,7 +476,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614819717461</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="COMMENTING IS IMPORTANT">
+      <created>1615109904559</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1615109904559</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers>
       <Trello>
         <option name="currentBoard">
@@ -556,7 +565,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <confirmRemoveEmptyChangelist value="2" />
-    <MESSAGE value="Currently the grass still doest fill the screen properly. I attempted to implement a hook which checks when the divs start going off the screen, but now im thinking if I set an initial height I can keep checking for that and then just stop after it changes." />
     <MESSAGE value="Working on parallax" />
     <MESSAGE value="Working on parallax and fixed footer" />
     <MESSAGE value="Hero Photo" />
@@ -581,37 +589,38 @@
     <MESSAGE value="Pretty much fixed the layout issues with the navbar resizing. Today is a glorious day!" />
     <MESSAGE value="Attempted to fix google maps. the zindex is weird." />
     <MESSAGE value="Started adding in semantic ui for backend. started styling in product ripper" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started adding in semantic ui for backend. started styling in product ripper" />
+    <MESSAGE value="COMMENTING IS IMPORTANT" />
+    <option name="LAST_COMMIT_MESSAGE" value="COMMENTING IS IMPORTANT" />
   </component>
   <component name="WindowStateProjectService">
     <state x="845" y="354" key="#File_Watchers" timestamp="1614548187653">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="845" y="354" key="#File_Watchers/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1614548187653" />
-    <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1615096983158">
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1615143366401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.bottom/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615096983158" />
-    <state width="1899" height="281" key="GridCell.Tab.0.center" timestamp="1615096983158">
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615143366401" />
+    <state width="1899" height="281" key="GridCell.Tab.0.center" timestamp="1615143366401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.center/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615096983158" />
-    <state width="1899" height="281" key="GridCell.Tab.0.left" timestamp="1615096983157">
+    <state width="1899" height="281" key="GridCell.Tab.0.center/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615143366401" />
+    <state width="1899" height="281" key="GridCell.Tab.0.left" timestamp="1615143366401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.left/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615096983157" />
-    <state width="1899" height="281" key="GridCell.Tab.0.right" timestamp="1615096983158">
+    <state width="1899" height="281" key="GridCell.Tab.0.left/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615143366401" />
+    <state width="1899" height="281" key="GridCell.Tab.0.right" timestamp="1615143366401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="281" key="GridCell.Tab.0.right/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615096983158" />
+    <state width="1899" height="281" key="GridCell.Tab.0.right/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615143366401" />
     <state x="922" y="168" key="SettingsEditor" timestamp="1614548251847">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="168" key="SettingsEditor/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1614548251847" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614708828487">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615109920625">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1614708828487" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615109920625" />
     <state x="568" y="167" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1614815049293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
