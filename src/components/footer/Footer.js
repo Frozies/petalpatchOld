@@ -1,70 +1,41 @@
-import React, {useEffect, useRef, useState} from "react";
-import Grass from "./Grass";
-import Dimensions from "http";
+import React from "react";
+import {ReactComponent as Mana} from "../../images/Icons/icons8-mana-64.svg";
+import {ReactComponent as Facebook} from "../../images/Icons/icons8-facebook-64.svg";
+import {ReactComponent as Phone} from "../../images/Icons/icons8-phone-64.svg";
+import {ReactComponent as Instagram} from "../../images/Icons/icons8-instagram-64.svg";
+import {ReactComponent as Yelp} from "../../images/Icons/icons8-yelp-64.svg";
+import {ReactComponent as Maps} from "../../images/Icons/icons8-google-maps-old-64.svg";
 
 
 function Footer(){
-
-
-    const MyComponent = () => {
-        const componentRef = useRef();
-        const { width, height } = useContainerDimensions(componentRef);
-
-        return (
-            <div ref={componentRef}>
-                <p>Width: {width}</p>
-                <p>Height: {height}</p>
-            </div>
-        )
-
-    }
-
     return (
-        <div> {MyComponent} WHY DOES THIS NOT WORK </div>
+        <div  className={"footer"}>
+            <div className={"footer-address"}>
+                <h1>The Petal Patch</h1>
+
+                <a href={"https://goo.gl/maps/JZmf9mFHg56jrx9N9"} target="_blank" rel="noreferrer">
+                    12715-2 McGregor Boulevard, Fort Myers, FL, 33919, United States</a>
+                <br/>
+                <a href="tel:239-208-3116">239-208-3116</a>
+            </div>
+
+            <div className={"footer-copy"}>
+                <Mana/>
+                <div className={"footer-copy-text"}>
+                    <h4>Copyright &copy; {(new Date().getFullYear())}</h4>
+                    <h6>Made with love by Davin</h6>
+                </div>
+                <Mana/>
+            </div>
+
+            <div className={"footer-social"}>
+                <Facebook/>
+                <Phone/>
+                <Instagram/>
+                <Yelp/>
+                <Maps/>
+            </div>
+        </div>
     )
-
-
-    // return (
-    //     <div  className={"footer"}>
-    //         <div className={"footer-sky"}>
-    //             <p>Copyright &copy; {(new Date().getFullYear())}</p>
-    //         </div>
-    //         <div className={"footer-ground"}>
-    //             {/*TODO: Fit grass to screen width, and populate with flowers.*/}
-    //             <Grass/>
-    //
-    //         </div>
-    //     </div>
-    // )
-
 }
-export default Footer
-
-/*https://stackoverflow.com/questions/43817118/how-to-get-the-width-of-a-react-element*/
-
-export const useContainerDimensions = myRef => {
-    const getDimensions = () => ({
-        width: myRef.current.offsetWidth,
-        height: myRef.current.offsetHeight
-    })
-
-    const [dimensions, setDimensions] = useState({ width: 0, height: 0 })
-
-    useEffect(() => {
-        const handleResize = () => {
-            setDimensions(getDimensions())
-        }
-
-        if (myRef.current) {
-            setDimensions(getDimensions())
-        }
-
-        window.addEventListener("resize", handleResize)
-
-        return () => {
-            window.removeEventListener("resize", handleResize)
-        }
-    }, [myRef])
-
-    return dimensions;
-};
+export default Footer;

@@ -1,45 +1,32 @@
 import React, { useState } from 'react';
-import {ReactComponent as Menu} from "../../images/icons8-xbox-menu.svg";
-import {useTransition, animated} from 'react-spring'
+import {ReactComponent as MenuIcon} from "../../images/Icons/icons8-xbox-menu.svg";
+ import { slide as Menu } from 'react-burger-menu'
 
 function NavMenu() {
     const [isMenuOpen, setMenuOpen] = useState(false);
 
-    const menuTransitions = useTransition(isMenuOpen, null, {
-        from: { opacity: 0, transform: 'translateX(-100%)' },
-        enter: { opacity: 1, transform: 'translateX(0%)' },
-        leave: { opacity: 0, transform: 'translateX(-100%)' },
-    })
-
     return (
         <div className={"nav-menu"}>
-            {
-                menuTransitions.map(({ item, key, props }) =>
-                    item &&
-                    <animated.div
-                        key={key}
-                        style={props}
-                        className="fixed bg-white top-0 left-0 w-4/5 h-full z-50 shadow p-3"
-                    >
-                        {/*<NavigationMenu*/}
-                        {/*    closeMenu={() => setShowMenu(false)}*/}
-                        {/*/>*/}
-                        <div className={"navMenu"}>
-                            World
-                        </div>
-
-                    </animated.div>
-                )
-            }
+            {/*Sidebar Menu*/}
+                <Menu isOpen={ isMenuOpen } className={"navMenu"} customBurgerIcon={ false }>
+                    <div className={"navMenu-content"}>
+                        <h1>Petal Patch</h1>
+                        <a id="home" className="menu-item" href="/">Home</a>
+                        <br/>
+                        <a id="about" className="menu-item" href="/about">About</a>
+                        <br/>
+                        <a id="contact" className="menu-item" href="/contact">Contact</a>
+                    </div>
+                </Menu>
 
 
-
-
-
+            {/*Actual button*/}
             <button className={"nav-button"} type={"button"} onClick={()=>setMenuOpen(!isMenuOpen)}>
-                <Menu/>
+                <MenuIcon/>
             </button>
-            <h1 className={"nav-text"}>
+
+            {/*Title*/}
+            <h1 className={"nav-title"}>
                 Petal Patch
             </h1>
 

@@ -10,30 +10,21 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/Navbar" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:Content" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="Sunflowers">
+    <list default="true" id="fdbad0f2-103d-46b3-b287-a07e6fdf02d6" name="Default Changelist" comment="COMMENTING IS IMPORTANT">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/Grass.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Grass.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/homepage/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/homepage/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Homepage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +45,20 @@
     <option name="NEW_BASE" value="master" />
   </component>
   <component name="Git.Settings">
+    <branch-grouping />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="5faf3c9b402be46a9dfe5b7c" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/Frozies/petal-patch" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1kDl4HMBsTQ91yLvMOcuQS3UMgj" />
   <component name="ProjectLevelVcsManager">
@@ -73,25 +71,32 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.7" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/scss" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.31" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
-    <property name="nodejs_package_manager_path" value="C:\Users\xshre\WebstormProjects\petal-patch\node_modules\yarn" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="start.from.branch" value="master" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\scss" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\footer" />
+      <recent name="C:\Users\Davin\Documents\GitHub\petal-patch\src\public-site" />
+      <recent name="C:\Users\Davin\Documents\GitHub\petal-patch\public-site" />
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\fonts" />
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images\Icons" />
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images\Awards" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\homepage" />
-      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\navigation" />
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\components\product-page" />
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\images" />
+      <recent name="C:\Users\xshre\WebstormProjects\petal-patch\src\scss" />
     </key>
   </component>
   <component name="RunManager">
@@ -129,7 +134,67 @@
       <workItem from="1605659519074" duration="6139000" />
       <workItem from="1605666663130" duration="9249000" />
       <workItem from="1605837484468" duration="1914000" />
-      <workItem from="1605917116438" duration="352000" />
+      <workItem from="1605917116438" duration="1002000" />
+      <workItem from="1605981419189" duration="794000" />
+      <workItem from="1606000716295" duration="591000" />
+      <workItem from="1606005099113" duration="605000" />
+      <workItem from="1606007264548" duration="1037000" />
+      <workItem from="1606053151583" duration="4079000" />
+      <workItem from="1606094618647" duration="2404000" />
+      <workItem from="1606097104587" duration="1810000" />
+      <workItem from="1606100580469" duration="1605000" />
+      <workItem from="1606164264185" duration="3579000" />
+      <workItem from="1606172096090" duration="1778000" />
+      <workItem from="1606174731119" duration="142000" />
+      <workItem from="1606250506959" duration="5186000" />
+      <workItem from="1606347078304" duration="608000" />
+      <workItem from="1606700043444" duration="543000" />
+      <workItem from="1606760350272" duration="1241000" />
+      <workItem from="1606778093038" duration="2426000" />
+      <workItem from="1606784836692" duration="2457000" />
+      <workItem from="1606791432034" duration="1660000" />
+      <workItem from="1606858023861" duration="11000" />
+      <workItem from="1606863278640" duration="2890000" />
+      <workItem from="1606880570073" duration="596000" />
+      <workItem from="1606958212677" duration="3290000" />
+      <workItem from="1607029437622" duration="125000" />
+      <workItem from="1607041081674" duration="2753000" />
+      <workItem from="1607120042057" duration="622000" />
+      <workItem from="1607125408193" duration="29000" />
+      <workItem from="1607125546667" duration="121000" />
+      <workItem from="1607125677019" duration="897000" />
+      <workItem from="1607138787873" duration="3102000" />
+      <workItem from="1607188678335" duration="1485000" />
+      <workItem from="1607195018628" duration="869000" />
+      <workItem from="1607198335428" duration="1546000" />
+      <workItem from="1607277288661" duration="1916000" />
+      <workItem from="1607311113144" duration="2525000" />
+      <workItem from="1607721316661" duration="2605000" />
+      <workItem from="1607807400502" duration="594000" />
+      <workItem from="1607823511842" duration="2408000" />
+      <workItem from="1607875101564" duration="6104000" />
+      <workItem from="1607896066529" duration="594000" />
+      <workItem from="1607908189108" duration="2061000" />
+      <workItem from="1607982187358" duration="593000" />
+      <workItem from="1608069269099" duration="3880000" />
+      <workItem from="1608087458878" duration="149000" />
+      <workItem from="1608155974781" duration="11398000" />
+      <workItem from="1608170470901" duration="1073000" />
+      <workItem from="1608173286700" duration="1140000" />
+      <workItem from="1608174590326" duration="660000" />
+      <workItem from="1614519588314" duration="393000" />
+      <workItem from="1614520935926" duration="9205000" />
+      <workItem from="1614530545113" duration="151000" />
+      <workItem from="1614532422038" duration="8579000" />
+      <workItem from="1614553010455" duration="3289000" />
+      <workItem from="1614653362841" duration="520000" />
+      <workItem from="1614708503864" duration="1519000" />
+      <workItem from="1614716608484" duration="2455000" />
+      <workItem from="1614811788714" duration="3887000" />
+      <workItem from="1614819965633" duration="2010000" />
+      <workItem from="1614889194242" duration="1256000" />
+      <workItem from="1614896745721" duration="1438000" />
+      <workItem from="1615096977555" duration="12046000" />
     </task>
     <task id="LOCAL-00001" summary="Updated some styles">
       <created>1605320307508</created>
@@ -215,7 +280,210 @@
       <option name="project" value="LOCAL" />
       <updated>1605739111765</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Currently the grass still doest fill the screen properly. I attempted to implement a hook which checks when the divs start going off the screen, but now im thinking if I set an initial height I can keep checking for that and then just stop after it changes.">
+      <created>1605917564810</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1605917564810</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Working on parallax">
+      <created>1606056058493</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1606056058493</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Working on parallax and fixed footer">
+      <created>1606097041834</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1606097041834</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Hero Photo">
+      <created>1606273209490</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1606273209490</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Hero Photo">
+      <created>1606760840339</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1606760840339</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Added Recommended section. learned some flexbox.">
+      <created>1606788205527</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1606788205527</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Added flex to the hero buttons">
+      <created>1606871107281</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1606871107281</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Contact Info stuff and a temporary map">
+      <created>1606959219736</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1606959219736</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Contact Info stuff and a temporary map">
+      <created>1606959228371</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1606959228371</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Homepage about information">
+      <created>1606960177251</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1606960177251</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Icons and footer">
+      <created>1606960934406</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1606960934406</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Did some layout stuff on the homepage. adjusted about layout. Adjusted award layout. adjusted footer layout">
+      <created>1607045549920</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1607045549920</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Fixed font import and size for navbar">
+      <created>1607176898344</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1607176898344</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Changed font for search bar">
+      <created>1607177711431</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1607177711431</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Fixed a bug with the menu overlay staying inside of a parent div and not properly laying on top of the webpage.&#10;&#10;I fixed this by wrapping the animation function inside of a div with fixed position and 999 z-index. super simple fix.">
+      <created>1607313816789</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1607313816789</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Navbar stuff">
+      <created>1607823864991</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1607823864991</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Footer flex working">
+      <created>1607875658454</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1607875658454</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Added Google Maps! :D">
+      <created>1607908210592</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1607908210592</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Added marker to map">
+      <created>1607908915211</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1607908915211</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Added marker to map">
+      <created>1607908924097</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1607908924097</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Repositioned the marker">
+      <created>1607909032710</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1607909032710</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Added some customization to the menu. I plan to finish this one first then copy the styles over to the cart menu.">
+      <created>1607910205641</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1607910205641</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Added CSS styling for the navigation menus.">
+      <created>1608074251392</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1608074251392</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Moved awards to its own component. Added proper flex styling as well.">
+      <created>1608162859690</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1608162859690</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Oh im starting to break things again. I added proper flex to the navigation bar so it can be &quot;responsive&quot;. I made the navigation bar always stuck to the top because people looking through the catalog should always have a way back to a different part of the website. I think I might make the product catalog scroll infinitely.">
+      <created>1608164010197</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1608164010197</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Pretty much fixed the layout issues with the navbar resizing. Today is a glorious day!">
+      <created>1608164526202</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1608164526202</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Attempted to fix google maps. the zindex is weird.">
+      <created>1608175255370</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1608175255370</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Started adding in semantic ui for backend. started styling in product ripper">
+      <created>1614819717461</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1614819717461</updated>
+    </task>
+    <task id="LOCAL-00043" summary="COMMENTING IS IMPORTANT">
+      <created>1615109904559</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1615109904559</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers>
       <Trello>
         <option name="currentBoard">
@@ -251,7 +519,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/Navbar" />
+                        <option value="Content" />
                       </list>
                     </value>
                   </entry>
@@ -275,7 +543,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/Navbar" />
+                        <option value="Content" />
                       </list>
                     </value>
                   </entry>
@@ -297,133 +565,73 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <confirmRemoveEmptyChangelist value="2" />
-    <MESSAGE value="Updated some styles" />
-    <MESSAGE value="Css stuff with navbar" />
-    <MESSAGE value="Removed button responsivness in order to create the menu overlap. Setup a react spring shrinking animation later for the buttons." />
-    <MESSAGE value="Got the menu working, but buttons dont work. I want to check to see if H1 is broken in the pushed build." />
-    <MESSAGE value="Revert &quot;Menu done for now.&quot;&#10;&#10;This reverts commit 44b1597a" />
-    <MESSAGE value="Menu done for now." />
-    <MESSAGE value="Created website template." />
-    <MESSAGE value="Added grass to footer." />
-    <MESSAGE value="Sunflowers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sunflowers" />
+    <MESSAGE value="Working on parallax" />
+    <MESSAGE value="Working on parallax and fixed footer" />
+    <MESSAGE value="Hero Photo" />
+    <MESSAGE value="Added Recommended section. learned some flexbox." />
+    <MESSAGE value="Added flex to the hero buttons" />
+    <MESSAGE value="Contact Info stuff and a temporary map" />
+    <MESSAGE value="Homepage about information" />
+    <MESSAGE value="Icons and footer" />
+    <MESSAGE value="Did some layout stuff on the homepage. adjusted about layout. Adjusted award layout. adjusted footer layout" />
+    <MESSAGE value="Fixed font import and size for navbar" />
+    <MESSAGE value="Changed font for search bar" />
+    <MESSAGE value="Fixed a bug with the menu overlay staying inside of a parent div and not properly laying on top of the webpage.&#10;&#10;I fixed this by wrapping the animation function inside of a div with fixed position and 999 z-index. super simple fix." />
+    <MESSAGE value="Navbar stuff" />
+    <MESSAGE value="Footer flex working" />
+    <MESSAGE value="Added Google Maps! :D" />
+    <MESSAGE value="Added marker to map" />
+    <MESSAGE value="Repositioned the marker" />
+    <MESSAGE value="Added some customization to the menu. I plan to finish this one first then copy the styles over to the cart menu." />
+    <MESSAGE value="Added CSS styling for the navigation menus." />
+    <MESSAGE value="Moved awards to its own component. Added proper flex styling as well." />
+    <MESSAGE value="Oh im starting to break things again. I added proper flex to the navigation bar so it can be &quot;responsive&quot;. I made the navigation bar always stuck to the top because people looking through the catalog should always have a way back to a different part of the website. I think I might make the product catalog scroll infinitely." />
+    <MESSAGE value="Pretty much fixed the layout issues with the navbar resizing. Today is a glorious day!" />
+    <MESSAGE value="Attempted to fix google maps. the zindex is weird." />
+    <MESSAGE value="Started adding in semantic ui for backend. started styling in product ripper" />
+    <MESSAGE value="COMMENTING IS IMPORTANT" />
+    <option name="LAST_COMMIT_MESSAGE" value="COMMENTING IS IMPORTANT" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="364" y="356" width="1025" height="334" key="#File_Watchers" timestamp="1605244531545">
+    <state x="845" y="354" key="#File_Watchers" timestamp="1614548187653">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="364" y="356" width="1025" height="334" key="#File_Watchers/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605244531545" />
-    <state x="221" y="346" key="#Notifications" timestamp="1605244441881">
+    <state x="845" y="354" key="#File_Watchers/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1614548187653" />
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1615143366401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="221" y="346" key="#Notifications/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605244441881" />
-    <state x="667" y="260" key="#Servers" timestamp="1605320213244">
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615143366401" />
+    <state width="1899" height="281" key="GridCell.Tab.0.center" timestamp="1615143366401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="260" key="#Servers/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605320213244" />
-    <state x="759" y="355" key="#Usage_Scope" timestamp="1605416727199">
+    <state width="1899" height="281" key="GridCell.Tab.0.center/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615143366401" />
+    <state width="1899" height="281" key="GridCell.Tab.0.left" timestamp="1615143366401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="759" y="355" key="#Usage_Scope/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605416727199" />
-    <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605243324005">
+    <state width="1899" height="281" key="GridCell.Tab.0.left/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615143366401" />
+    <state width="1899" height="281" key="GridCell.Tab.0.right" timestamp="1615143366401">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" width="1092" height="738" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605243324005" />
-    <state x="655" y="228" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1605244589924">
+    <state width="1899" height="281" key="GridCell.Tab.0.right/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615143366401" />
+    <state x="922" y="168" key="SettingsEditor" timestamp="1614548251847">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="228" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605244589924" />
-    <state x="216" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605668978963">
+    <state x="922" y="168" key="SettingsEditor/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1614548251847" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1615109920625">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="216" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605668978963" />
-    <state x="582" y="0" key="CommitChangelistDialog2" timestamp="1605470789688">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615109920625" />
+    <state x="568" y="167" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1614815049293">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="582" y="0" key="CommitChangelistDialog2/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470789688" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1605470940273">
+    <state x="568" y="167" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1614815049293" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615103754464">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470940273" />
-    <state x="544" y="296" key="EditFileWatcherDialog" timestamp="1605244590557">
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615103754464" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1615107293499">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="544" y="296" key="EditFileWatcherDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605244590557" />
-    <state x="739" y="274" key="FileChooserDialogImpl" timestamp="1605661168748">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="739" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605661168748" />
-    <state width="1332" height="283" key="GridCell.Tab.0.bottom" timestamp="1605839414838">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1332" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605839414838" />
-    <state width="1332" height="283" key="GridCell.Tab.0.center" timestamp="1605839414838">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1332" height="283" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605839414838" />
-    <state width="1332" height="283" key="GridCell.Tab.0.left" timestamp="1605839414838">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1332" height="283" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605839414838" />
-    <state width="1332" height="283" key="GridCell.Tab.0.right" timestamp="1605839414838">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1332" height="283" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605839414838" />
-    <state x="183" y="85" key="MergeDialog" timestamp="1605470491071">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="183" y="85" key="MergeDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470491071" />
-    <state x="597" y="280" key="MultipleFileMergeDialog" timestamp="1605471001906">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="597" y="280" key="MultipleFileMergeDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605471001906" />
-    <state x="740" y="139" key="RollbackChangesDialog" timestamp="1605470719939">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="139" key="RollbackChangesDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470719939" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1605659498973">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605659498973" />
-    <state x="701" y="327" key="SimpleOpenTaskDialog" timestamp="1605470481023">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="701" y="327" key="SimpleOpenTaskDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470481023" />
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2" timestamp="1605739119273">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605739119273" />
-    <state x="746" y="171" key="VcsDiffUtil.ChangesDialog" timestamp="1605470936890">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="746" y="171" key="VcsDiffUtil.ChangesDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470936890" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1605470613772">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470613772" />
-    <state x="739" y="198" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605838448539">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="739" y="198" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605838448539" />
-    <state x="776" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605470893911">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="776" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470893911" />
-    <state x="739" y="150" key="git4idea.branch.GitSmartOperationDialog" timestamp="1605470638260">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="739" y="150" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470638260" />
-    <state x="738" y="408" key="git4idea.ui.GitResetDialog" timestamp="1605470920904">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="738" y="408" key="git4idea.ui.GitResetDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605470920904" />
-    <state x="719" y="306" key="git4idea.ui.GitUnstashDialog" timestamp="1605450468927">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="719" y="306" key="git4idea.ui.GitUnstashDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605450468927" />
-    <state x="380" y="260" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1605450796420">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="380" y="260" key="vcs.ApplyPatchDifferentiatedDialog/0.0.1920.1040/-1920.94.1920.1040@0.0.1920.1040" timestamp="1605450796420" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.122.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1615107293499" />
   </component>
 </project>
