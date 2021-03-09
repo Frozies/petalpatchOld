@@ -14,14 +14,15 @@ app.use(function(req, res, next) {
     next(); /*NEXT :D*/
 });
 
+app.get('/', async (req, res) => {
+    res.write("Hello world!");
+    res.send();
+})
+
 
 app.get('/admin/', async (req, res) => {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
-
-    /*Console Logging!*/
-    console.log(req.params);
-    console.log("HELLO");
 
     await page.goto('https://www.teleflora.com/bouquet/make-a-wish?prodID=P_TEV13-6A&skuId=TEV13-6A&zipMin='); // URL is given by the "user" (your client-side application)
 

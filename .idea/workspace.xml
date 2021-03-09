@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Moved files around and renamed some stuff. Everything is still broken" />
+    <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Moved files around and renamed some stuff. Everything is still broken">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +88,7 @@
       <workItem from="1615232029686" duration="491000" />
       <workItem from="1615232602319" duration="1266000" />
       <workItem from="1615255114952" duration="1160000" />
+      <workItem from="1615256822315" duration="259000" />
     </task>
     <task id="LOCAL-00001" summary="Moved files around and renamed some stuff. Everything is still broken">
       <created>1615231941492</created>
