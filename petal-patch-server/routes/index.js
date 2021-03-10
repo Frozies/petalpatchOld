@@ -21,7 +21,7 @@ router.get('/', async (req, res) => {
   console.log(req.params);
   console.log("HELLO");
 
-  await page.goto('https://www.teleflora.com/bouquet/make-a-wish?prodID=P_TEV13-6A&skuId=TEV13-6A&zipMin='); // URL is given by the "user" (your client-side application)
+  await page.goto('https://www.teleflora.com/bouquet/make-a-wish?prodID=P_TEV13-6A&skuId=TEV13-6A&zipMin='); // URL is given by the "user" (your petal-patch-client-side application)
 
   const PRICE_SELECTOR = '#sizeRadios > li:nth-child(INDEX)';
 

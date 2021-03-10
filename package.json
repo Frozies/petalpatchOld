@@ -2,7 +2,7 @@
   "name": "petal-patch-monorepo",
   "version": "1.0",
   "scripts": {
-    "start": "npm --prefix client run build",
-    "start": "npm --prefix server run ./bin/www"
+    "start": "npm --prefix petal-patch-client run build",
+    "start": "npm --prefix petal-patch-server run ./bin/www"
   }
 }

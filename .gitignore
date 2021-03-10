@@ -1,8 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/client/node_modules
-/server/node_modules
+/petal-patch-client/node_modules
+/petal-patch-server/node_modules
 /.pnp
 .pnp.js
 
@@ -21,4 +21,4 @@
 
 npm-debug.log*
 yarn-debug.log*
-client/yarn-error.log
+petal-patch-client/yarn-error.log
