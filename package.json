@@ -1,0 +1,8 @@
+{
+  "name": "petal-patch-monorepo",
+  "version": "1.0",
+  "scripts": {
+    "start": "npm --prefix client run build",
+    "start": "npm --prefix server run ./bin/www"
+  }
+}
