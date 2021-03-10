@@ -22,7 +22,6 @@
     <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Moved files around and renamed some stuff. Everything is still broken">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petal-patch-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,17 +51,17 @@
       <recent name="C:\Users\Davin\Documents\GitHub\petal-patch" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.Run Monorepo">
+  <component name="RunManager" selected="npm.Run Backend">
     <configuration name="Run Backend" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <package-json value="$PROJECT_DIR$/petal-patch-server/package.json" />
       <command value="start" />
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
     <configuration name="Run Frontend" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/client/package.json" />
-      <command value="start" />
+      <package-json value="$PROJECT_DIR$/petal-patch-client/package.json" />
+      <command value="build" />
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
@@ -71,6 +70,7 @@
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="start" />
       <node-interpreter value="project" />
+      <package-manager value="npm" />
       <envs />
       <method v="2" />
     </configuration>
@@ -104,7 +104,7 @@
       <workItem from="1615338353271" duration="169000" />
       <workItem from="1615338583351" duration="78000" />
       <workItem from="1615338808960" duration="269000" />
-      <workItem from="1615339091534" duration="17000" />
+      <workItem from="1615339091534" duration="753000" />
     </task>
     <task id="LOCAL-00001" summary="Moved files around and renamed some stuff. Everything is still broken">
       <created>1615231941492</created>
