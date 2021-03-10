@@ -20,93 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Moved files around and renamed some stuff. Everything is still broken">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/petal-patch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/.idea/petal-patch.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/.idea/watcherTasks.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.idea/webResources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/.idea/webResources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/public/logo192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/public/logo512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/public/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Container.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/components/Container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/components/footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/homepage/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/components/homepage/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/homepage/Awards.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/components/homepage/Awards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/homepage/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/components/homepage/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/homepage/GoogleMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/components/homepage/GoogleMap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/homepage/ParallaxContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/components/homepage/ParallaxContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/homepage/Recommended.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/components/homepage/Recommended.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/navigation/NavCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/components/navigation/NavCart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/navigation/NavMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/components/navigation/NavMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/navigation/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/components/navigation/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/product-page/ProductPreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/components/product-page/ProductPreview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/fonts/GamjaFlower-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/fonts/GamjaFlower-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/Awards/2018Award.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/Awards/2018Award.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/Awards/2019Award.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/Awards/2019Award.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/Awards/2020Award.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/Awards/2020Award.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/FlowerBanner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/FlowerBanner.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/FlowerBanner_New.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/FlowerBanner_New.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/Icons/icons8-address-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/Icons/icons8-address-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/Icons/icons8-best-seller-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/Icons/icons8-best-seller-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/Icons/icons8-discount-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/Icons/icons8-discount-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/Icons/icons8-facebook-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/Icons/icons8-facebook-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/Icons/icons8-food-cart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/Icons/icons8-food-cart.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/Icons/icons8-google-maps-old-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/Icons/icons8-google-maps-old-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/Icons/icons8-home-address-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/Icons/icons8-home-address-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/Icons/icons8-in-transit-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/Icons/icons8-in-transit-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/Icons/icons8-instagram-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/Icons/icons8-instagram-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/Icons/icons8-mage-staff-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/Icons/icons8-mage-staff-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/Icons/icons8-mana-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/Icons/icons8-mana-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/Icons/icons8-new-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/Icons/icons8-new-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/Icons/icons8-packaging-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/Icons/icons8-packaging-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/Icons/icons8-phone-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/Icons/icons8-phone-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/Icons/icons8-search.svg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/Icons/icons8-search.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/Icons/icons8-stripe-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/Icons/icons8-stripe-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/Icons/icons8-sunflower.svg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/Icons/icons8-sunflower.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/Icons/icons8-xbox-menu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/Icons/icons8-xbox-menu.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/Icons/icons8-yelp-64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/Icons/icons8-yelp-64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/TempMap.png" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/TempMap.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/images/bandit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/images/bandit.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/scss/_burger_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/scss/_burger_menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/scss/_config.scss" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/scss/_config.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/scss/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/scss/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/scss/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/scss/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/scss/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/scss/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/scss/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/scss/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/scss/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/AdminHome.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/views/AdminHome.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/Checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/views/Checkout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/Homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/views/Homepage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/ProductGallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/views/ProductGallery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/views/ProductPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/src/views/ProductPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-client/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/bin/www" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/public/stylesheets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/routes/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/views/error.jade" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/views/error.jade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/views/index.jade" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/views/index.jade" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/views/layout.jade" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/views/layout.jade" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petal-patch-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +52,7 @@
       <recent name="C:\Users\Davin\Documents\GitHub\petal-patch" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.Run Frontend">
+  <component name="RunManager" selected="npm.Run Monorepo">
     <configuration name="Run Backend" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/server/package.json" />
       <command value="start" />
@@ -151,6 +67,13 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="Run Monorepo" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/client/package.json" />
       <command value="start" />
@@ -160,6 +83,7 @@
     </configuration>
     <list>
       <item itemvalue="npm.Run Frontend" />
+      <item itemvalue="npm.Run Monorepo" />
       <item itemvalue="npm.Run Backend" />
     </list>
   </component>
@@ -179,6 +103,8 @@
       <workItem from="1615332125195" duration="850000" />
       <workItem from="1615338353271" duration="169000" />
       <workItem from="1615338583351" duration="78000" />
+      <workItem from="1615338808960" duration="269000" />
+      <workItem from="1615339091534" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="Moved files around and renamed some stuff. Everything is still broken">
       <created>1615231941492</created>
