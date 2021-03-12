@@ -20,9 +20,10 @@ jobs:
       - name: Authenticate with DigitalOcean Container Registry
         run: doctl registry login --expiry-seconds 600
       - name: Build and Push to DigitalOcean Container Registry
-        uses: docker/build-push-action@v2 --debug
+        uses: docker/build-push-action@v2
         with:
-          context: ./petal-patch-server
+          context: .
+          path: {context}/petal-patch-server/Dockerfile
           push: true
           tags: |
             registry.digitalocean.com/petal-patch-registry/api:latest
