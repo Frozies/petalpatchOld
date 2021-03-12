@@ -9,49 +9,64 @@ for failure.
 
 I am going to start following https://12factor.net/
 
-#Website
-##Critical successful florist plan
 
-####Main screen 
+## Critical successful florist plan
+
+#### Main screen
 Open app and login with authentication
 Need to manage multiple drivers routes assignment
 Show a list of this weeks orders, with an emphasis on today's.
 Show stats of inventory levels warnings (don't put too much information if it's not needed)
+Activities Log (Ie New Orders, Products Added, Deliveries)
 
-####Tools 
+### Tools
 
-#####Product creation
+##### Product creation
 * Product replication (product information from telefora) - > (stripe database)
 * Simple select a preloaded list of holidays, themes/colors, etc.
+* Edit and Remove Current Products
 
-#####Inventory
+##### Inventory
 * Vase based inventory system
 
 
-#####Order screen
-* Gives access to logs & events
+##### Order screen
+* Gives access to logs & events 
+* Order Status (received, Arranged, Assigned Driver, Delivered, Failed To Deliver, Assigned New Driver, success)
 * Show's all the recipients & senders information
-card message
+  card message
 * All the products (including bears, chocolate, balloons)
 * Link to product directly with photos.
 * Print button, with automatic email to printer and business email.
+* Edit Order, cancel Order
+* receive Photos, Status Updates, And Signature From Users
 
 
-###Critical successful delivery plan
+### Critical successful delivery plan
 
 * Open app and login with authentication
-* Get a list of the currently assigned (in correct delivery order too!!!) deliveries, which can be described as showing 
-a photo of the product and giving important recipient information to the driver,
-* With simple swipe maneuvers allow access to update the status of any specific order. Such as confirm, with signature, 
-confirm with photo. or failure with description (and/or PHOTOS).
+* Get a list of the currently assigned (in correct delivery order too!!!) deliveries, which can be described as showing
+  a photo of the product and giving important recipient information to the driver,
+* With simple swipe maneuvers allow access to update the status of any specific order. Such as confirm, with signature,
+  confirm with photo. or failure with description (and/or PHOTOS).
 
-##Databases
+## Databases
 
-#####Product data
+##### Product data
 
-#####Users
+##### Users
 * Drivers
 * Designers
 * Admins
 
-#####Orders
+##### Orders
+
+# Critical Path Customer
+Checkout Stripe
+
+# Todo
+* Github Actions CI/CD
+* Testing With Jest
+* Go Through Dependencies
+* Design Api Getters And Setters
+* Documentation Revamp
