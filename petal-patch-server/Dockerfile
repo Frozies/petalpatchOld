@@ -1,5 +1,5 @@
 FROM node:14-alpine
-WORKDIR /app
+WORKDIR /srv/api
 
 ENV CHROME_BIN="/usr/bin/chromium-browser" \
     PUPPETEER_SKIP_CHROMIUM_DOWNLOAD="true"
@@ -13,8 +13,8 @@ RUN set -x \
     chromium \
     && npm install puppeteer@1.10.0
 
-COPY package.json /app
+COPY package.json /srv/api
 RUN npm install
 RUN npm install puppeteer
-COPY . /app
+COPY . /srv/api
 CMD ["npm", "start", "dev:watch"]
