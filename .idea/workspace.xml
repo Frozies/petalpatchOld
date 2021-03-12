@@ -20,16 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Moved files around and renamed some stuff. Everything is still broken">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/petal-patch-server/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/main-deploy.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petal-patch-server/.dockerginore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/petal-patch-server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petal-patch-server/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/bin/www" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petal-patch-server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petal-patch-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petal-patch-server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +56,7 @@
       <recent name="C:\Users\Davin\Documents\GitHub\petal-patch" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Davin\Documents\GitHub\petal-patch\petal-patch-server" />
       <recent name="C:\Users\Davin\Documents\GitHub\petal-patch" />
     </key>
   </component>
@@ -124,7 +119,7 @@
       <workItem from="1615340271722" duration="439000" />
       <workItem from="1615493285392" duration="3523000" />
       <workItem from="1615502480511" duration="1070000" />
-      <workItem from="1615503651019" duration="6375000" />
+      <workItem from="1615503651019" duration="8253000" />
     </task>
     <task id="LOCAL-00001" summary="Moved files around and renamed some stuff. Everything is still broken">
       <created>1615231941492</created>
@@ -147,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615257292675</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added a dockerfile to the backend. Got everything working with docker on the backend. Updated some of the read me file.">
+      <created>1615510471381</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615510471381</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +170,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Moved files around and renamed some stuff. Everything is still broken" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved files around and renamed some stuff. Everything is still broken" />
+    <MESSAGE value="Added a dockerfile to the backend. Got everything working with docker on the backend. Updated some of the read me file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a dockerfile to the backend. Got everything working with docker on the backend. Updated some of the read me file." />
   </component>
 </project>

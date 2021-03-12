@@ -8,6 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 var app = express();
+let die = false;
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -18,6 +19,20 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
+// Health and Shutdown are for the load balancers
+app.get('/health', async (req, rep) => {
+  if (die) {
+    rep.code(503).send({ status: 'shutdown' });
+  } else {
+    rep.code(200).send({ status: 'ok' });
+  }
+});
+
+app.get('/shutdown', async () => {
+  die = true;
+  return { shutdown: true };
+});
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
