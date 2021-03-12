@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Fixed the api files hopefully">
+    <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Automatic deployment to digital ocean should finally work. The issue was with the registry URL. According to the documentation &quot;registry.digitalocean.com/&lt;registry-name&gt;/&lt;repository_name&gt;&quot; The issue was the repository name.">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main-deploy.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +117,7 @@
       <workItem from="1615340271722" duration="439000" />
       <workItem from="1615493285392" duration="3523000" />
       <workItem from="1615502480511" duration="1070000" />
-      <workItem from="1615503651019" duration="14476000" />
+      <workItem from="1615503651019" duration="14936000" />
     </task>
     <task id="LOCAL-00001" summary="Moved files around and renamed some stuff. Everything is still broken">
       <created>1615231941492</created>
@@ -237,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615519546713</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Automatic deployment to digital ocean should finally work. The issue was with the registry URL. According to the documentation &quot;registry.digitalocean.com/&lt;registry-name&gt;/&lt;repository_name&gt;&quot; The issue was the repository name.">
+      <created>1615519841106</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1615519841108</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +269,7 @@
     <MESSAGE value="Added a dockerfile to the backend. Got everything working with docker on the backend. Updated some of the read me file." />
     <MESSAGE value="Deploy yml file added" />
     <MESSAGE value="Fixed the api files hopefully" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed the api files hopefully" />
+    <MESSAGE value="Automatic deployment to digital ocean should finally work. The issue was with the registry URL. According to the documentation &quot;registry.digitalocean.com/&lt;registry-name&gt;/&lt;repository_name&gt;&quot; The issue was the repository name." />
+    <option name="LAST_COMMIT_MESSAGE" value="Automatic deployment to digital ocean should finally work. The issue was with the registry URL. According to the documentation &quot;registry.digitalocean.com/&lt;registry-name&gt;/&lt;repository_name&gt;&quot; The issue was the repository name." />
   </component>
 </project>
