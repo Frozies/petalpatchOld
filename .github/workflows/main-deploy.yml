@@ -40,7 +40,7 @@ jobs:
           host: ${{ secrets.DO_API1_HOST }}
           username: root
           key: ${{ secrets.DO_API_KEY }}
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          passphrase: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           script: |
             doctl registry login --expiry-seconds 180
@@ -78,7 +78,7 @@ jobs:
           host: ${{ secrets.DO_API2_HOST }}
           username: root
           key: ${{ secrets.DO_API_KEY }}
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          passphrase: ${{ secrets.SSH_PRIVATE_KEY }}
           port: 22
           script: |
             doctl registry login --expiry-seconds 180
