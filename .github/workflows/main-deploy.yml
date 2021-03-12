@@ -38,7 +38,8 @@ jobs:
         uses: appleboy/ssh-action@v0.1.4
         with:
           host: ${{ secrets.DO_API1_HOST }}
-          username: root
+          username: "root"
+          passphrase: ${{ secrets.SSH_PASSPHRASE }}
           key: ${{ secrets.DO_API_KEY }}
           port: 22
           script: |
@@ -75,7 +76,8 @@ jobs:
         uses: appleboy/ssh-action@v0.1.4
         with:
           host: ${{ secrets.DO_API2_HOST }}
-          username: root
+          username: "root"
+          passphrase: ${{ secrets.SSH_PASSPHRASE }}
           key: ${{ secrets.DO_API_KEY }}
           port: 22
           script: |

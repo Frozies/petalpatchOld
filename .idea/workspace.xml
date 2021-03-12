@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Automatic deployment to digital ocean should finally work. The issue was with the registry URL. According to the documentation &quot;registry.digitalocean.com/&lt;registry-name&gt;/&lt;repository_name&gt;&quot; The issue was the repository name.">
+    <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Removed passphrase to test if deployment works">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main-deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -117,7 +117,8 @@
       <workItem from="1615340271722" duration="439000" />
       <workItem from="1615493285392" duration="3523000" />
       <workItem from="1615502480511" duration="1070000" />
-      <workItem from="1615503651019" duration="14936000" />
+      <workItem from="1615503651019" duration="15220000" />
+      <workItem from="1615520684898" duration="210000" />
     </task>
     <task id="LOCAL-00001" summary="Moved files around and renamed some stuff. Everything is still broken">
       <created>1615231941492</created>
@@ -245,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615519841108</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Removed passphrase to test if deployment works">
+      <created>1615520275835</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1615520275836</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +278,7 @@
     <MESSAGE value="Deploy yml file added" />
     <MESSAGE value="Fixed the api files hopefully" />
     <MESSAGE value="Automatic deployment to digital ocean should finally work. The issue was with the registry URL. According to the documentation &quot;registry.digitalocean.com/&lt;registry-name&gt;/&lt;repository_name&gt;&quot; The issue was the repository name." />
-    <option name="LAST_COMMIT_MESSAGE" value="Automatic deployment to digital ocean should finally work. The issue was with the registry URL. According to the documentation &quot;registry.digitalocean.com/&lt;registry-name&gt;/&lt;repository_name&gt;&quot; The issue was the repository name." />
+    <MESSAGE value="Removed passphrase to test if deployment works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed passphrase to test if deployment works" />
   </component>
 </project>
