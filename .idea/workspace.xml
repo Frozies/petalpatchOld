@@ -20,10 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Moved files around and renamed some stuff. Everything is still broken">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/petal-patch-server/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petal-patch-server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petal-patch-server/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/bin/www" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petal-patch-server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/petal-patch-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petal-patch-server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,15 +40,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pRQrxCGKvaUx3eg2JRQKrCAV37" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/readme2.md" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/readme2.md" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -56,14 +68,14 @@
   <component name="RunManager" selected="npm.Run Backend">
     <configuration name="Run Backend" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/petal-patch-server/package.json" />
-      <command value="start" />
+      <command value="build" />
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
     <configuration name="Run Frontend" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/petal-patch-client/package.json" />
-      <command value="build" />
+      <command value="start" />
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
@@ -109,6 +121,10 @@
       <workItem from="1615339091534" duration="753000" />
       <workItem from="1615339990408" duration="164000" />
       <workItem from="1615340172670" duration="26000" />
+      <workItem from="1615340271722" duration="439000" />
+      <workItem from="1615493285392" duration="3523000" />
+      <workItem from="1615502480511" duration="1070000" />
+      <workItem from="1615503651019" duration="6375000" />
     </task>
     <task id="LOCAL-00001" summary="Moved files around and renamed some stuff. Everything is still broken">
       <created>1615231941492</created>
@@ -150,6 +166,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Moved files around and renamed some stuff. Everything is still broken" />
     <option name="LAST_COMMIT_MESSAGE" value="Moved files around and renamed some stuff. Everything is still broken" />
   </component>

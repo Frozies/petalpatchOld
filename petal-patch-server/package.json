@@ -3,10 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "node ./bin/www"
+    "start": "nodemon --legacy-watch --delay 2.5 ./bin/www"
   },
   "dependencies": {
-    "constantinople": "^4.0.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",

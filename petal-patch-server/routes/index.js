@@ -1,25 +1,31 @@
 var express = require('express');
 var router = express.Router();
 
-/*Puppeteer is a google made node library which provides api control to a headless chrome.f*/
+//Puppeteer is a google made node library which provides api control to a headless chrome.
 const puppeteer = require('puppeteer');
 
 router.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "http://localhost:3000");
 
-  /*Getting the headers and access control from the current http address*/
+  // Getting the headers and access control from the current http address
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next(); /*NEXT :D*/
 });
 
-/* GET home page. */
+ // GET home page.
 router.get('/', async (req, res) => {
-  const browser = await puppeteer.launch();
+
+  // The headless, executablePath, and args are copy and pasted to make puppeteer work with docker.
+  const browser = await puppeteer.launch({
+    headless: true,
+    executablePath: process.env.CHROME_BIN || null,
+    args: ['--no-sandbox', '--headless', '--disable-gpu', '--disable-dev-shm-usage']
+  });
+
   const page = await browser.newPage();
 
-  /*Console Logging!*/
-  console.log(req.params);
-  console.log("HELLO");
+  // Console Logging!
+  console.log("Connection opened. Getting teleflora information.");
 
   await page.goto('https://www.teleflora.com/bouquet/make-a-wish?prodID=P_TEV13-6A&skuId=TEV13-6A&zipMin='); // URL is given by the "user" (your petal-patch-client-side application)
 
@@ -52,7 +58,7 @@ router.get('/', async (req, res) => {
     id: productID,
     price: price,
     image: productImage.replace("/w_800,h_1000", "/w_300,h_300"), // Image size
-  }))
+  }));
 
   res.send();
   await browser.close();
