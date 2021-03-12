@@ -26,8 +26,8 @@ jobs:
           file: ./petal-patch-server/Dockerfile
           push: true
           tags: |
-            registry.digitalocean.com/petal-patch-regitstry:latest
-            registry.digitalocean.com/petal-patch-regitstry:sha-${{ github.sha }}
+            registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
+            registry.digitalocean.com/petal-patch-regitstry/petal-patch:sha-${{ github.sha }}
 
   deploy-api-1:
     needs: build
@@ -44,7 +44,7 @@ jobs:
           port: 22
           script: |
             doctl registry login --expiry-seconds 180
-            docker pull registry.digitalocean.com/petal-patch-regitstry:latest
+            docker pull registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
 
             echo "calling shutdown endpoint..."
             curl --silent http://localhost/shutdown || true
@@ -60,7 +60,7 @@ jobs:
               --restart always \
               -p 0.0.0.0:80:80 \
               --name api \
-              registry.digitalocean.com/petal-patch-regitstry:latest
+              registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
 
             echo "giving healthcheck time to recover..."
             sleep 40 # ((healthy + 1) * interval)
@@ -82,7 +82,7 @@ jobs:
           port: 22
           script: |
             doctl registry login --expiry-seconds 180
-            docker pull registry.digitalocean.com/petal-patch-regitstry:latest
+            docker pull registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
 
             echo "calling shutdown endpoint..."
             curl --silent http://localhost/shutdown || true
@@ -98,7 +98,7 @@ jobs:
               --restart always \
               -p 0.0.0.0:80:80 \
               --name api \
-              registry.digitalocean.com/petal-patch-regitstry:latest
+              registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
 
             echo "giving healthcheck time to recover..."
             sleep 40 # ((healthy + 1) * interval)
