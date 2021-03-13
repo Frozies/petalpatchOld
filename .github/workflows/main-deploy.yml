@@ -38,7 +38,7 @@ jobs:
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.DO_API1_HOST }}
-          key: ${{ secrets.DO_API_KEY }}
+          # key: ${{ secrets.DO_API_KEY }} TODO FIX THIS THING THIS IS BAD LMAO
           port: 22
           username: "root"
           password: ${{ secrets.SSH_PASSPHRASE }}
@@ -76,7 +76,7 @@ jobs:
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.DO_API2_HOST }}
-          key: ${{ secrets.DO_API_KEY }}
+          # key: ${{ secrets.DO_API_KEY }} TODO FIX THIS THING THIS IS BAD LMAO
           port: 22
           username: "root"
           password: ${{ secrets.SSH_PASSPHRASE }}
