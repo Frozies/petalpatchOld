@@ -35,13 +35,13 @@ jobs:
     steps:
       # Droplets already have docker, doctl + auth, and curl installed
       - name: Deploy api to DigitalOcean Droplet
-        uses: appleboy/ssh-action@v0.1.4
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.DO_API1_HOST }}
-          username: "root"
-          passphrase: ${{ secrets.SSH_PASSPHRASE }}
           key: ${{ secrets.DO_API_KEY }}
           port: 22
+          username: "root"
+          password: ${{ secrets.SSH_PASSPHRASE }}
           script: |
             doctl registry login --expiry-seconds 180
             docker pull registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
@@ -73,13 +73,13 @@ jobs:
     steps:
       # Droplets already have docker, doctl + auth, and curl installed
       - name: Deploy api to DigitalOcean Droplet
-        uses: appleboy/ssh-action@v0.1.4
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.DO_API2_HOST }}
-          username: "root"
-          passphrase: ${{ secrets.SSH_PASSPHRASE }}
           key: ${{ secrets.DO_API_KEY }}
           port: 22
+          username: "root"
+          password: ${{ secrets.SSH_PASSPHRASE }}
           script: |
             doctl registry login --expiry-seconds 180
             docker pull registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest

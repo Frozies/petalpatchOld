@@ -22,6 +22,7 @@
     <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Removed passphrase to test if deployment works">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main-deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +119,8 @@
       <workItem from="1615493285392" duration="3523000" />
       <workItem from="1615502480511" duration="1070000" />
       <workItem from="1615503651019" duration="15220000" />
-      <workItem from="1615520684898" duration="210000" />
+      <workItem from="1615520684898" duration="1667000" />
+      <workItem from="1615591602927" duration="1305000" />
     </task>
     <task id="LOCAL-00001" summary="Moved files around and renamed some stuff. Everything is still broken">
       <created>1615231941492</created>
@@ -253,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615520275836</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Please let the key work">
+      <created>1615520907187</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1615520907187</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +288,7 @@
     <MESSAGE value="Fixed the api files hopefully" />
     <MESSAGE value="Automatic deployment to digital ocean should finally work. The issue was with the registry URL. According to the documentation &quot;registry.digitalocean.com/&lt;registry-name&gt;/&lt;repository_name&gt;&quot; The issue was the repository name." />
     <MESSAGE value="Removed passphrase to test if deployment works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed passphrase to test if deployment works" />
+    <MESSAGE value="Please let the key work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Please let the key work" />
   </component>
 </project>
