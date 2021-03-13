@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Changed passphrase from the pemkey to be a password for the root ssh">
+    <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="TEMPORARILY removed secret ppk key to see if user and pass login works">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main-deploy.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +119,7 @@
       <workItem from="1615502480511" duration="1070000" />
       <workItem from="1615503651019" duration="15220000" />
       <workItem from="1615520684898" duration="1667000" />
-      <workItem from="1615591602927" duration="1591000" />
+      <workItem from="1615591602927" duration="2472000" />
     </task>
     <task id="LOCAL-00001" summary="Moved files around and renamed some stuff. Everything is still broken">
       <created>1615231941492</created>
@@ -267,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615594346327</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="TEMPORARILY removed secret ppk key to see if user and pass login works">
+      <created>1615594642948</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1615594642948</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +303,7 @@
     <MESSAGE value="Removed passphrase to test if deployment works" />
     <MESSAGE value="Please let the key work" />
     <MESSAGE value="Changed passphrase from the pemkey to be a password for the root ssh" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed passphrase from the pemkey to be a password for the root ssh" />
+    <MESSAGE value="TEMPORARILY removed secret ppk key to see if user and pass login works" />
+    <option name="LAST_COMMIT_MESSAGE" value="TEMPORARILY removed secret ppk key to see if user and pass login works" />
   </component>
 </project>

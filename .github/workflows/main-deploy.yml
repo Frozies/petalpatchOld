@@ -38,10 +38,11 @@ jobs:
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.DO_API1_HOST }}
-          # key: ${{ secrets.DO_API_KEY }} TODO FIX THIS THING THIS IS BAD LMAO
+          key: ${{ secrets.DO_API_KEY }}
+          debug: true
           port: 22
           username: "root"
-          password: ${{ secrets.SSH_PASSPHRASE }}
+          passphrase: ${{ secrets.SSH_PASSPHRASE }}
           script: |
             doctl registry login --expiry-seconds 180
             docker pull registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
@@ -76,10 +77,11 @@ jobs:
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.DO_API2_HOST }}
-          # key: ${{ secrets.DO_API_KEY }} TODO FIX THIS THING THIS IS BAD LMAO
+          key: ${{ secrets.DO_API_KEY }}
           port: 22
           username: "root"
-          password: ${{ secrets.SSH_PASSPHRASE }}
+          debug: true
+          passphrase: ${{ secrets.SSH_PASSPHRASE }}
           script: |
             doctl registry login --expiry-seconds 180
             docker pull registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
