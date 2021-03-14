@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Path corrections... I hope">
+    <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Added ifttt support because i was getting tired of working on this issue.">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main-deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -140,7 +140,7 @@
       <workItem from="1615520684898" duration="1667000" />
       <workItem from="1615591602927" duration="3509000" />
       <workItem from="1615731333115" duration="805000" />
-      <workItem from="1615737186068" duration="14188000" />
+      <workItem from="1615737186068" duration="14995000" />
     </task>
     <task id="LOCAL-00001" summary="Moved files around and renamed some stuff. Everything is still broken">
       <created>1615231941492</created>
@@ -373,7 +373,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615752170459</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Added ifttt support because i was getting tired of working on this issue.">
+      <created>1615753682361</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1615753682361</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Added ifttt support because i was getting tired of working on this issue.">
+      <created>1615753829088</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1615753829088</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,6 +424,7 @@
     <MESSAGE value="Updated the health route to properly send status updates." />
     <MESSAGE value="Updated deployment script to correct path for dockerfile." />
     <MESSAGE value="Path corrections... I hope" />
-    <option name="LAST_COMMIT_MESSAGE" value="Path corrections... I hope" />
+    <MESSAGE value="Added ifttt support because i was getting tired of working on this issue." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ifttt support because i was getting tired of working on this issue." />
   </component>
 </project>
