@@ -59,10 +59,14 @@ jobs:
 
             echo "starting server instance..."
 
+            echo "beginning directory"
             pwd
 
-            cd /
+            cd ../
             cd /petal-patch-server/petal-patch-server
+
+            echo "ending directory"
+            pwd
 
             docker run \
               --restart always \
