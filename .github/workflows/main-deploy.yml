@@ -42,6 +42,7 @@ jobs:
           debug: true
           port: 22
           username: "root"
+          passphrase: ${{ secrets.DO_KEY_PASSPHRASE }}
           script: |
             doctl registry login --expiry-seconds 180
             docker pull registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
@@ -52,14 +53,14 @@ jobs:
             echo "giving healthcheck time to fail..."
             sleep 30 # ((unhealthy + 1) * interval)
 
-            docker stop api || true
-            docker rm api || true
+            docker stop petal-patch || true
+            docker rm petal-patch || true
 
             echo "starting server instance..."
             docker run -d \
               --restart always \
               -p 0.0.0.0:80:80 \
-              --name api \
+              --name petal-patch \
               registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
 
             echo "giving healthcheck time to recover..."
@@ -79,6 +80,7 @@ jobs:
           key: ${{ secrets.DO_API_KEY }}
           port: 22
           username: "root"
+          passphrase: ${{ secrets.DO_KEY_PASSPHRASE }}
           debug: true
           script: |
             doctl registry login --expiry-seconds 180
@@ -90,14 +92,14 @@ jobs:
             echo "giving healthcheck time to fail..."
             sleep 30 # ((unhealthy + 1) * interval)
 
-            docker stop api || true
-            docker rm api || true
+            docker stop petal-patch || true
+            docker rm petal-patch || true
 
             echo "starting server instance..."
             docker run -d \
               --restart always \
               -p 0.0.0.0:80:80 \
-              --name api \
+              --name petal-patch \
               registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
 
             echo "giving healthcheck time to recover..."

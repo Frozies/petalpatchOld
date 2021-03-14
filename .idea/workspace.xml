@@ -120,6 +120,8 @@
       <workItem from="1615503651019" duration="15220000" />
       <workItem from="1615520684898" duration="1667000" />
       <workItem from="1615591602927" duration="3509000" />
+      <workItem from="1615731333115" duration="805000" />
+      <workItem from="1615737186068" duration="425000" />
     </task>
     <task id="LOCAL-00001" summary="Moved files around and renamed some stuff. Everything is still broken">
       <created>1615231941492</created>
@@ -289,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615595584083</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Updated the secret key">
+      <created>1615731368812</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1615731368812</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,6 +328,7 @@
     <MESSAGE value="Changed passphrase from the pemkey to be a password for the root ssh" />
     <MESSAGE value="TEMPORARILY removed secret ppk key to see if user and pass login works" />
     <MESSAGE value="Readded passphrase but with debug option true." />
-    <option name="LAST_COMMIT_MESSAGE" value="Readded passphrase but with debug option true." />
+    <MESSAGE value="Updated the secret key" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the secret key" />
   </component>
 </project>
