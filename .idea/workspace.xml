@@ -162,14 +162,7 @@
       <workItem from="1615731333115" duration="805000" />
       <workItem from="1615737186068" duration="15889000" />
       <workItem from="1615755203733" duration="608000" />
-      <workItem from="1615755818580" duration="5813000" />
-    </task>
-    <task id="LOCAL-00001" summary="Moved files around and renamed some stuff. Everything is still broken">
-      <created>1615231941492</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1615231941492</updated>
+      <workItem from="1615755818580" duration="6629000" />
     </task>
     <task id="LOCAL-00002" summary="Moved files around and renamed some stuff. Everything is still broken">
       <created>1615256413405</created>
@@ -507,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615763576884</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Reverted docker copy line">
+      <created>1615764358918</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1615764358919</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,7 +527,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Automatic deployment to digital ocean should finally work. The issue was with the registry URL. According to the documentation &quot;registry.digitalocean.com/&lt;registry-name&gt;/&lt;repository_name&gt;&quot; The issue was the repository name." />
     <MESSAGE value="Removed passphrase to test if deployment works" />
     <MESSAGE value="Please let the key work" />
     <MESSAGE value="Changed passphrase from the pemkey to be a password for the root ssh" />
@@ -552,7 +551,8 @@
     <MESSAGE value="REMOVED A GOD DAMN EXTRA COMMA THAT I MISSED.... &gt;:(" />
     <MESSAGE value="npm run start-server for docker" />
     <MESSAGE value="updated docker copy line&#10;made sure http-errors is being installed." />
-    <option name="LAST_COMMIT_MESSAGE" value="updated docker copy line&#10;made sure http-errors is being installed." />
+    <MESSAGE value="Reverted docker copy line" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reverted docker copy line" />
   </component>
   <component name="YamllintSettings">
     <option name="binPath" value="yamllint" />
