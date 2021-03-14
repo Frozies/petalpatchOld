@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Added ifttt support because i was getting tired of working on this issue.">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main-deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +29,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="main" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="Frozies" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="petal-patch" />
   </component>
   <component name="ProjectId" id="1pRQrxCGKvaUx3eg2JRQKrCAV37" />
   <component name="ProjectLevelVcsManager">
@@ -117,10 +121,10 @@
     </configuration>
     <list>
       <item itemvalue="Docker.Docker Image" />
+      <item itemvalue="Docker.petal-patch-server/Dockerfile" />
       <item itemvalue="npm.Run Frontend" />
       <item itemvalue="npm.Run Monorepo" />
       <item itemvalue="npm.Run Backend" />
-      <item itemvalue="Docker.petal-patch-server/Dockerfile" />
     </list>
     <recent_temporary>
       <list>
@@ -157,7 +161,8 @@
       <workItem from="1615591602927" duration="3509000" />
       <workItem from="1615731333115" duration="805000" />
       <workItem from="1615737186068" duration="15889000" />
-      <workItem from="1615755203733" duration="185000" />
+      <workItem from="1615755203733" duration="608000" />
+      <workItem from="1615755818580" duration="51000" />
     </task>
     <task id="LOCAL-00001" summary="Moved files around and renamed some stuff. Everything is still broken">
       <created>1615231941492</created>
@@ -411,7 +416,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615754528449</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Yaml me pls">
+      <created>1615755402701</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1615755402701</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Yaml me pls">
+      <created>1615755657526</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1615755657526</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,6 +468,10 @@
     <MESSAGE value="Updated deployment script to correct path for dockerfile." />
     <MESSAGE value="Path corrections... I hope" />
     <MESSAGE value="Added ifttt support because i was getting tired of working on this issue." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ifttt support because i was getting tired of working on this issue." />
+    <MESSAGE value="Yaml me pls" />
+    <option name="LAST_COMMIT_MESSAGE" value="Yaml me pls" />
+  </component>
+  <component name="YamllintSettings">
+    <option name="binPath" value="yamllint" />
   </component>
 </project>
