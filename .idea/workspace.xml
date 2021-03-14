@@ -121,7 +121,7 @@
       <workItem from="1615520684898" duration="1667000" />
       <workItem from="1615591602927" duration="3509000" />
       <workItem from="1615731333115" duration="805000" />
-      <workItem from="1615737186068" duration="1493000" />
+      <workItem from="1615737186068" duration="2088000" />
     </task>
     <task id="LOCAL-00001" summary="Moved files around and renamed some stuff. Everything is still broken">
       <created>1615231941492</created>
@@ -305,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615737656975</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Changed container names for docker commands.">
+      <created>1615738696900</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1615738696900</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,6 +344,7 @@
     <MESSAGE value="Readded passphrase but with debug option true." />
     <MESSAGE value="Updated the secret key" />
     <MESSAGE value="Readded passphrases, and changed up docker commands to fix a bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readded passphrases, and changed up docker commands to fix a bug" />
+    <MESSAGE value="Changed container names for docker commands." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed container names for docker commands." />
   </component>
 </project>

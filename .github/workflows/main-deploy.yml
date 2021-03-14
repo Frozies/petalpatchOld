@@ -60,7 +60,7 @@ jobs:
             docker run -d \
               --restart always \
               -p 0.0.0.0:80:80 \
-              --name petal-patch \
+              --name petal-patch-backend-api-1 \
               registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
 
             echo "giving healthcheck time to recover..."
@@ -99,7 +99,7 @@ jobs:
             docker run -d \
               --restart always \
               -p 0.0.0.0:80:80 \
-              --name petal-patch \
+              --name petal-patch-backend-api-2 \
               registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
 
             echo "giving healthcheck time to recover..."
