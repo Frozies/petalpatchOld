@@ -63,7 +63,7 @@ jobs:
             pwd
 
             cd ../
-            cd /petal-patch-server/petal-patch-server
+            cd ./petal-patch-server/petal-patch-server
 
             echo "ending directory"
             pwd
