@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Added ifttt support because i was getting tired of working on this issue.">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main-deploy.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petal-patch-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +163,7 @@
       <workItem from="1615731333115" duration="805000" />
       <workItem from="1615737186068" duration="15889000" />
       <workItem from="1615755203733" duration="608000" />
-      <workItem from="1615755818580" duration="1064000" />
+      <workItem from="1615755818580" duration="1602000" />
     </task>
     <task id="LOCAL-00001" summary="Moved files around and renamed some stuff. Everything is still broken">
       <created>1615231941492</created>
@@ -444,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615756234356</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Removing some code to probe the server.&#10;docker run \&#10;              --restart always \&#10;              -p 0.0.0.0:80:80 \&#10;              --name petal-patch-backend-api-1 \&#10;              registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest">
+      <created>1615757003151</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1615757003151</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,7 +493,8 @@
     <MESSAGE value="Yaml me pls" />
     <MESSAGE value="I think i finally fixed the yaml" />
     <MESSAGE value="I think i finally fixed the yaml. again" />
-    <option name="LAST_COMMIT_MESSAGE" value="I think i finally fixed the yaml. again" />
+    <MESSAGE value="Removing some code to probe the server.&#10;docker run \&#10;              --restart always \&#10;              -p 0.0.0.0:80:80 \&#10;              --name petal-patch-backend-api-1 \&#10;              registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removing some code to probe the server.&#10;docker run \&#10;              --restart always \&#10;              -p 0.0.0.0:80:80 \&#10;              --name petal-patch-backend-api-1 \&#10;              registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest" />
   </component>
   <component name="YamllintSettings">
     <option name="binPath" value="yamllint" />

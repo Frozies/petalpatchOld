@@ -82,7 +82,11 @@ jobs:
             pwd
 
 
-
+            docker run \
+              --restart always \
+              -p 0.0.0.0:80:80 \
+              --name petal-patch-backend-api-1 \
+              registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
 
             echo "giving healthcheck time to recover..."
 
