@@ -22,7 +22,8 @@ jobs:
       - name: Build and Push to DigitalOcean Container Registry
         uses: docker/build-push-action@v2
         with:
-          context: "./"
+          context: "./"   #NOTE this goes into the root github folder which ends up being
+          # "petal-patch-server" then goes into "/petal-patch-server/petal-patch-server/Dockerfile"
           file: ./petal-patch-server/Dockerfile
           push: true
           tags: |
@@ -57,7 +58,10 @@ jobs:
             docker rm petal-patch-backend-api-1 || true
 
             echo "starting server instance..."
-            docker run -d \
+
+            cd /petal-patch-server
+
+            docker run \
               --restart always \
               -p 0.0.0.0:80:80 \
               --name petal-patch-backend-api-1 \
@@ -66,7 +70,9 @@ jobs:
             echo "giving healthcheck time to recover..."
             sleep 40 # ((healthy + 1) * interval)
 
-            curl --silent --fail http://localhost/health
+            curl --fail http://localhost/health
+          #NOTES: line 62 takes the docker to the correct path. /petal-patch-server/petal-patch-server
+          # since its a monorepo
 
   deploy-api-2:
     needs: deploy-api-1 # rolling deploy
@@ -96,8 +102,10 @@ jobs:
             docker rm petal-patch-backend-api-2 || true
 
             echo "starting server instance..."
+
+            cd /petal-patch-server
+
             docker run -d \
-              --restart always \
               -p 0.0.0.0:80:80 \
               --name petal-patch-backend-api-2 \
               registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
@@ -105,4 +113,4 @@ jobs:
             echo "giving healthcheck time to recover..."
             sleep 40 # ((healthy + 1) * interval)
 
-            curl --silent --fail http://localhost/health
+            curl --fail http://localhost/health
