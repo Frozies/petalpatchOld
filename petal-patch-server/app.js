@@ -6,6 +6,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
+const {debug} = require("puppeteer/lib/cjs/puppeteer/common/Debug");
 
 var app = express();
 let die = false;
@@ -21,11 +22,17 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Health and Shutdown are for the load balancers
-app.get('/health', async (req, rep) => {
-  if (die) {
-    rep.code(503).send({ status: 'shutdown' });
-  } else {
-    rep.code(200).send({ status: 'ok' });
+app.get('/health', async (req, res) => {
+  try {
+    if (!die) {
+      res.status(200).send('Status OKAY :D');
+    } else {
+      res.status(503).send('Power level\'s critical... shutting down the teleporters.');
+    }
+
+  } catch (err) {
+    debug(err.stack);
+    res.sendStatus(500);
   }
 });
 
