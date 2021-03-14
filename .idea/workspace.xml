@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Added ifttt support because i was getting tired of working on this issue.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petal-patch-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petal-patch-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Added ifttt support because i was getting tired of working on this issue." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,7 +160,7 @@
       <workItem from="1615731333115" duration="805000" />
       <workItem from="1615737186068" duration="15889000" />
       <workItem from="1615755203733" duration="608000" />
-      <workItem from="1615755818580" duration="2264000" />
+      <workItem from="1615755818580" duration="2590000" />
     </task>
     <task id="LOCAL-00001" summary="Moved files around and renamed some stuff. Everything is still broken">
       <created>1615231941492</created>
@@ -467,7 +463,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615757852875</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Added a start-docker script">
+      <created>1615758176659</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1615758176659</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Added a start-docker script">
+      <created>1615758443101</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1615758443101</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +521,8 @@
     <MESSAGE value="Removing some code to probe the server.&#10;docker run \&#10;              --restart always \&#10;              -p 0.0.0.0:80:80 \&#10;              --name petal-patch-backend-api-1 \&#10;              registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest" />
     <MESSAGE value="Updated the Dockerfile work directory path" />
     <MESSAGE value="Updated the Dockerfile work directory path and removed extra debug code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the Dockerfile work directory path and removed extra debug code" />
+    <MESSAGE value="Added a start-docker script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a start-docker script" />
   </component>
   <component name="YamllintSettings">
     <option name="binPath" value="yamllint" />

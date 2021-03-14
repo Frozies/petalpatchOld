@@ -16,5 +16,6 @@ RUN set -x \
 COPY package.json /petal-patch-server
 RUN npm install
 RUN npm install puppeteer
+RUN npm install nodemon
 COPY . /petal-patch-server
-CMD ["npm", "startdocker"]
+CMD ["npm", "start"]
