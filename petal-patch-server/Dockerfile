@@ -11,7 +11,7 @@ RUN set -x \
     udev \
     ttf-freefont \
     chromium \
-    && npm install puppeteer@1.10.0
+    && npm install puppeteer
 
 COPY package.json /petal-patch-server/petal-patch-server
 RUN npm install
@@ -23,6 +23,7 @@ RUN npm install http-errors
 RUN npm install jade
 RUN npm install morgan
 RUN npm install nodemon
+RUN npm install puppeteer
 
 COPY . /petal-patch-server
 CMD ["npm", "run", "start-server"]
