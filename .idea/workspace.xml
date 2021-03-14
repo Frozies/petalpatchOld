@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Readded passphrase but with debug option true.">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main-deploy.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +119,7 @@
       <workItem from="1615502480511" duration="1070000" />
       <workItem from="1615503651019" duration="15220000" />
       <workItem from="1615520684898" duration="1667000" />
-      <workItem from="1615591602927" duration="2564000" />
+      <workItem from="1615591602927" duration="3509000" />
     </task>
     <task id="LOCAL-00001" summary="Moved files around and renamed some stuff. Everything is still broken">
       <created>1615231941492</created>
@@ -281,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615595506959</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Readded passphrase but with debug option true.">
+      <created>1615595584083</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1615595584083</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
