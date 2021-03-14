@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Readded passphrase but with debug option true.">
+    <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Updated the health route to properly send status updates.">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main-deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/petal-patch-server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petal-patch-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petal-patch-server/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/bin/www" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +61,19 @@
       <recent name="C:\Users\Davin\Documents\GitHub\petal-patch" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.Run Backend">
+  <component name="RunManager" selected="Docker.Docker Image">
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="petal-patch-server:latest" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="commandLineOptions" value="" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="Run Backend" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/petal-patch-server/package.json" />
       <command value="start" />
@@ -93,7 +107,13 @@
       <item itemvalue="npm.Run Frontend" />
       <item itemvalue="npm.Run Monorepo" />
       <item itemvalue="npm.Run Backend" />
+      <item itemvalue="Docker.Docker Image" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Docker Image" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -122,7 +142,7 @@
       <workItem from="1615520684898" duration="1667000" />
       <workItem from="1615591602927" duration="3509000" />
       <workItem from="1615731333115" duration="805000" />
-      <workItem from="1615737186068" duration="3970000" />
+      <workItem from="1615737186068" duration="10657000" />
     </task>
     <task id="LOCAL-00001" summary="Moved files around and renamed some stuff. Everything is still broken">
       <created>1615231941492</created>
@@ -320,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615739301699</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Updated the health route to properly send status updates.">
+      <created>1615741208935</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1615741208935</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,6 +381,7 @@
     <MESSAGE value="Readded passphrases, and changed up docker commands to fix a bug" />
     <MESSAGE value="Changed container names for docker commands." />
     <MESSAGE value="Updated docker container names" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated docker container names" />
+    <MESSAGE value="Updated the health route to properly send status updates." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the health route to properly send status updates." />
   </component>
 </project>
