@@ -18,4 +18,4 @@ RUN npm install
 RUN npm install puppeteer
 RUN npm install nodemon
 COPY . /petal-patch-server
-CMD ["npm", "start"]
+CMD ["npm", "run", "start-server"]
