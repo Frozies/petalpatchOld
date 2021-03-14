@@ -103,7 +103,7 @@ jobs:
 
             echo "starting server instance..."
 
-            cd /petal-patch-server
+            cd ./petal-patch-server
 
             docker run -d \
               -p 0.0.0.0:80:80 \

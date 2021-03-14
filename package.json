@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start:petal-patch-client": "npm --prefix petal-patch-client run-script build",
-    "start:petal-patch-server": "npm --prefix petal-patch-server run-script build"
+    "start:petal-patch-server": "npm --prefix petal-patch-server start"
   },
   "dependencies": {}
 }
