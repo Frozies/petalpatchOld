@@ -53,8 +53,8 @@ jobs:
             echo "giving healthcheck time to fail..."
             sleep 30 # ((unhealthy + 1) * interval)
 
-            docker stop petal-patch || true
-            docker rm petal-patch || true
+            docker stop petal-patch-backend-api-1 || true
+            docker rm petal-patch-backend-api-1 || true
 
             echo "starting server instance..."
             docker run -d \
@@ -92,8 +92,8 @@ jobs:
             echo "giving healthcheck time to fail..."
             sleep 30 # ((unhealthy + 1) * interval)
 
-            docker stop petal-patch || true
-            docker rm petal-patch || true
+            docker stop petal-patch-backend-api-2 || true
+            docker rm petal-patch-backend-api-2 || true
 
             echo "starting server instance..."
             docker run -d \
