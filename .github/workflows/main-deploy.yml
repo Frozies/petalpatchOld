@@ -78,20 +78,18 @@ jobs:
             sleep 40 # ((healthy + 1) * interval)
 
             curl --fail http://localhost/health
-          #NOTES: line 62 takes the docker to the correct path. /petal-patch-server/petal-patch-server since its a monorepo
-
         - name: Check if deployment failed
-            if: failure()
-            uses: screendriver/ifttt-action@v1
-            with:
-              event: deploy_fail
-              key: pDGL_5mmmPmNW2jL608fE8oAZxpKMNTbHrHi0izE15Z
+          if: failure()
+          uses: screendriver/ifttt-action@v1
+          with:
+            event: deploy_fail
+            key: pDGL_5mmmPmNW2jL608fE8oAZxpKMNTbHrHi0izE15Z
         - name: Check if deployment succeeded
-            if: success()
-            uses: screendriver/ifttt-action@v1
-            with:
-              event: deploy_success
-              key: pDGL_5mmmPmNW2jL608fE8oAZxpKMNTbHrHi0izE15Z
+          if: success()
+          uses: screendriver/ifttt-action@v1
+          with:
+            event: deploy_success
+            key: pDGL_5mmmPmNW2jL608fE8oAZxpKMNTbHrHi0izE15Z
 
   deploy-api-2:
     needs: deploy-api-1 # rolling deploy
