@@ -17,4 +17,5 @@ COPY package.json /petal-patch-server
 RUN npm install
 RUN npm install puppeteer
 COPY . /petal-patch-server
+WORKDIR /petal-patch-server/petal-patch-server
 CMD ["npm", "start"]
