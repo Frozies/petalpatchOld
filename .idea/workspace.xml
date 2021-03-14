@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Added ifttt support because i was getting tired of working on this issue." />
+    <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Added ifttt support because i was getting tired of working on this issue.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,7 +162,7 @@
       <workItem from="1615731333115" duration="805000" />
       <workItem from="1615737186068" duration="15889000" />
       <workItem from="1615755203733" duration="608000" />
-      <workItem from="1615755818580" duration="4440000" />
+      <workItem from="1615755818580" duration="5813000" />
     </task>
     <task id="LOCAL-00001" summary="Moved files around and renamed some stuff. Everything is still broken">
       <created>1615231941492</created>
@@ -498,7 +500,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615760931659</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="updated docker copy line&#10;made sure http-errors is being installed.">
+      <created>1615763576884</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1615763576884</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +527,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixed the api files hopefully" />
     <MESSAGE value="Automatic deployment to digital ocean should finally work. The issue was with the registry URL. According to the documentation &quot;registry.digitalocean.com/&lt;registry-name&gt;/&lt;repository_name&gt;&quot; The issue was the repository name." />
     <MESSAGE value="Removed passphrase to test if deployment works" />
     <MESSAGE value="Please let the key work" />
@@ -543,7 +551,8 @@
     <MESSAGE value="Undid the last commit. Installing nodemon now. probably not a good idea to use this on the server, but oh well. ill fix it later" />
     <MESSAGE value="REMOVED A GOD DAMN EXTRA COMMA THAT I MISSED.... &gt;:(" />
     <MESSAGE value="npm run start-server for docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="npm run start-server for docker" />
+    <MESSAGE value="updated docker copy line&#10;made sure http-errors is being installed." />
+    <option name="LAST_COMMIT_MESSAGE" value="updated docker copy line&#10;made sure http-errors is being installed." />
   </component>
   <component name="YamllintSettings">
     <option name="binPath" value="yamllint" />

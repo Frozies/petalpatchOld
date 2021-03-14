@@ -17,5 +17,5 @@ COPY package.json /petal-patch-server
 RUN npm install
 RUN npm install puppeteer
 RUN npm install http-errors
-COPY . /petal-patch-server/petal-patch-server
+COPY . /petal-patch-server
 CMD ["npm", "run", "start-server"]
