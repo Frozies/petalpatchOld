@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Added ifttt support because i was getting tired of working on this issue.">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main-deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main-deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +163,7 @@
       <workItem from="1615731333115" duration="805000" />
       <workItem from="1615737186068" duration="15889000" />
       <workItem from="1615755203733" duration="608000" />
-      <workItem from="1615755818580" duration="51000" />
+      <workItem from="1615755818580" duration="400000" />
     </task>
     <task id="LOCAL-00001" summary="Moved files around and renamed some stuff. Everything is still broken">
       <created>1615231941492</created>
@@ -430,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615755657526</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="I think i finally fixed the yaml">
+      <created>1615756070714</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1615756070714</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +477,8 @@
     <MESSAGE value="Path corrections... I hope" />
     <MESSAGE value="Added ifttt support because i was getting tired of working on this issue." />
     <MESSAGE value="Yaml me pls" />
-    <option name="LAST_COMMIT_MESSAGE" value="Yaml me pls" />
+    <MESSAGE value="I think i finally fixed the yaml" />
+    <option name="LAST_COMMIT_MESSAGE" value="I think i finally fixed the yaml" />
   </component>
   <component name="YamllintSettings">
     <option name="binPath" value="yamllint" />

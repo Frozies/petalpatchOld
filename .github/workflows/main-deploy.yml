@@ -1,10 +1,9 @@
 name: Deploy to Production
-on:
+'on':
   push:
     branches:
       - main
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+  workflow_dispatch: null
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,7 +13,7 @@ jobs:
       - name: Install DigitalOcean Controller
         uses: digitalocean/action-doctl@v2
         with:
-          token: ${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}
+          token: '${{ secrets.DIGITALOCEAN_ACCESS_TOKEN }}'
       - name: Set up Docker Builder
         uses: docker/setup-buildx-action@v1
       - name: Authenticate with DigitalOcean Container Registry
@@ -22,51 +21,66 @@ jobs:
       - name: Build and Push to DigitalOcean Container Registry
         uses: docker/build-push-action@v2
         with:
-          context: "./"   #NOTE this goes into the root github folder which ends up being
-          # "petal-patch-server" then goes into "/petal-patch-server/petal-patch-server/Dockerfile"
+          context: ./
           file: ./petal-patch-server/Dockerfile
           push: true
-          tags: |
+          tags: >
             registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
-            registry.digitalocean.com/petal-patch-regitstry/petal-patch:sha-${{ github.sha }}
 
+            registry.digitalocean.com/petal-patch-regitstry/petal-patch:sha-${{
+            github.sha }}
   deploy-api-1:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      # Droplets already have docker, doctl + auth, and curl installed
       - name: Deploy api to DigitalOcean Droplet
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.DO_API1_HOST }}
-          key: ${{ secrets.DO_API_KEY }}
+          host: '${{ secrets.DO_API1_HOST }}'
+          key: '${{ secrets.DO_API_KEY }}'
           debug: true
           port: 22
-          username: "root"
-          passphrase: ${{ secrets.DO_KEY_PASSPHRASE }}
-          script: |
+          username: root
+          passphrase: '${{ secrets.DO_KEY_PASSPHRASE }}'
+          script: >
             doctl registry login --expiry-seconds 180
-            docker pull registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
+
+            docker pull
+            registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
+
 
             echo "calling shutdown endpoint..."
+
             curl --silent http://localhost/shutdown || true
 
+
             echo "giving healthcheck time to fail..."
+
             sleep 30 # ((unhealthy + 1) * interval)
 
+
             docker stop petal-patch-backend-api-1 || true
+
             docker rm petal-patch-backend-api-1 || true
+
 
             echo "starting server instance..."
 
+
             echo "beginning directory"
+
             pwd
+
 
             cd ../
+
             cd ./petal-patch-server/petal-patch-server
 
+
             echo "ending directory"
+
             pwd
+
 
             docker run \
               --restart always \
@@ -75,7 +89,9 @@ jobs:
               registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
 
             echo "giving healthcheck time to recover..."
+
             sleep 40 # ((healthy + 1) * interval)
+
 
             curl --fail http://localhost/health
       - name: Check if deployment failed
@@ -90,51 +106,48 @@ jobs:
         with:
           event: deploy_success
           key: pDGL_5mmmPmNW2jL608fE8oAZxpKMNTbHrHi0izE15Z
-
-        - name: Check if deployment failed
-            if: failure()
-            uses: screendriver/ifttt-action@v1
-            with:
-              event: deploy_fail
-              key: pDGL_5mmmPmNW2jL608fE8oAZxpKMNTbHrHi0izE15Z
-        - name: Check if deployment succeeded
-            if: success()
-            uses: screendriver/ifttt-action@v1
-            with:
-              event: deploy_success
-              key: pDGL_5mmmPmNW2jL608fE8oAZxpKMNTbHrHi0izE15Z
-
   deploy-api-2:
-    needs: deploy-api-1 # rolling deploy
+    needs: deploy-api-1
     runs-on: ubuntu-latest
     steps:
-      # Droplets already have docker, doctl + auth, and curl installed
       - name: Deploy api to DigitalOcean Droplet
         uses: appleboy/ssh-action@master
         with:
-          host: ${{ secrets.DO_API2_HOST }}
-          key: ${{ secrets.DO_API_KEY }}
+          host: '${{ secrets.DO_API2_HOST }}'
+          key: '${{ secrets.DO_API_KEY }}'
           port: 22
-          username: "root"
-          passphrase: ${{ secrets.DO_KEY_PASSPHRASE }}
+          username: root
+          passphrase: '${{ secrets.DO_KEY_PASSPHRASE }}'
           debug: true
-          script: |
+          script: >
             doctl registry login --expiry-seconds 180
-            docker pull registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
+
+            docker pull
+            registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
+
 
             echo "calling shutdown endpoint..."
+
             curl --silent http://localhost/shutdown || true
 
+
             echo "giving healthcheck time to fail..."
+
             sleep 30 # ((unhealthy + 1) * interval)
 
+
             docker stop petal-patch-backend-api-2 || true
+
             docker rm petal-patch-backend-api-2 || true
+
 
             echo "starting server instance..."
 
+
             cd /
+
             cd /petal-patch-server/petal-patch-server
+
 
             docker run -d \
               -p 0.0.0.0:80:80 \
@@ -142,6 +155,8 @@ jobs:
               registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
 
             echo "giving healthcheck time to recover..."
+
             sleep 40 # ((healthy + 1) * interval)
+
 
             curl --fail http://localhost/health
