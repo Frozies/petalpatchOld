@@ -13,9 +13,16 @@ RUN set -x \
     chromium \
     && npm install puppeteer@1.10.0
 
-COPY package.json /petal-patch-server
+COPY package.json /petal-patch-server/petal-patch-server
 RUN npm install
-RUN npm install puppeteer
+
+RUN npm install cookie-parser
+RUN npm install debug
+RUN npm install express
 RUN npm install http-errors
+RUN npm install jade
+RUN npm install morgan
+RUN npm install nodemon
+
 COPY . /petal-patch-server
 CMD ["npm", "run", "start-server"]
