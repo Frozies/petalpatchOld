@@ -160,7 +160,7 @@
       <workItem from="1615731333115" duration="805000" />
       <workItem from="1615737186068" duration="15889000" />
       <workItem from="1615755203733" duration="608000" />
-      <workItem from="1615755818580" duration="2590000" />
+      <workItem from="1615755818580" duration="2951000" />
     </task>
     <task id="LOCAL-00001" summary="Moved files around and renamed some stuff. Everything is still broken">
       <created>1615231941492</created>
@@ -477,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615758443101</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Undid the last commit. Installing nodemon now. probably not a good idea to use this on the server, but oh well. ill fix it later">
+      <created>1615758773459</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1615758773459</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,7 +504,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Moved files around and renamed some stuff. Everything is still broken" />
     <MESSAGE value="Added a dockerfile to the backend. Got everything working with docker on the backend. Updated some of the read me file." />
     <MESSAGE value="Deploy yml file added" />
     <MESSAGE value="Fixed the api files hopefully" />
@@ -522,7 +528,8 @@
     <MESSAGE value="Updated the Dockerfile work directory path" />
     <MESSAGE value="Updated the Dockerfile work directory path and removed extra debug code" />
     <MESSAGE value="Added a start-docker script" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a start-docker script" />
+    <MESSAGE value="Undid the last commit. Installing nodemon now. probably not a good idea to use this on the server, but oh well. ill fix it later" />
+    <option name="LAST_COMMIT_MESSAGE" value="Undid the last commit. Installing nodemon now. probably not a good idea to use this on the server, but oh well. ill fix it later" />
   </component>
   <component name="YamllintSettings">
     <option name="binPath" value="yamllint" />
