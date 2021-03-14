@@ -42,8 +42,6 @@ jobs:
           debug: true
           port: 22
           username: "root"
-          passphrase: ${{ secrets.SSH_PASSPHRASE }}
-          password: ${{ secrets.SSH_PASSPHRASE }}
           script: |
             doctl registry login --expiry-seconds 180
             docker pull registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
@@ -82,8 +80,6 @@ jobs:
           port: 22
           username: "root"
           debug: true
-          passphrase: ${{ secrets.SSH_PASSPHRASE }}
-          password: ${{ secrets.SSH_PASSPHRASE }}
           script: |
             doctl registry login --expiry-seconds 180
             docker pull registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
