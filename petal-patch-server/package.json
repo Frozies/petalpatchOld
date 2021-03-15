@@ -1,5 +1,12 @@
 {
   "name": "petal-patch-server",
+  "description": "",
+  "repository": {
+    "url": "https://github.com/Frozies/petal-patch",
+    "directory": "/petal-patch/petal-patch-server/"
+  },
+  "readme": "",
+  "license": "",
   "version": "0.0.0",
   "private": true,
   "scripts": {
