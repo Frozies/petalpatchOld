@@ -24,3 +24,4 @@ yarn-debug.log*
 petal-patch-client/yarn-error.log
 /petal-patch-client/build/
 .idea/*
+.idea/workspace.xml
