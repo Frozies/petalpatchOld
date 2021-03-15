@@ -13,7 +13,7 @@ RUN set -x \
     chromium \
     && npm install puppeteer
 
-COPY /petal-patch-server/package.json /petal-patch-server/petal-patch-server
+COPY /petal-patch-server/package.json /petal-patch-server
 RUN npm install
 
 RUN npm install cookie-parser
@@ -25,5 +25,5 @@ RUN npm install morgan
 RUN npm install nodemon
 RUN npm install puppeteer
 
-COPY . /petal-patch-server/petal-patch-server
+COPY . /petal-patch-server/
 CMD ["npm", "run", "start-server"]
