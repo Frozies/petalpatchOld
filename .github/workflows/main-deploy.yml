@@ -77,7 +77,7 @@ jobs:
             sleep 40 # ((healthy + 1) * interval)
 
 
-            curl --fail http://localhost/health
+            curl --fail --silent http://localhost/health
       - name: Check if deployment failed
         if: failure()
         uses: screendriver/ifttt-action@v1
@@ -137,4 +137,4 @@ jobs:
             sleep 40 # ((healthy + 1) * interval)
 
 
-            curl --fail http://localhost/health
+            curl --fail --silent http://localhost/health

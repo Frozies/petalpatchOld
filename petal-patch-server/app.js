@@ -50,7 +50,7 @@ app.get('/health', async (req, res) => {
   }
 });
 
-app.get('/shutdown', async () => {
+app.get('/shutdown', async () => { /*This is probably a dumb way to shut down a server... remind me to fix this later*/
   die = true;
   shutDown()
 });
