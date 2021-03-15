@@ -13,7 +13,7 @@ RUN set -x \
     chromium \
     && npm install puppeteer
 
-COPY package.json /petal-patch-server/petal-patch-server
+COPY /petal-patch-server/package.json /petal-patch-server/petal-patch-server
 RUN npm install
 
 RUN npm install cookie-parser
