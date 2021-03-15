@@ -25,5 +25,5 @@ RUN npm install morgan
 RUN npm install nodemon
 RUN npm install puppeteer
 
-COPY . /petal-patch-server
+COPY . /petal-patch-server/petal-patch-server
 CMD ["npm", "run", "start-server"]
