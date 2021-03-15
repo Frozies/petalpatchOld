@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Added ifttt support because i was getting tired of working on this issue.">
-      <change beforePath="$PROJECT_DIR$/petal-patch-server/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/petal-patch-server/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,14 +164,7 @@
       <workItem from="1615737186068" duration="15889000" />
       <workItem from="1615755203733" duration="608000" />
       <workItem from="1615755818580" duration="8990000" />
-      <workItem from="1615767386158" duration="290000" />
-    </task>
-    <task id="LOCAL-00008" summary="Fixed the api files hopefully">
-      <created>1615515432628</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1615515432628</updated>
+      <workItem from="1615767386158" duration="417000" />
     </task>
     <task id="LOCAL-00009" summary="Fixed the api files hopefully">
       <created>1615516596012</created>
@@ -508,7 +502,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615767563582</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="path locations for package.json">
+      <created>1615767681495</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1615767681495</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
