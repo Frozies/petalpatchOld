@@ -127,12 +127,6 @@ jobs:
 
             echo "starting server instance..."
 
-
-            cd /
-
-            cd /petal-patch-server/petal-patch-server
-
-
             docker run -d \
               -p 0.0.0.0:80:80 \
               --name petal-patch-backend-api-2 \
