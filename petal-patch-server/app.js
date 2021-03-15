@@ -21,6 +21,20 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+function shutDown() {
+  console.log('Received kill signal, shutting down gracefully');
+  console.log('Power level\'s critical... shutting down the teleporters.');
+  server.close(() => {
+    console.log('Closed out remaining connections');
+    process.exit(0);
+  });
+
+  setTimeout(() => {
+    console.error('Could not close connections in time, forcefully shutting down');
+    process.exit(1);
+  }, 10000);
+}
+
 // Health and Shutdown are for the load balancers
 app.get('/health', async (req, res) => {
   try {
@@ -38,7 +52,7 @@ app.get('/health', async (req, res) => {
 
 app.get('/shutdown', async () => {
   die = true;
-  return { shutdown: true };
+  shutDown()
 });
 
 app.use('/', indexRouter);
