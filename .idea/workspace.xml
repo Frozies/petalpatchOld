@@ -20,6 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c6c676d-4374-42af-9d10-1eb82d63c26a" name="Default Changelist" comment="Added ifttt support because i was getting tired of working on this issue.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/petal-patch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/petal-patch.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,13 +165,7 @@
       <workItem from="1615737186068" duration="15889000" />
       <workItem from="1615755203733" duration="608000" />
       <workItem from="1615755818580" duration="8990000" />
-    </task>
-    <task id="LOCAL-00006" summary="Fixed the api files hopefully">
-      <created>1615514675892</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1615514675892</updated>
+      <workItem from="1615767386158" duration="118000" />
     </task>
     <task id="LOCAL-00007" summary="Fixed the api files hopefully">
       <created>1615514962971</created>
@@ -507,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615766468485</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="path locations for package.json">
+      <created>1615767457982</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1615767457982</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,7 +530,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Readded passphrase but with debug option true." />
     <MESSAGE value="Updated the secret key" />
     <MESSAGE value="Readded passphrases, and changed up docker commands to fix a bug" />
     <MESSAGE value="Changed container names for docker commands." />
@@ -552,7 +554,8 @@
     <MESSAGE value="Double install of puppeteer" />
     <MESSAGE value="Curl --fail add" />
     <MESSAGE value="Curl --fail" />
-    <option name="LAST_COMMIT_MESSAGE" value="Curl --fail" />
+    <MESSAGE value="path locations for package.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="path locations for package.json" />
   </component>
   <component name="YamllintSettings">
     <option name="binPath" value="yamllint" />
