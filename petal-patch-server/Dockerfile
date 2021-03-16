@@ -19,14 +19,15 @@ RUN npm cache clean --force
 RUN npm install -g npm
 RUN npm install
 
-RUN npm install cookie-parser
-RUN npm install debug
-RUN npm install express
-RUN npm install http-errors
-RUN npm install jade
-RUN npm install morgan
-RUN npm install nodemon
-RUN npm install puppeteer
+# commented out to see if npm install works properly.
+#RUN npm install cookie-parser
+#RUN npm install debug
+#RUN npm install express
+#RUN npm install http-errors
+#RUN npm install jade
+#RUN npm install morgan
+#RUN npm install nodemon
+#RUN npm install puppeteer
 
 COPY . /petal-patch-server/
 CMD ["npm", "run", "start-server"]
