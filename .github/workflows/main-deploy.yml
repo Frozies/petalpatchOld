@@ -63,7 +63,7 @@ jobs:
 
             docker run \
               --restart always \
-              -p 0.0.0.0:80:80 \
+              -p 0.0.0.0:80:4000 \
               --name petal-patch-backend-api-1 \
               registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
 
@@ -117,7 +117,7 @@ jobs:
             echo "starting server instance..."
 
             docker run -d \
-              -p 0.0.0.0:80:80 \
+              -p 0.0.0.0:80:4000 \
               --name petal-patch-backend-api-2 \
               registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
 
