@@ -49,11 +49,6 @@ jobs:
             registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
 
 
-            echo "calling shutdown endpoint..."
-
-            curl --silent http://localhost/shutdown || true
-
-
             echo "giving healthcheck time to fail..."
 
             sleep 30 # ((unhealthy + 1) * interval)
@@ -108,12 +103,6 @@ jobs:
 
             docker pull
             registry.digitalocean.com/petal-patch-regitstry/petal-patch:latest
-
-
-            echo "calling shutdown endpoint..."
-
-            curl --silent http://localhost/shutdown || true
-
 
             echo "giving healthcheck time to fail..."
 
