@@ -73,6 +73,7 @@ jobs:
             sleep 40 # ((healthy + 1) * interval)
 
             curl -f -LI http://localhost/health
+            exit
   deploy-api-2:
     needs: deploy-api-1
     runs-on: ubuntu-latest
@@ -115,3 +116,4 @@ jobs:
 
 
             curl -f -LI http://localhost/health
+            exit
