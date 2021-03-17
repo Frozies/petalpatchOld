@@ -34,16 +34,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy api to DigitalOcean Droplet
-        uses: appleboy/ssh-action@master
+        user: fifsky/ssh-action@master
+        port: 22
         with:
           host: '${{ secrets.DO_API1_HOST }}'
           key: '${{ secrets.DO_API_KEY }}'
-          debug: true
-          port: 22
-          username: root
-          command_timeout: 5m
-          passphrase: '${{ secrets.DO_KEY_PASSPHRASE }}'
-          script: >
+          user: root
+          pass: '${{ secrets.DO_KEY_PASSPHRASE }}'
+          script: |
             doctl registry login --expiry-seconds 180
 
             docker pull
@@ -73,21 +71,19 @@ jobs:
             sleep 40 # ((healthy + 1) * interval)
 
             curl -f -LI http://localhost/health
-            exit
   deploy-api-2:
     needs: deploy-api-1
     runs-on: ubuntu-latest
     steps:
       - name: Deploy api to DigitalOcean Droplet
-        uses: appleboy/ssh-action@master
+        uses: fifsky/ssh-action@master
         with:
           host: '${{ secrets.DO_API2_HOST }}'
           key: '${{ secrets.DO_API_KEY }}'
           port: 22
-          username: root
-          passphrase: '${{ secrets.DO_KEY_PASSPHRASE }}'
-          command_timeout: 5m
-          script: >
+          user: root
+          pass: '${{ secrets.DO_KEY_PASSPHRASE }}'
+          script: |
             doctl registry login --expiry-seconds 180
 
             docker pull
@@ -116,4 +112,3 @@ jobs:
 
 
             curl -f -LI http://localhost/health
-            exit
