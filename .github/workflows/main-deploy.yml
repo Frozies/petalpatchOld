@@ -62,7 +62,7 @@ jobs:
 
             echo "starting server instance..."
 
-            docker run \
+            docker run -d \
               --restart always \
               -p 0.0.0.0:80:4000 \
               --name petal-patch-backend-api-1 \
