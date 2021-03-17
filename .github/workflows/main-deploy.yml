@@ -41,6 +41,7 @@ jobs:
           debug: true
           port: 22
           username: root
+          command_timeout: 5m
           passphrase: '${{ secrets.DO_KEY_PASSPHRASE }}'
           script: >
             doctl registry login --expiry-seconds 180
@@ -85,7 +86,7 @@ jobs:
           port: 22
           username: root
           passphrase: '${{ secrets.DO_KEY_PASSPHRASE }}'
-          debug: true
+          command_timeout: 5m
           script: >
             doctl registry login --expiry-seconds 180
 
