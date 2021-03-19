@@ -34,9 +34,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy api to DigitalOcean Droplet
-        uses: fifsky/ssh-action@master
+        uses: appleboy/ssh-action@master
         with:
-          command: |
+          host: '${{ secrets.DO_API1_HOST }}'
+          key: '${{ secrets.DO_API_KEY }}'
+          debug: true
+          port: 22
+          username: root
+          command_timeout: 5m
+          passphrase: '${{ secrets.DO_KEY_PASSPHRASE }}'
+          script: >
             doctl registry login --expiry-seconds 180
 
             docker pull
@@ -55,7 +62,7 @@ jobs:
 
             echo "starting server instance..."
 
-            docker run \
+            docker run -d \
               --restart always \
               -p 0.0.0.0:80:4000 \
               --name petal-patch-backend-api-1 \
@@ -65,20 +72,21 @@ jobs:
 
             sleep 40 # ((healthy + 1) * interval)
 
-            curl -f -LI http://localhost/health
-          host: '${{ secrets.DO_API1_HOST }}'
-          key: '${{ secrets.DO_API_KEY }}'
-          user: root
-          pass: '${{ secrets.DO_KEY_PASSPHRASE }}'
 
   deploy-api-2:
     needs: deploy-api-1
     runs-on: ubuntu-latest
     steps:
       - name: Deploy api to DigitalOcean Droplet
-        uses: fifsky/ssh-action@master
+        uses: appleboy/ssh-action@master
         with:
-          command: |
+          host: '${{ secrets.DO_API2_HOST }}'
+          key: '${{ secrets.DO_API_KEY }}'
+          port: 22
+          username: root
+          passphrase: '${{ secrets.DO_KEY_PASSPHRASE }}'
+          command_timeout: 5m
+          script: >
             doctl registry login --expiry-seconds 180
 
             docker pull
@@ -104,11 +112,3 @@ jobs:
             echo "giving healthcheck time to recover..."
 
             sleep 40 # ((healthy + 1) * interval)
-
-
-            curl -f -LI http://localhost/health
-          host: '${{ secrets.DO_API2_HOST }}'
-          key: '${{ secrets.DO_API_KEY }}'
-          port: 22
-          user: root
-          pass: '${{ secrets.DO_KEY_PASSPHRASE }}'
