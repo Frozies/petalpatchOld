@@ -14,7 +14,9 @@ router.use(function(req, res, next) {
 
  // GET home page.
 router.get('/', async (req, res) => {
-  res.write()
+  res.render('index', {
+    title: 'Petal Patch Backend Service'
+  });
 });
 
 module.exports = router;

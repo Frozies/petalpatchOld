@@ -10,7 +10,6 @@ var usersRouter = require('./routes/users');
 var healthRouter = require('./routes/health');
 const { debug } = require("puppeteer/lib/cjs/puppeteer/common/Debug");
 
-let die = false;
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
