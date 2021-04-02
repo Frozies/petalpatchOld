@@ -1,3 +1,16 @@
+var express = require('express');
+var router = express.Router();
+
+/* GET users listing. */
+router.get('/', function(req, res, next) {
+    res.render('products', {
+        title: 'Products'
+    })
+});
+
+module.exports = router;
+
+
 /*// The headless, executablePath, and args are copy and pasted to make puppeteer work with docker.
   const browser = await puppeteer.launch({
     headless: true,
