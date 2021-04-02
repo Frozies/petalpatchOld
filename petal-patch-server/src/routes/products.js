@@ -1,21 +1,4 @@
-var express = require('express');
-var router = express.Router();
-
-//Puppeteer is a google made node library which provides api control to a headless chrome.
-const puppeteer = require('puppeteer');
-
-router.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "http://localhost:3000");
-
-  // Getting the headers and access control from the current http address
-  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-  next(); /*NEXT :D*/
-});
-
- // GET home page.
-router.get('/', async (req, res) => {
-
-  // The headless, executablePath, and args are copy and pasted to make puppeteer work with docker.
+/*// The headless, executablePath, and args are copy and pasted to make puppeteer work with docker.
   const browser = await puppeteer.launch({
     headless: true,
     executablePath: process.env.CHROME_BIN || null,
@@ -61,7 +44,4 @@ router.get('/', async (req, res) => {
   }));
 
   res.send();
-  await browser.close();
-});
-
-module.exports = router;
+  await browser.close();*/

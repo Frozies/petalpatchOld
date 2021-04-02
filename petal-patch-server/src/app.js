@@ -5,7 +5,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');5
 
-var indexRouter = require('./routes/index');
+var indexRouter = require('./routes');
 var usersRouter = require('./routes/users');
 var healthRouter = require('./routes/health');
 const { debug } = require("puppeteer/lib/cjs/puppeteer/common/Debug");
