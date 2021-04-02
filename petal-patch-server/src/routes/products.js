@@ -9,7 +9,7 @@ const DOMPurify = createDOMPurify(window);
 
 
 /* GET users listing. */
-router.get('/', async function(req, res, next) {
+router.get('/', async function(req, res) {
     const productURL = 'https://www.teleflora.com/bouquet/telefloras-bedazzling-beauty-bouquet?prodID=P_T21S100A&skuId=T21S100A&zipMin=';
     const [productName, productID, price, productImage] = await getTelefloraProduct(productURL);
 
