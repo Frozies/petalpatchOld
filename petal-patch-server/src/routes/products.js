@@ -73,7 +73,12 @@ async function getTelefloraProduct(url) {
     console.log('Closing headless and returning product ' + productName);
 
     await browser.close();
+    console.log('Data: ' + [productName, productID, price, productImage]);
     return [productName, productID, price, productImage];
 }
 
 module.exports = router;
+
+module.exports.getTelefloraProduct = async function(url) {
+    return getTelefloraProduct(url);
+};
