@@ -1,15 +1,3 @@
-Information delivered to the "/admin" page
-stats of inventory levels and warning signs
-Products that need to be delivered today
-products that don't need to be delivered today
-Google maps link to show a location of every individual recipient per product
-Recipients phone number & address are simplest but important details of delivery (aside from a smile)
-Delivery confirmation reports with timestamps. Needs to take a photo for success or give a small description of reason
-for failure.
-
-I am going to start following https://12factor.net/
-
-
 ## Critical successful florist plan
 
 #### Main screen
@@ -77,3 +65,14 @@ Checkout Stripe
 * Go Through Dependencies
 * Design Api Getters And Setters
 * Documentation Revamp
+
+Information delivered to the "/admin" page
+stats of inventory levels and warning signs
+Products that need to be delivered today
+products that don't need to be delivered today
+Google maps link to show a location of every individual recipient per product
+Recipients phone number & address are simplest but important details of delivery (aside from a smile)
+Delivery confirmation reports with timestamps. Needs to take a photo for success or give a small description of reason
+for failure.
+
+I am going to start following https://12factor.net/
