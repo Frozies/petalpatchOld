@@ -1,7 +1,7 @@
 extends layout
-
 block content
-  h1= title
-  h5= 'ID: ' + id
-  h5= '$: ' + price
-  img(src=image)
+  for item in results
+    h1= item.productName
+    h5= 'ID: ' + item.productID
+    h5= '$: ' + item.price
+    img(src=item.productImage)
