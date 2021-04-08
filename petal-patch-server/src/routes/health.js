@@ -28,6 +28,7 @@ function handleExit(signal) {
         process.exit(0);
     });
 }
+
 process.on('SIGINT', handleExit);
 process.on('SIGQUIT', handleExit);
 process.on('SIGTERM', handleExit);
