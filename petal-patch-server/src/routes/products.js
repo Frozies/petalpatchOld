@@ -5,23 +5,24 @@ const createDOMPurify = require('dompurify');
 const { JSDOM }  = require('jsdom');
 
 const window = new JSDOM('').window;
-const DOMPurify = createDOMPurify(window);
+createDOMPurify(window);
 
-router.get('/', ((req, res) => {
+router.get('/', (async (req, res) => {
+    const telefloraID = req.query.prodID;
 
+    if (!telefloraID){
+        res.render('products', {
+            title: 'Welcome to the products page'
+        });
+    } else {
+        const productURL = "https://www.teleflora.com/bouquet/?prodID=" + telefloraID;
+
+        const products = await getTelefloraProduct(productURL);
+        res.render('products', {
+            results: products
+        });
+    }
 }));
-
-/* GET users listing. */
-router.get('/:productID/', async (req, res) => {
-    const telefloraID = req.params.productID;
-    const productURL = "https://www.teleflora.com/bouquet/?prodID=" + telefloraID;
-
-    const products = await getTelefloraProduct(productURL);
-    res.render('products', {
-        results: products
-    });
-
-});
 
 async function getTelefloraProduct(dirtyUrl) {
     let cleanUrl = new URL(dirtyUrl);
@@ -64,7 +65,7 @@ async function getProductData(index, page) {
     /**Retrieve Product Data*/
     //Product Name
     let productName = await page.evaluate((sel, i) => {
-            return document.getElementById("skuRadio" + i).getAttribute('data-alttext');
+            return document.getElementById("skuRadio" + i).getAttribute('data-alttext').replace("Teleflora's ", "");
         }, priceSelector, index);
 
     // Product ID
@@ -79,7 +80,7 @@ async function getProductData(index, page) {
 
     // Product Image
     let productImage = await page.evaluate((sel, i) => {
-        return document.getElementById("skuRadio" + i).getAttribute('data-zoom').replace("/w_1000,h_1000", "/w_300,h_300");
+        return document.getElementById("skuRadio" + i).getAttribute('data-zoom').replace("/w_800,h_1000", "/w_300,h_300");
     }, priceSelector, index);
 
     // TODO: Fix image sizing
@@ -88,6 +89,10 @@ async function getProductData(index, page) {
     console.log('Data: ' + [productName, productID, price, productImage]);
 
     return { productName: productName, productID: productID, price: price, productImage: productImage };
+}
+
+function submitProduct(productID){
+console.log(productID);
 }
 
 // function sanitizeUrl(dirtyUrl) {
