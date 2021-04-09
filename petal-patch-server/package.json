@@ -10,7 +10,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon src/bin/www"
+    "start": "nodemon src/bin/www",
+    "start-server": "node src/bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
