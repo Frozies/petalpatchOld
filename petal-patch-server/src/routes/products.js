@@ -7,9 +7,12 @@ const { JSDOM }  = require('jsdom');
 const window = new JSDOM('').window;
 const DOMPurify = createDOMPurify(window);
 
+router.get('/', ((req, res) => {
+
+}));
 
 /* GET users listing. */
-router.get('/:productID/', async function(req, res) {
+router.get('/:productID/', async (req, res) => {
     const telefloraID = req.params.productID;
     const productURL = "https://www.teleflora.com/bouquet/?prodID=" + telefloraID;
 
