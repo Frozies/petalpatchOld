@@ -9,6 +9,7 @@ createDOMPurify(window);
 
 router.get('/', (async (req, res) => {
     const telefloraID = req.query.prodID;
+    //TODO: Error handling
 
     if (!telefloraID){
         res.render('products', {
