@@ -21,12 +21,17 @@ RUN npm install
 
 RUN npm install cookie-parser
 RUN npm install debug
+RUN npm install dompurify
+RUN npm install dotenv
 RUN npm install express
 RUN npm install http-errors
-RUN npm install jade
+RUN npm install jest
+RUN npm install jsdom
 RUN npm install morgan
 RUN npm install nodemon
+RUN npm install pug
 RUN npm install puppeteer
+RUN npm install supertest
 
 COPY . /petal-patch-server/
 CMD ["npm", "run", "start-server"]
