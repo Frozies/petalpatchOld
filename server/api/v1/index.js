@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const rateLimit = require('express-rate-limit'); // Limits allowed calls for x amount of ms
 const slowDown = require('express-slow-down'); // Slows each following request if spammed
+// noinspection JSUnusedLocalSymbols
 const axios = require('axios'); // Use axios to make http requests
 // const example = require('./example.js'); ==> load specifc api file
 const products = require('./products.js');

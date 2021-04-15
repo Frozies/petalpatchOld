@@ -3,7 +3,7 @@ const express = require('express'); // Fast web framework for node js
 
 // Getting main api file and loading custom middlewares
 const middlewares = require('./middlewares.js');
-const api = require('./api');
+const api_v1 = require('./api/v1');
 
 // Setting up express & must use middleware
 let app = express();
@@ -14,10 +14,11 @@ app.use(express.json()); // Allows use of req.body (for json)
 app.use(middlewares.notFound);
 app.use(middlewares.errorHandler);
 app.use('/public', express.static(__dirname+'/../public/'));
-app.use('/api', api);
+app.use('/api/v1', api_v1);
 
 // Setting up node js server
 let port = process.env.PORT || 4000;
+// noinspection JSUnusedLocalSymbols
 let server = app.listen(port, () => console.log(`Server running on port ${port}...`));
 
 // Basic Routing

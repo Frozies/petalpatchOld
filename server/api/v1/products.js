@@ -88,6 +88,7 @@ async function getProductData(index, page) {
     return { productName: productName, productID: productID, price: price, productImage: productImage };
 }
 
+// noinspection JSUnusedLocalSymbols
 function submitProduct(productID){
     console.log(productID);
 }
