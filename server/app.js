@@ -10,6 +10,14 @@ let app = express();
 app.set('trust proxy', 1); // When using something like nginx or apache as a proxy
 app.use(express.json()); // Allows use of req.body (for json)
 
+// Setting up Mongoose
+let mongoose;
+try {
+    mongoose = require("mongoose");
+} catch (e) {
+    console.log(e);
+}
+
 // Custom Middleware
 app.use(middlewares.notFound);
 app.use(middlewares.errorHandler);
