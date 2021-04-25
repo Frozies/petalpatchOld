@@ -2,8 +2,6 @@ const webpack = require('webpack');
 
 const path = require('path');
 
-const ROOT_PATH = path.resolve(__dirname);
-
 module.exports = {
 	entry: __dirname+'/src/App.js',
 	mode: 'production',
@@ -73,24 +71,6 @@ module.exports = {
 
 
 		]
-	},
-	resolve: {
-		extensions: ['*', '.js', '.jsx'],
-		fallback: {
-			"child_process": 'empty',
-			"fs": require.resolve("browserify-fs"),
-			"util": require.resolve("util"),
-			"http": require.resolve("stream-http"),
-			"https": require.resolve("https-browserify"),
-			"tls": require.resolve("tls-browserify"),
-			"net": require.resolve("net-browserify"),
-			"crypto": require.resolve("crypto-browserify"),
-			"path": require.resolve("path-browserify"),
-			"os": require.resolve("os-browserify"),
-			"stream": require.resolve("stream-browserify"),
-			"zlib": require.resolve("browserify-zlib"),
-			"constants": require.resolve("constants-browserify")
-		}
 	},
 	externals : {
 		canvas: {},
