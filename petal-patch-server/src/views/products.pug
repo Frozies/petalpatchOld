@@ -1,7 +1,0 @@
-extends layout
-block content
-  for item in results
-    h1= item.productName
-    h5= 'ID: ' + item.productID
-    h5= '$: ' + item.price
-    img(src=item.productImage)
