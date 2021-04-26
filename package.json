@@ -4,7 +4,7 @@
     "description": "This is a react and express app",
     "main": "server/app.js",
     "scripts": {
-        "start": "node ./server/app.js",
+        "start": "webpack && node ./server/app.js",
         "dev": "nodemon ./server/app.js",
         "build": "webpack",
         "killNodeWin": "taskkill -F -IM node.exe",

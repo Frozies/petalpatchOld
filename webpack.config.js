@@ -9,7 +9,6 @@ module.exports = {
 		path: __dirname+'/public/js',
 		filename: 'bundle.js'
 	},
-	watch: true,
 	target: 'node',
 	module: {
 		rules: [
