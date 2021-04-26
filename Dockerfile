@@ -1,9 +1,11 @@
 FROM node:14-alpine
 
-EXPOSE 80
+EXPOSE 4000
 
-WORKDIR /srv/api
-ADD . /srv/api
+WORKDIR /server
+ADD . /server
+
+RUN npm install
 
 ENV CHROME_BIN="/usr/bin/chromium-browser" \
     PUPPETEER_SKIP_CHROMIUM_DOWNLOAD="true"
@@ -17,11 +19,4 @@ RUN set -x \
     chromium \
     && npm install puppeteer
 
-COPY /package.json /
-RUN npm install
-RUN npm cache clean --force
-RUN npm install -g npm
-RUN npm install
-
-COPY . /petal-patch-server/
-CMD ["npm", "run", "start-server"]
+CMD ["npm", "run", "start"]
