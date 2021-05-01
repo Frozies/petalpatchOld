@@ -1,5 +1,5 @@
 {
-    "name": "petal-patch",
+    "name": "petal-patch-store-front",
     "version": "1.0.0",
     "description": "This is a react and express app",
     "main": "server/app.js",
