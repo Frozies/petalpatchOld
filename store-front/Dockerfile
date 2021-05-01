@@ -3,7 +3,7 @@ FROM node:14-alpine
 EXPOSE 4000
 
 WORKDIR /server
-ADD . /server
+ADD .. /server
 
 RUN npm install
 

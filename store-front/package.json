@@ -4,12 +4,12 @@
     "description": "This is a react and express app",
     "main": "server/app.js",
     "scripts": {
-        "start": "webpack && node ./server/app.js",
-        "dev": "nodemon ./server/app.js",
-        "build": "webpack",
+        "start": "./node_modules/.bin/webpack && node ./server/app.js",
+        "dev": "nodemon server/app.js",
+        "build": "../node_modules/.bin/webpack",
         "killNodeWin": "taskkill -F -IM node.exe",
         "killNodeLinux": "killall .node.bin",
-        "watch": "./node_modules/.bin/webpack --watch --config webpack.dev.js"
+        "watch": "../node_modules/.bin/webpack --watch --config webpack.dev.js"
     },
     "dependencies": {
         "apollo-server-express": "^2.23.0",
