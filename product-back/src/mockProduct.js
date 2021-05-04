@@ -1,11 +1,11 @@
 const {MockList} = require("apollo-server");
 
 const mocks = {
-    QueryProducts: () => ({
+    Query: () => ({
         listAllBouquets: () => new MockList([6,9])
     }),
 
-    Product: () => ({
+    Bouquet: () => ({
         id: () => 'TEV56-3A',
         title: () => 'Blush Life Bouquet',
         thumbnail: () => 'https://img.teleflora.com/images/o_0/l_flowers:TEV56-3C,pg_6/w_800,h_1000,cs_no_cmyk,c_pad/f_jpg,q_auto:eco,e_sharpen:200/flowers/TEV56-3C/BlushLifeBouquetPM',
