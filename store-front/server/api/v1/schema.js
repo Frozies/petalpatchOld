@@ -24,12 +24,6 @@ const typeDefs = gql`
         goodbye: String
     }
 
-    "Products will have various fields."
-    type Product {
-        id: ID
-        name:String
-    }
-
     type User {
         id:ID
         name: String
