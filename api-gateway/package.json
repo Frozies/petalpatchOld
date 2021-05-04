@@ -1,0 +1,16 @@
+{
+  "name": "petal-patch-api-gateway",
+  "version": "1.0.0",
+  "description": "The main Apollo Federation gateway for the rest of the microservices.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Davin Young",
+  "dependencies": {
+    "@apollo/gateway": "^0.28.0",
+    "apollo-server": "^2.24.0",
+    "dotenv": "^8.2.0"
+  }
+}
