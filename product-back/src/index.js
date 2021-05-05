@@ -3,13 +3,16 @@
  * products. Inventory is NOT included in this program, but may be added slowly until it is migrated.
 * */
 const { ApolloServer } = require('apollo-server');
+const { buildFederatedSchema } = require('@apollo/federation');
 const typeDefs = require('./schema');
-// const resolvers = require('./resolvers');
+const resolvers = require('./resolvers');
 const mocks = require('./mockProduct');
 
 require('dotenv').config(); // Allows use of environmental variables from the .env file
 
-const server = new ApolloServer({ typeDefs, mocks });
+const server = new ApolloServer({
+    schema: buildFederatedSchema([{ typeDefs, resolvers, mocks, mockEntireSchema:true }])
+});
 
 //The default port should increment from 4000 (the api gateway), 4001 (Products), etc
 let serverPort = process.env.PRODUCTS_PORT || 4001;

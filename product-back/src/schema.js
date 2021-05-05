@@ -6,6 +6,7 @@ const typeDefs = gql`
         
         "List all bouqets in the database."
         listAllBouquets: [Bouquet!]!
+        listBouquet: Bouquet
     }
     
     "Bouquet product type. Includes sizes for multiple price-points. Plan to add holiday tags and other organizers."
@@ -14,7 +15,7 @@ const typeDefs = gql`
         title: String!
         thumbnail: String
         description: String
-        sizes: [Size!]!
+#        sizes: [Size!]!
     }
     
     "Sizes for the bouquet product type."

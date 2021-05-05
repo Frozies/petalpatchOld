@@ -1,12 +1,9 @@
 const { ApolloServer } = require('apollo-server');
 const { ApolloGateway } = require('@apollo/gateway');
+
 require('dotenv').config(); // Allows use of environmental variables from the .env file
 
-const supergraphSchema = ''; // TODO!
-
-const gateway = new ApolloGateway({
-    supergraphSdl: supergraphSchema
-});
+const gateway = new ApolloGateway();
 
 const server = new ApolloServer({
     gateway,

@@ -2,7 +2,8 @@ const {MockList} = require("apollo-server");
 
 const mocks = {
     Query: () => ({
-        listAllBouquets: () => new MockList([6,9])
+        listAllBouquets: () => new MockList([6,9]),
+        listBouquet: () => new MockList([1,1])
     }),
 
     Bouquet: () => ({
