@@ -7,11 +7,16 @@ const { buildFederatedSchema } = require('@apollo/federation');
 const typeDefs = require('./schema');
 const resolvers = require('./resolvers');
 const mocks = require('./mockProduct');
+const queryLogger = require('./plugins/queryLogger');
 
 require('dotenv').config(); // Allows use of environmental variables from the .env file
 
+
 const server = new ApolloServer({
-    schema: buildFederatedSchema([{ typeDefs, resolvers, mocks, mockEntireSchema:true }])
+    schema: buildFederatedSchema([{ typeDefs, resolvers, mocks, mockEntireSchema:true }]),
+    plugins: [
+        queryLogger
+    ]
 });
 
 //The default port should increment from 4000 (the api gateway), 4001 (Products), etc
@@ -24,4 +29,3 @@ server.listen({ port: serverPort }).then(() => {
     📭  Query at https://studio.apollographql.com/dev
     `);
 });
-
