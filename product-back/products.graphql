@@ -25,16 +25,12 @@ input InputSize {
 
 type Mutation {
   createBouquet(id: String!, title: String!, description: String, sizes: [InputSize!]!): Bouquet
-  updateBouquet(id: ID): Bouquet
-  removeBouquet(id: ID): Bouquet
 }
 
 """Simple Query to the products backend."""
 type Query {
-  readBouquet(id: ID): Bouquet!
-
-  """List all bouqets in the database."""
-  readAllBouquets: [Bouquet!]!
+  """Retrieve many bouquets from the product database."""
+  retrieveBouquets: [Bouquet]
 }
 
 """

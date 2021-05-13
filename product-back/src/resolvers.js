@@ -8,7 +8,7 @@ const sizeSchema = new mongoose.Schema({
 });
 
 const productSchema = new mongoose.Schema({
-    id: 'string',
+    skuid: 'string',
     title: 'string',
     thumbnail: 'string',
     description: 'string',
@@ -19,14 +19,20 @@ const BouquetModel = mongoose.model('Product', productSchema);
 
 const resolvers = {
     Query: {
-
+        retrieveBouquets: async (parent, args, datasources, info) => {
+            let cursor = BouquetModel.find().cursor();
+            let array = []
+            for (let doc = await cursor.next(); doc != null; doc = await cursor.next()) {
+                array.push(doc);
+            }
+            return array;
+        }
     },
 
     Mutation: {
-        createBouquet: (parent, args, datasources, info) => { // TODO: Use datasource?
-
+        createBouquet: (parent, args, datasources, info) => {
             BouquetModel.create({
-                id: args.id,
+                skuid: args.id,
                 title: args.title,
                 thumbnail: args.thumbnail,
                 description: args.description,
@@ -35,18 +41,13 @@ const resolvers = {
                 if (err) return handleError(err);
             });
 
-            console.log("_________SENT ARGUMENT___________")
-            console.log(args)
-            console.log("_________END OF ARGUMENT_________")
-
             return {
-                id: args.id,
+                skuid: args.id,
                 title: args.title,
                 thumbnail: args.thumbnail,
                 description: args.description,
                 sizes: args.sizes
             };
-            // return true;
         },
     }
 };
