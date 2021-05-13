@@ -23,7 +23,7 @@ Activities Log (Ie New Orders, Products Added, Deliveries)
 * Order Status (received, Arranged, Assigned Driver, Delivered, Failed To Deliver, Assigned New Driver, success)
 * Show's all the recipients & senders information
   card message
-* All the products (including bears, chocolate, balloons)
+* All the productDatasource (including bears, chocolate, balloons)
 * Link to product directly with photos.
 * Print button, with automatic email to printer and business email.
 * Edit Order, cancel Order

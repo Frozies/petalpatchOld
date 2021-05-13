@@ -9,7 +9,7 @@ the backend business logic. All of which are going to be combined using Apollo F
 specific readme in its root folder.
 
 ##Store-Front
-The service starts here, the customer views the online store page, selects a product (or products) and purchases them. 
+The service starts here, the customer views the online store page, selects a product (or productDatasource) and purchases them. 
 Using react, express, apollo, node, and webpack to run the front end, and launch a backend that can communicate through
 the gateway to the rest of the microservices.
 
@@ -32,12 +32,12 @@ delivery notes if needed.
 This is the middleware using apollo federation to combine the separate graphql servers from all the microservices.
 
 ##Product-Back
-Microservice that handles anything to do with products. Updating, adding, changing any product and has direct access to 
+Microservice that handles anything to do with productDatasource. Updating, adding, changing any product and has direct access to 
 the product database.
 
 ##Inventory-Back
-Microservice that handles the inventory. A vase based inventory for bouquets that links to the products which include
-a vaseID. Non-bouquet based products have their own corresponding product and inventory IDs.
+Microservice that handles the inventory. A vase based inventory for bouquets that links to the productDatasource which include
+a vaseID. Non-bouquet based productDatasource have their own corresponding product and inventory IDs.
 
 ##Order-Back
 Order handling for the storefront, and stripe. Saves all the information needed either to stripe or a private database.

@@ -18,9 +18,9 @@ function App() {
 			<Switch>
 				<Route exact path='/' component={Homepage}/>
 				<Route path='/checkout' component={Checkout}/>
-				<Route exact path='/products' component={ProductGallery}/>
+				<Route exact path='/productDatasource' component={ProductGallery}/>
 				<Route exact path='/admin' component={AdminHome}/>
-				{/*<Route path='/products/1' component={Product}/>*/}
+				{/*<Route path='/productDatasource/1' component={Product}/>*/}
 			</Switch>
 			<Footer/>
 		</Router>

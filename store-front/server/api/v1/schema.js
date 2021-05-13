@@ -37,7 +37,7 @@ const typeDefs = gql`
         recipientName: String
         recipientAddress: Address
         recipientPhone: String
-        products: [Product!]!
+#        products: [Product!]!
         cardMessage: String
         specialInstructions: String
         customerName: String

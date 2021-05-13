@@ -3,25 +3,42 @@ const {gql} = require("apollo-server");
 const typeDefs = gql`
     "Simple Query to the products backend."
     type Query {
+        readBouquet(id:ID): Bouquet!
         
         "List all bouqets in the database."
-        listAllBouquets: [Bouquet!]!
-        listBouquet: Bouquet
+        readAllBouquets: [Bouquet!]!
+    }
+    
+    type Mutation {
+        createBouquet(id: String!, title: String!, description: String, sizes: [InputSize!]!): Bouquet
+        
+        updateBouquet(id: ID): Bouquet
+        removeBouquet(id: ID): Bouquet
     }
     
     "Bouquet product type. Includes sizes for multiple price-points. Plan to add holiday tags and other organizers."
     type Bouquet {
+        "ID or SKU to be auto generated using a custom codefied format. (Ask Renee for help on format)"
         id: ID!
         title: String!
+        "Thumbnail to be auto-populated from size."
         thumbnail: String
         description: String
-#        sizes: [Size!]!
+        sizes: [Size!]!
     }
     
-    "Sizes for the bouquet product type."
+    "Sizes for the bouquet product type. The photo is a string for now, will eventually be uploaded."
     type Size {
         size:  String!
         price: Float!
+        photo: String
+    }
+    
+    "Sizes for the bouquet product type. The photo is a string for now, will eventually be uploaded."
+    input InputSize {
+        size:  String!
+        price: Float!
+        photo: String
     }
 `;
 

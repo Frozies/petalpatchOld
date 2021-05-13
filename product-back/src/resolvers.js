@@ -1,40 +1,54 @@
 const {MockList} = require("apollo-server");
+const mongoose = require("mongoose");
+
+const sizeSchema = new mongoose.Schema({
+    size: 'string',
+    price: 'number',
+    photo: 'string'
+});
+
+const productSchema = new mongoose.Schema({
+    id: 'string',
+    title: 'string',
+    thumbnail: 'string',
+    description: 'string',
+    sizes: [sizeSchema]
+});
+
+const BouquetModel = mongoose.model('Product', productSchema);
 
 const resolvers = {
     Query: {
-        listBouquet(){
-            return {
-                title: 'test',
-                id: 'test_id'
-            }
-        }
-    }
 
-    // Query: {
-    //     listAllBouquets: {MockList([6,9])},
-    //     listBouquet: {MockList([1,1])}
-    // },
-    //
-    // Bouquet: () => ({
-    //     id: () => 'TEV56-3A',
-    //     title: () => 'Blush Life Bouquet',
-    //     thumbnail: () => 'https://img.teleflora.com/images/o_0/l_flowers:TEV56-3C,pg_6/w_800,h_1000,cs_no_cmyk,c_pad/f_jpg,q_auto:eco,e_sharpen:200/flowers/TEV56-3C/BlushLifeBouquetPM',
-    //     description: () => 'Put a spring in their step with this beautifully blushing bouquet of hot pink roses, soft peach lilies and fresh green hydrangea. Arranged in a graceful vase tied with a charming bow, it\'s a chic treat for any occasion!',
-    //     sizes: () => [
-    //         {
-    //             size: () => 'Standard',
-    //             price: () => 74.99
-    //         },
-    //         {
-    //             size: () => 'Deluxe',
-    //             price: () => 89.99
-    //         },
-    //         {
-    //             size: () => 'Premium',
-    //             price: () => 99.99
-    //         }
-    //     ]
-    // })
+    },
+
+    Mutation: {
+        createBouquet: (parent, args, datasources, info) => { // TODO: Use datasource?
+
+            BouquetModel.create({
+                id: args.id,
+                title: args.title,
+                thumbnail: args.thumbnail,
+                description: args.description,
+                sizes: args.sizes
+            }, function (err, small) {
+                if (err) return handleError(err);
+            });
+
+            console.log("_________SENT ARGUMENT___________")
+            console.log(args)
+            console.log("_________END OF ARGUMENT_________")
+
+            return {
+                id: args.id,
+                title: args.title,
+                thumbnail: args.thumbnail,
+                description: args.description,
+                sizes: args.sizes
+            };
+            // return true;
+        },
+    }
 };
 
 module.exports = resolvers;
