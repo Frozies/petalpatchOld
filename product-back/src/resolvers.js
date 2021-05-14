@@ -28,8 +28,14 @@ const resolvers = {
             return array;
         },
 
-        retrieveBouquetBySKUID: (parent, args, datasources, info) => {
-            return BouquetModel.findOne({skuid: args.skuid});
+        retrieveBouquetBySKUID: (parent, args, datasources, info) =>{
+            let bouquet = BouquetModel.findOne({skuid: args.skuid});
+
+            if (bouquet != null) return bouquet;
+            else {
+                console.log("Bouquet " + args.skuid + " does not exist.")
+                return null;
+            }
         }
     },
 
@@ -64,7 +70,7 @@ const resolvers = {
                 });
             }
 
-            // if bouquet DOES exist then Update any info if its different.
+            // if bouquet DOES exist then Update any info if its different. //TODO: Update if exists
             else if (bouqExists == true){
                 console.log("Bouquet already exists!")
 
