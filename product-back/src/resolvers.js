@@ -32,6 +32,7 @@ const resolvers = {
             let bouquet = BouquetModel.findOne({skuid: args.skuid});
 
             if (bouquet != null) return bouquet;
+
             else {
                 console.log("Bouquet " + args.skuid + " does not exist.")
                 return null;
