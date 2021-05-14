@@ -5,7 +5,7 @@ type Bouquet {
   """
   ID or SKU to be auto generated using a custom codefied format. (Ask Renee for help on format)
   """
-  id: ID!
+  skuid: String!
   title: String!
 
   """Thumbnail to be auto-populated from size."""
@@ -24,13 +24,14 @@ input InputSize {
 }
 
 type Mutation {
-  createBouquet(id: String!, title: String!, description: String, sizes: [InputSize!]!): Bouquet
+  createBouquet(skuid: String!, title: String!, description: String, sizes: [InputSize!]!): Bouquet
 }
 
 """Simple Query to the products backend."""
 type Query {
   """Retrieve many bouquets from the product database."""
   retrieveBouquets: [Bouquet]
+  retrieveBouquetBySKUID(skuid: String): Bouquet
 }
 
 """

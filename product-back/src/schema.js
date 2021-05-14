@@ -5,6 +5,7 @@ const typeDefs = gql`
     type Query {
         "Retrieve many bouquets from the product database."
         retrieveBouquets: [Bouquet]
+        retrieveBouquetBySKUID(skuid: String): Bouquet
         
 #        readBouquet(id:ID): Bouquet!
 #        
@@ -13,7 +14,7 @@ const typeDefs = gql`
     }
     
     type Mutation {
-        createBouquet(skuid: String!, title: String!, description: String, sizes: [InputSize!]!): Bouquet
+        createOrUpdateBouquet(skuid: String!, title: String!, description: String, sizes: [InputSize!]!): Bouquet
         
 #        updateBouquet(id: ID): Bouquet
 #        removeBouquet(id: ID): Bouquet

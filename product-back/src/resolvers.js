@@ -26,29 +26,59 @@ const resolvers = {
                 array.push(doc);
             }
             return array;
+        },
+
+        retrieveBouquetBySKUID: (parent, args, datasources, info) => {
+            return BouquetModel.findOne({skuid: args.skuid});
         }
     },
 
     Mutation: {
-        createBouquet: (parent, args, datasources, info) => {
-            BouquetModel.create({
-                skuid: args.id,
-                title: args.title,
-                thumbnail: args.thumbnail,
-                description: args.description,
-                sizes: args.sizes
-            }, function (err, small) {
-                if (err) return handleError(err);
-            });
+        createOrUpdateBouquet: async (parent, args, datasources, info) => {
 
-            return {
-                skuid: args.id,
-                title: args.title,
-                thumbnail: args.thumbnail,
-                description: args.description,
-                sizes: args.sizes
-            };
-        },
+            // Check if the bouq exists using the SKUID. Then changes the variable from the function to a boolean
+            let bouqExists = await BouquetModel.exists({skuid: args.skuid});
+            bouqExists = bouqExists.valueOf();
+
+            // If bouquet does NOT exist then create it and return doc.
+            if (bouqExists == false) {
+                //Create
+                await BouquetModel.create({
+                    skuid: args.skuid,
+                    title: args.title,
+                    thumbnail: args.thumbnail,
+                    description: args.description,
+                    sizes: args.sizes
+                }, function (err, doc) {
+                    if (err) return handleError(err);
+
+                    console.log("Creating new product: " + args.skuid + " - " + args.title);
+                    //Return document
+                    return {
+                        skuid: args.skuid,
+                        title: args.title,
+                        thumbnail: args.thumbnail,
+                        description: args.description,
+                        sizes: args.sizes
+                    }
+                });
+            }
+
+            // if bouquet DOES exist then Update any info if its different.
+            else if (bouqExists == true){
+                console.log("Bouquet already exists!")
+
+                return {
+                    skuid: args.skuid,
+                    title: args.title,
+                    thumbnail: args.thumbnail,
+                    description: args.description,
+                    sizes: args.sizes
+                }
+            }
+
+            //RETURN HERE
+        }
     }
 };
 
