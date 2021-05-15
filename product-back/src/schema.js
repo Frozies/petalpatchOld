@@ -20,29 +20,76 @@ const typeDefs = gql`
 #        removeBouquet(id: ID): Bouquet
     }
     
-    "Bouquet product type. Includes sizes for multiple price-points. Plan to add holiday tags and other organizers."
-    type Bouquet {
-        "ID or SKU to be auto generated using a custom codefied format. (Ask Renee for help on format)"
+    type Product {
         skuid: String!
         title: String!
-        "Thumbnail to be auto-populated from size."
-        thumbnail: String
+        price: Float!
+        photoURL: String
         description: String
-        sizes: [Size!]!
+        tags: [Tags]
+    }
+
+    "Bouquet product type. Includes sizes for multiple price-points. Plan to add holiday tags and other organizers."
+    type Bouquet {
+        products: [Product!]
     }
     
-    "Sizes for the bouquet product type. The photo is a string for now, will eventually be uploaded."
-    type Size {
-        size:  String!
-        price: Float!
-        photo: String
+    type Tags {
+        size: String
+        colors: Colors
+        occasions: Occasions
+        flowers: Flowers
+    }
+
+    type Flowers {
+        roses: Boolean
+        carnations: Boolean
+        daisys: Boolean
+        lilies: Boolean
+        stock: Boolean
+        sunflower: Boolean
     }
     
-    "Sizes for the bouquet product type. The photo is a string for now, will eventually be uploaded."
-    input InputSize {
-        size:  String!
-        price: Float!
-        photo: String
+    type Colors {
+        red: Boolean
+        orange: Boolean
+        yellow: Boolean
+        green: Boolean
+        blue: Boolean
+        pink: Boolean
+        purple: Boolean
+        white: Boolean
+    }
+    
+    type Occasions {
+        birthday: Boolean
+        wedding: Boolean
+        christmas: Boolean
+        stpatricks: Boolean
+        easter: Boolean
+        mothers: Boolean
+        grandparents: Boolean
+        independence: Boolean
+        fathers: Boolean
+        memorial: Boolean
+        halloween: Boolean
+        thanksgiving: Boolean
+        hanukkah: Boolean
+        graduation: Boolean
+        spring: Boolean
+        anniversary: Boolean
+        backToSchool: Boolean
+        congratulation: Boolean
+        getWell: Boolean
+        imSorry: Boolean
+        justBecause: Boolean
+        romance: Boolean
+        babies: Boolean
+        religious: Boolean
+        retirement: Boolean
+        thankYou: Boolean
+        thinkingOfYou: Boolean
+        newYears: Boolean
     }
 `;
 
