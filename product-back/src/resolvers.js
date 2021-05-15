@@ -1,6 +1,8 @@
 const {MockList} = require("apollo-server");
 const mongoose = require("mongoose");
 
+//TODO: move schemas to another file. Change Models to copy the gql schemas.
+
 const sizeSchema = new mongoose.Schema({
     size: 'string',
     price: 'number',

@@ -104,7 +104,8 @@ const typeDefs = gql`
 
     "Bouquet product type. Includes sizes for multiple price-points. Plan to add holiday tags and other organizers."
     input inputBouquet {
-        products: [inputProduct!]
+        #TODO: For each product in array, Send combined bouquets to a seperate ledger.
+        products: inputProduct! #TODO Array me!
     }
     input inputTags {
         size: String

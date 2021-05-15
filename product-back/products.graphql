@@ -2,29 +2,145 @@
 Bouquet product type. Includes sizes for multiple price-points. Plan to add holiday tags and other organizers.
 """
 type Bouquet {
-  """
-  ID or SKU to be auto generated using a custom codefied format. (Ask Renee for help on format)
-  """
-  skuid: String!
-  title: String!
+  products: [Product!]
+}
 
-  """Thumbnail to be auto-populated from size."""
-  thumbnail: String
-  description: String
-  sizes: [Size!]!
+type Colors {
+  red: Boolean
+  orange: Boolean
+  yellow: Boolean
+  green: Boolean
+  blue: Boolean
+  pink: Boolean
+  purple: Boolean
+  white: Boolean
+}
+
+type Flowers {
+  roses: Boolean
+  carnations: Boolean
+  daisys: Boolean
+  lilies: Boolean
+  stock: Boolean
+  sunflower: Boolean
 }
 
 """
-Sizes for the bouquet product type. The photo is a string for now, will eventually be uploaded.
+Bouquet product type. Includes sizes for multiple price-points. Plan to add holiday tags and other organizers.
 """
-input InputSize {
-  size: String!
+input inputBouquet {
+  products: inputProduct!
+}
+
+input inputColors {
+  red: Boolean
+  orange: Boolean
+  yellow: Boolean
+  green: Boolean
+  blue: Boolean
+  pink: Boolean
+  purple: Boolean
+  white: Boolean
+}
+
+input inputFlowers {
+  roses: Boolean
+  carnations: Boolean
+  daisys: Boolean
+  lilies: Boolean
+  stock: Boolean
+  sunflower: Boolean
+}
+
+input inputOccasions {
+  birthday: Boolean
+  wedding: Boolean
+  christmas: Boolean
+  stpatricks: Boolean
+  easter: Boolean
+  mothers: Boolean
+  grandparents: Boolean
+  independence: Boolean
+  fathers: Boolean
+  memorial: Boolean
+  halloween: Boolean
+  thanksgiving: Boolean
+  hanukkah: Boolean
+  graduation: Boolean
+  spring: Boolean
+  anniversary: Boolean
+  backToSchool: Boolean
+  congratulation: Boolean
+  getWell: Boolean
+  imSorry: Boolean
+  justBecause: Boolean
+  romance: Boolean
+  babies: Boolean
+  religious: Boolean
+  retirement: Boolean
+  thankYou: Boolean
+  thinkingOfYou: Boolean
+  newYears: Boolean
+}
+
+input inputProduct {
+  skuid: String!
+  title: String!
   price: Float!
-  photo: String
+  photoURL: String
+  description: String
+  tags: [inputTags]
+}
+
+input inputTags {
+  size: String
+  colors: inputColors
+  occasions: inputOccasions
+  flowers: inputFlowers
 }
 
 type Mutation {
-  createBouquet(skuid: String!, title: String!, description: String, sizes: [InputSize!]!): Bouquet
+  createOrUpdateBouquet(bouquet: inputBouquet): Bouquet
+}
+
+type Occasions {
+  birthday: Boolean
+  wedding: Boolean
+  christmas: Boolean
+  stpatricks: Boolean
+  easter: Boolean
+  mothers: Boolean
+  grandparents: Boolean
+  independence: Boolean
+  fathers: Boolean
+  memorial: Boolean
+  halloween: Boolean
+  thanksgiving: Boolean
+  hanukkah: Boolean
+  graduation: Boolean
+  spring: Boolean
+  anniversary: Boolean
+  backToSchool: Boolean
+  congratulation: Boolean
+  getWell: Boolean
+  imSorry: Boolean
+  justBecause: Boolean
+  romance: Boolean
+  babies: Boolean
+  religious: Boolean
+  retirement: Boolean
+  thankYou: Boolean
+  thinkingOfYou: Boolean
+  newYears: Boolean
+}
+
+type Product {
+  skuid: String!
+  title: String!
+  price: Float!
+  photoURL: String
+  description: String
+  tags: [Tags]
 }
 
 """Simple Query to the products backend."""
@@ -34,12 +150,10 @@ type Query {
   retrieveBouquetBySKUID(skuid: String): Bouquet
 }
 
-"""
-Sizes for the bouquet product type. The photo is a string for now, will eventually be uploaded.
-"""
-type Size {
-  size: String!
-  price: Float!
-  photo: String
+type Tags {
+  size: String
+  colors: Colors
+  occasions: Occasions
+  flowers: Flowers
 }
 
