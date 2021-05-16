@@ -1,3 +1,21 @@
 rover subgraph introspect http://localhost:4001 > products.graphql
 
 apollo service:push --localSchemaFile=products.graphql --key=service:Gateway-yk7wac:tOKPZNTcGJMSYh0Wje2buw --graph=Gateway-yk7wac --serviceName=products --serviceURL=http://localhost:4001
+
+
+
+{
+  "createOrUpdateProductProduct": {
+    "skuid": "TBC06",
+    "title": "Your Wish Is Granted Birthday Cake Bouquet",
+    "price": 69.99,
+    "photoURL": "https://img.teleflora.com/images/o_0/l_flowers:TBC06-1A,pg_6/w_800,h_1000,cs_no_cmyk,c_pad/f_jpg,q_auto:eco,e_sharpen:200/flowers/TBC06-1A/YourWishIsGrantedBirthdayCakeBouquet",
+    "description": "Sweet as a birthday cake, this creative, colorful bouquet of roses and mums, topped with birthday candles, is sure to delight them on their special day!",
+    "tags": {
+      "size": "Standard",
+      "colors": ["white", "red", "orange", "purple", "yellow"],
+      "occasions": ["Birthday"],
+      "flowers": ["roses", "stock", "carnations"]
+    }
+  }
+}

@@ -1,61 +1,3 @@
-"""
-Bouquet product type. Includes sizes for multiple price-points. Plan to add holiday tags and other organizers.
-"""
-input inputBouquet {
-  products: inputProduct!
-}
-
-input inputColors {
-  red: Boolean
-  orange: Boolean
-  yellow: Boolean
-  green: Boolean
-  blue: Boolean
-  pink: Boolean
-  purple: Boolean
-  white: Boolean
-}
-
-input inputFlowers {
-  roses: Boolean
-  carnations: Boolean
-  daisys: Boolean
-  lilies: Boolean
-  stock: Boolean
-  sunflower: Boolean
-}
-
-input inputOccasions {
-  birthday: Boolean
-  wedding: Boolean
-  christmas: Boolean
-  stpatricks: Boolean
-  easter: Boolean
-  mothers: Boolean
-  grandparents: Boolean
-  independence: Boolean
-  fathers: Boolean
-  memorial: Boolean
-  halloween: Boolean
-  thanksgiving: Boolean
-  hanukkah: Boolean
-  graduation: Boolean
-  spring: Boolean
-  anniversary: Boolean
-  backToSchool: Boolean
-  congratulation: Boolean
-  getWell: Boolean
-  imSorry: Boolean
-  justBecause: Boolean
-  romance: Boolean
-  babies: Boolean
-  religious: Boolean
-  retirement: Boolean
-  thankYou: Boolean
-  thinkingOfYou: Boolean
-  newYears: Boolean
-}
-
 input inputProduct {
   skuid: String!
   title: String!
@@ -65,11 +7,12 @@ input inputProduct {
   tags: inputTags
 }
 
+"""Documentation Test"""
 input inputTags {
   size: String
-  colors: inputColors
-  occasions: inputOccasions
-  flowers: inputFlowers
+  colors: [String]
+  occasions: [String]
+  flowers: [String]
 }
 
 type Mutation {

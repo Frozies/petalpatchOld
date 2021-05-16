@@ -1,25 +1,24 @@
 const {gql} = require("apollo-server");
 
 const typeDefs = gql`
-    "Simple Query to the products backend."
     type Query {
-        "Retrieve many bouquets from the product database."
-        retrieveProducts: [Product]
-        retrieveProductBySKUID(skuid: String): Product
+
+        #todo: Add a range to getProducts [0,50] so it only returns 50 products at a time or [x,y]
+        "Gets all of the products in the database."
+        getProducts: [Product]
         
-#        readBouquet(id:ID): Bouquet!
-#        
-#        "List all bouqets in the database."
-#        readAllBouquets: [Bouquet!]!
+        "Using the SKUID you can find a specific product."
+        getProductBySKUID(skuid: String): Product
     }
     
     type Mutation {
-        createOrUpdateProduct(product: inputProduct): Product
-        
-#        updateBouquet(id: ID): Bouquet
-#        removeBouquet(id: ID): Bouquet
+        """Create a new product to send to the database. Important inputs are SKUID (string), Title (string), 
+        and Price (float). Aditional arguments are photoURL (string), description (string), and tags. Tags come in array
+        of size (string), colors [string], occasions [string], and flowers [string]"""
+        createProduct(product: inputProduct): Product
     }
     
+    "The root product type. The important arguments are skuid, title, and price."
     type Product {
         skuid: String!
         title: String!
@@ -28,69 +27,20 @@ const typeDefs = gql`
         description: String
         tags: Tags
     }
-
+    
+    """Tags are an addon to the root product type. Colors, occasions, and flowers are all string arrays; these will be 
+    automatically input by aditional microservices which create them."""
     type Tags {
         size: String
         colors: [String]
         occasions: [String]
         flowers: [String]
     }
-    
-    
-        #### uneccesary booleans. just use an array. This is a good list for populating the frontend later. ####
-#    type Flowers {
-#        roses: Boolean
-#        carnations: Boolean
-#        daisys: Boolean
-#        lilies: Boolean
-#        stock: Boolean
-#        sunflower: Boolean
-#    }
-#    
-#    type Colors {
-#        red: Boolean
-#        orange: Boolean
-#        yellow: Boolean
-#        green: Boolean
-#        blue: Boolean
-#        pink: Boolean
-#        purple: Boolean
-#        white: Boolean
-#    }
-#    
-#    type Occasions {
-#        birthday: Boolean
-#        wedding: Boolean
-#        christmas: Boolean
-#        stpatricks: Boolean
-#        easter: Boolean
-#        mothers: Boolean
-#        grandparents: Boolean
-#        independence: Boolean
-#        fathers: Boolean
-#        memorial: Boolean
-#        halloween: Boolean
-#        thanksgiving: Boolean
-#        hanukkah: Boolean
-#        graduation: Boolean
-#        spring: Boolean
-#        anniversary: Boolean
-#        backToSchool: Boolean
-#        congratulation: Boolean
-#        getWell: Boolean
-#        imSorry: Boolean
-#        justBecause: Boolean
-#        romance: Boolean
-#        babies: Boolean
-#        religious: Boolean
-#        retirement: Boolean
-#        thankYou: Boolean
-#        thinkingOfYou: Boolean
-#        newYears: Boolean
-#    }
         
     #### Input Types ####
 
+    """The inputProduct type is a duplicate of the Product type. It is used in the createProduct mutation to send new 
+    products to the database."""
     input inputProduct {
         skuid: String!
         title: String!
@@ -99,68 +49,14 @@ const typeDefs = gql`
         description: String
         tags: inputTags
     }
-
-    "Bouquet product type. Includes sizes for multiple price-points. Plan to add holiday tags and other organizers."
-    input inputBouquet {
-        #TODO: For each product in array, Send combined bouquets to a seperate ledger.
-        products: inputProduct! #TODO Array me!
-    }
+    
+    """The inputTags type is a duplicate of the Tags type. It is used in the createProduct mutation to send new products
+    to the database."""
     input inputTags {
         size: String
-        colors: inputColors
-        occasions: inputOccasions
-        flowers: inputFlowers
-    }
-
-    input inputFlowers {
-        roses: Boolean
-        carnations: Boolean
-        daisys: Boolean
-        lilies: Boolean
-        stock: Boolean
-        sunflower: Boolean
-    }
-
-    input inputColors {
-        red: Boolean
-        orange: Boolean
-        yellow: Boolean
-        green: Boolean
-        blue: Boolean
-        pink: Boolean
-        purple: Boolean
-        white: Boolean
-    }
-
-    input inputOccasions {
-        birthday: Boolean
-        wedding: Boolean
-        christmas: Boolean
-        stpatricks: Boolean
-        easter: Boolean
-        mothers: Boolean
-        grandparents: Boolean
-        independence: Boolean
-        fathers: Boolean
-        memorial: Boolean
-        halloween: Boolean
-        thanksgiving: Boolean
-        hanukkah: Boolean
-        graduation: Boolean
-        spring: Boolean
-        anniversary: Boolean
-        backToSchool: Boolean
-        congratulation: Boolean
-        getWell: Boolean
-        imSorry: Boolean
-        justBecause: Boolean
-        romance: Boolean
-        babies: Boolean
-        religious: Boolean
-        retirement: Boolean
-        thankYou: Boolean
-        thinkingOfYou: Boolean
-        newYears: Boolean
+        colors: [String]
+        occasions: [String]
+        flowers: [String]
     }
 `;
 
