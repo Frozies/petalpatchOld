@@ -16,6 +16,14 @@ const typeDefs = gql`
         and Price (float). Aditional arguments are photoURL (string), description (string), and tags. Tags come in array
         of size (string), colors [string], occasions [string], and flowers [string]"""
         createProduct(product: inputProduct): Product
+        
+        """Updates an already created product with its skuid. It will not create a product if it does not already
+        exist in the database. Returns the updated product"""
+        updateProduct(product: inputProduct): Boolean
+        
+        #TODO: Remove products based on mongoose ID.
+        """Removes a product in the database based on its SKUID. Will return a string with a confirmation or an error"""
+        remoteProduct(skuid: String): String
     }
     
     "The root product type. The important arguments are skuid, title, and price."
@@ -43,8 +51,8 @@ const typeDefs = gql`
     products to the database."""
     input inputProduct {
         skuid: String!
-        title: String!
-        price: Float!
+        title: String
+        price: Float
         photoURL: String
         description: String
         tags: inputTags
