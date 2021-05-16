@@ -1,28 +1,9 @@
-const {MockList} = require("apollo-server");
-const mongoose = require("mongoose");
-
-//TODO: move schemas to another file. Change Models to copy the gql schemas.
-
-const sizeSchema = new mongoose.Schema({
-    size: 'string',
-    price: 'number',
-    photo: 'string'
-});
-
-const productSchema = new mongoose.Schema({
-    skuid: 'string',
-    title: 'string',
-    thumbnail: 'string',
-    description: 'string',
-    sizes: [sizeSchema]
-});
-
-const BouquetModel = mongoose.model('Product', productSchema);
+const { productModel } = require('./productModel');
 
 const resolvers = {
     Query: {
-        retrieveBouquets: async (parent, args, datasources, info) => {
-            let cursor = BouquetModel.find().cursor();
+        retrieveProducts: async (parent, args, datasources, info) => {
+            let cursor = productModel.find().cursor();
             let array = []
             for (let doc = await cursor.next(); doc != null; doc = await cursor.next()) {
                 array.push(doc);
@@ -30,34 +11,36 @@ const resolvers = {
             return array;
         },
 
-        retrieveBouquetBySKUID: (parent, args, datasources, info) =>{
-            let bouquet = BouquetModel.findOne({skuid: args.skuid});
+        retrieveProductBySKUID: (parent, args, datasources, info) =>{
+            let product = productModel.findOne({skuid: args.skuid});
 
-            if (bouquet != null) return bouquet;
+            if (product != null) return product;
 
             else {
-                console.log("Bouquet " + args.skuid + " does not exist.")
+                console.log("product " + args.skuid + " does not exist.")
                 return null;
             }
         }
     },
 
     Mutation: {
-        createOrUpdateBouquet: async (parent, args, datasources, info) => {
+        createOrUpdateProduct: async (parent, args, datasources, info) => {
 
-            // Check if the bouq exists using the SKUID. Then changes the variable from the function to a boolean
-            let bouqExists = await BouquetModel.exists({skuid: args.skuid});
-            bouqExists = bouqExists.valueOf();
+            // Check if the product exists using the SKUID. Then changes the variable from the function to a boolean
+            let productExists = await productModel.exists({skuid: args.skuid});
+            productExists = productExists.valueOf();
 
-            // If bouquet does NOT exist then create it and return doc.
-            if (bouqExists == false) {
+            // If product does NOT exist then create it and return doc.
+            if (productExists == false) {
                 //Create
-                await BouquetModel.create({
+                await ProductModel.create({
                     skuid: args.skuid,
                     title: args.title,
-                    thumbnail: args.thumbnail,
+                    price: args.price,
+                    photoURL: args.photoURL,
                     description: args.description,
-                    sizes: args.sizes
+                    tags: args.tags,
+
                 }, function (err, doc) {
                     if (err) return handleError(err);
 
@@ -66,23 +49,25 @@ const resolvers = {
                     return {
                         skuid: args.skuid,
                         title: args.title,
-                        thumbnail: args.thumbnail,
+                        price: args.price,
+                        photoURL: args.photoURL,
                         description: args.description,
-                        sizes: args.sizes
+                        tags: args.tags,
                     }
                 });
             }
 
-            // if bouquet DOES exist then Update any info if its different. //TODO: Update if exists
-            else if (bouqExists == true){
-                console.log("Bouquet already exists!")
+            // if product DOES exist then Update any info if its different. //TODO: Update if exists
+            else if (productExists == true){
+                console.log("Product already exists!")
 
                 return {
                     skuid: args.skuid,
                     title: args.title,
-                    thumbnail: args.thumbnail,
+                    price: args.price,
+                    photoURL: args.photoURL,
                     description: args.description,
-                    sizes: args.sizes
+                    tags: args.tags,
                 }
             }
 

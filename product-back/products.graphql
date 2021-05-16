@@ -1,33 +1,6 @@
 """
 Bouquet product type. Includes sizes for multiple price-points. Plan to add holiday tags and other organizers.
 """
-type Bouquet {
-  products: [Product!]
-}
-
-type Colors {
-  red: Boolean
-  orange: Boolean
-  yellow: Boolean
-  green: Boolean
-  blue: Boolean
-  pink: Boolean
-  purple: Boolean
-  white: Boolean
-}
-
-type Flowers {
-  roses: Boolean
-  carnations: Boolean
-  daisys: Boolean
-  lilies: Boolean
-  stock: Boolean
-  sunflower: Boolean
-}
-
-"""
-Bouquet product type. Includes sizes for multiple price-points. Plan to add holiday tags and other organizers.
-"""
 input inputBouquet {
   products: inputProduct!
 }
@@ -89,7 +62,7 @@ input inputProduct {
   price: Float!
   photoURL: String
   description: String
-  tags: [inputTags]
+  tags: inputTags
 }
 
 input inputTags {
@@ -100,38 +73,7 @@ input inputTags {
 }
 
 type Mutation {
-  createOrUpdateBouquet(bouquet: inputBouquet): Bouquet
-}
-
-type Occasions {
-  birthday: Boolean
-  wedding: Boolean
-  christmas: Boolean
-  stpatricks: Boolean
-  easter: Boolean
-  mothers: Boolean
-  grandparents: Boolean
-  independence: Boolean
-  fathers: Boolean
-  memorial: Boolean
-  halloween: Boolean
-  thanksgiving: Boolean
-  hanukkah: Boolean
-  graduation: Boolean
-  spring: Boolean
-  anniversary: Boolean
-  backToSchool: Boolean
-  congratulation: Boolean
-  getWell: Boolean
-  imSorry: Boolean
-  justBecause: Boolean
-  romance: Boolean
-  babies: Boolean
-  religious: Boolean
-  retirement: Boolean
-  thankYou: Boolean
-  thinkingOfYou: Boolean
-  newYears: Boolean
+  createOrUpdateProduct(product: inputProduct): Product
 }
 
 type Product {
@@ -140,20 +82,20 @@ type Product {
   price: Float!
   photoURL: String
   description: String
-  tags: [Tags]
+  tags: Tags
 }
 
 """Simple Query to the products backend."""
 type Query {
   """Retrieve many bouquets from the product database."""
-  retrieveBouquets: [Bouquet]
-  retrieveBouquetBySKUID(skuid: String): Bouquet
+  retrieveProducts: [Product]
+  retrieveProductBySKUID(skuid: String): Product
 }
 
 type Tags {
   size: String
-  colors: Colors
-  occasions: Occasions
-  flowers: Flowers
+  colors: [String]
+  occasions: [String]
+  flowers: [String]
 }
 
