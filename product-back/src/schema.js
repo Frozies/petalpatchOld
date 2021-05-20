@@ -19,11 +19,11 @@ const typeDefs = gql`
         
         """Updates an already created product with its skuid. It will not create a product if it does not already
         exist in the database. Returns the updated product"""
-        updateProduct(product: inputProduct): Boolean
+        updateProduct(product: inputProduct): Product
         
         #TODO: Remove products based on mongoose ID.
         """Removes a product in the database based on its SKUID. Will return a string with a confirmation or an error"""
-        remoteProduct(skuid: String): String
+        removeProduct(skuid: String): String
     }
     
     "The root product type. The important arguments are skuid, title, and price."
