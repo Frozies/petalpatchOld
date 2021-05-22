@@ -2,6 +2,8 @@ rover subgraph introspect http://localhost:4001 > products.graphql
 
 apollo service:push --localSchemaFile=products.graphql --key=service:Gateway-yk7wac:tOKPZNTcGJMSYh0Wje2buw --graph=Gateway-yk7wac --serviceName=products --serviceURL=http://localhost:4001
 
+rover subgraph introspect http://localhost:4002 > orders.graphql
+apollo service:push --localSchemaFile=orders.graphql --key=service:Gateway-yk7wac:tOKPZNTcGJMSYh0Wje2buw --graph=Gateway-yk7wac --serviceName=orders --serviceURL=http://localhost:4002
 
 
 {

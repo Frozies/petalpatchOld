@@ -1,0 +1,28 @@
+"""Simple Query to the products backend."""
+type Query {
+  createCustomer(email: String): String
+}
+
+type stripeItem {
+  object: String
+  amount: Int
+  currency: String
+  description: String
+  parent: String
+  quantity: Int
+  itemType: String
+}
+
+type stripeOrder {
+  id: String
+  object: String
+  amount: Int
+  amount_returned: Int
+  charge: String
+  created: Int
+  currency: String
+  email: String
+  items: [stripeItem]
+  livemode: Boolean
+}
+
