@@ -16,8 +16,5 @@
     "graphql": "^15.5.0",
     "mongoose": "^5.12.8",
     "stripe": "^8.149.0"
-  },
-  "devDependencies": {
-    "@apollo/rover": "^0.1.0"
   }
 }

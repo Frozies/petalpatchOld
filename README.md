@@ -8,6 +8,10 @@ There are 7 microservices, 3 of which are the front-end application entry points
 the backend business logic. All of which are going to be combined using Apollo Federation. Each microservice has project
 specific readme in its root folder.
 
+## Install
+* Install each microservice by going to their root folder and running `npm install`. Then `npm run start`. Currently
+only `products-back`, `orders-back` and `api-gateway` have working  programs.
+
 ##Store-Front
 The service starts here, the customer views the online store page, selects a product (or productDatasource) and purchases them. 
 Using react, express, apollo, node, and webpack to run the front end, and launch a backend that can communicate through
